@@ -1,0 +1,27 @@
+# Microdados brutos (SSP-SP, Infosiga, INMET, Wikipédia) -- grandes, alguns > 100 MB
+data/bronze/
+uploads/
+# Silver em nível de evento (1 linha por BO/sinistro, com lat/lon) -- microdado, regenerável por scripts/30
+data/silver/crime_eventos_sp.csv.gz
+data/silver/acidentes_eventos_sp.csv.gz
+
+# Python
+scripts/__pycache__/
+__pycache__/
+*.pyc
+
+# Auxiliares de LaTeX
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.lof
+*.log
+*.lot
+*.out
+*.synctex.gz
+*.toc
+*.nav
+*.snm
+*.xdv

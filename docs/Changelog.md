@@ -1625,3 +1625,541 @@ As 12 respostas (números completos em
   LaTeX (§25)", status marcando o roteiro completo (§1–25) coberto pela
   primeira vez, "Próximos passos" apontando para revisão dos coautores e
   compilação real.
+
+---
+
+## 2026-09-04 — Adendo: revisão pós-compilação real + relatório técnico completo
+
+### O que foi feito
+O usuário aplicou correções diretamente em `docs/metodologia.tex`
+(`\mathbb{E}\to\mathrm{E}`, `\cite{}` adicionados para as 6 referências que
+só apareciam como `\bibitem` sem nunca serem citadas no texto) e compilou o
+artigo de verdade (Overleaf/LaTeX local, template aproximado): 16 páginas,
+acima do alvo de 8–10 do SBC.
+
+**1. Reinserida a Figura~\ref{fig:pipeline}** em `metodologia.tex`, que o
+usuário tinha removido temporariamente (com um comentário `% TODO`) porque
+a referência ficava indefinida -- o arquivo `docs/figuras/pipeline.png` já
+existia (gerado na Etapa 25 anterior por `scripts/20_figura_artigo.py`),
+só faltava o bloco `\begin{figure}...\label{fig:pipeline}...\end{figure}`.
+
+**2. Corte de conteúdo para caber em 8–10 páginas**: `metodologia.tex`
+reescrito de forma mais direta (~1000 palavras, ante ~1300) sem remover
+nenhuma afirmação substantiva -- só prosa redundante e repetição de
+citações. Em `rpII_predicao_acidentes.tex`: as seções de Resultados
+mescladas (5 subseções viraram 4), 2 das 4 figuras removidas
+(`mae_por_fold`, `shap_beeswarm` -- mantidas `matriz_confusao` e
+`futebol_liquido`, que carregam informação não repetida em texto), Tabela 1
+reduzida de 5 para 4 colunas (removida a coluna de IC 95%, mantida em
+texto).
+
+**3. Bibliografia completada com dados exatos**: o usuário forneceu os
+dados bibliográficos completos de Soliani et al. (2024) e da Silva et al.
+(2025) (autores completos, volume, número, página/artigo). Os 2 `\bibitem`
+que tinham nota `[Nota dos autores: conferir antes da submissão]` foram
+atualizados com os dados reais, sem nenhum dado inventado.
+
+**4. Compilação real confirmada pelo usuário**: com a bibliografia
+completa, o artigo compilou em **10 páginas incluindo referências** --
+dentro do alvo do SBC. O usuário reportou ~19 linhas de espaço sobrando na
+página 10 antes das referências; usado para restaurar 2 trechos cortados
+com mais força: a decomposição dos 3 mecanismos do achado do Morumbi na
+Discussão (antes reduzida a "duas datas extremas e de geocodificação") e a
+nota metodológica sobre coordenadas de crime inválidas nas Limitações. A
+coluna de IC 95% da Tabela 1 também foi restaurada (não custa linhas, só
+largura).
+
+**5. Criado `docs/rpII_predicao_acidentes_relatorio_completo.tex`** -- a
+pedido do usuário, uma versão sem limite de páginas, "escrevendo tudo que
+seria relevante". Reusa o mesmo template e as mesmas 11 referências, mas
+sem nenhum corte: seção "Dados" dedicada (as 109 colunas do
+`features_dia_sp.csv` por grupo, com tabela de estatísticas descritivas
+dos 2 alvos), Metodologia sem cortes, Resultados em 7 subseções com 12
+tabelas completas (GLM com os 11 desfechos, DiD por anel nos 3 estádios,
+PSM com balanço de covariáveis, comparação completa de baselines/modelos
+em regressão E classificação, tuning de hiperparâmetros, SHAP por grupo
+nos 3 modelos, cenários com decomposição completa), as 5 figuras (as 3 do
+artigo curto + MAE por fold + beeswarm), sumário (`\tableofcontents`), e
+Conclusão respondendo as 12 perguntas do roteiro uma a uma.
+
+**6. Criado `scripts/21_valida_latex.py`** -- ferramenta permanente de
+checagem de sintaxe LaTeX sem precisar de `pdflatex` (não disponível neste
+ambiente): resolve `\input{}`, verifica chaves balanceadas, número de
+colunas de cada linha de tabela contra a especificação do `tabular`, todo
+`\cite`/`\ref` resolvendo a `\bibitem`/`\label` e vice-versa, e nenhum `%`
+cru fora de linha de comentário. Rodada contra os 2 arquivos `.tex` --
+0 problemas em ambos (um `\ref{sec:modelos}` quebrado foi encontrado e
+corrigido para `\ref{sec:validacao}` durante essa checagem).
+
+### Decisões tomadas e por quê
+- **Cortes de conteúdo, não de rigor**: toda remoção em `metodologia.tex`/
+  `rpII_predicao_acidentes.tex` foi de prosa redundante, repetição de
+  citação ou detalhe secundário (ex.: 1 coluna de tabela) -- nenhuma
+  afirmação, número ou resultado foi removido. Onde havia dúvida sobre
+  quanto cortar, preferiu-se cortar menos e confirmar com o usuário depois
+  de uma compilação real, em vez de arriscar remover conteúdo relevante
+  baseado só em estimativa de página sem `pdflatex` local.
+- **Bibliografia nunca inventada**: mesmo sob pressão de espaço/tempo, os 2
+  `\bibitem` incompletos ficaram sinalizados como pendência (Regra 1/2/3)
+  até o usuário fornecer os dados reais -- nunca preenchidos com
+  prenomes/volume/página adivinhados.
+- **Relatório completo como documento separado, não substituindo o
+  artigo SBC**: mantém o artigo dentro do formato de submissão (8–10
+  páginas) intacto, e cria um documento de referência técnica completo à
+  parte, sem comprometer nenhum dos dois objetivos (submissão vs.
+  documentação exaustiva).
+- **Script de validação salvo em `scripts/`, não deixado só no scratchpad
+  da sessão**: scratchpads são efêmeros; uma ferramenta que substitui (em
+  parte) a ausência de `pdflatex` neste ambiente precisa persistir para
+  qualquer edição futura nesses arquivos.
+
+### Resultado produzido
+- `docs/metodologia.tex` (figura do pipeline reinserida, texto condensado)
+- `docs/rpII_predicao_acidentes.tex` (Resultados condensados, 2 figuras
+  removidas, bibliografia completa, pequena expansão calibrada de ~19
+  linhas) -- **compilado com sucesso pelo usuário, 10 páginas com
+  referências**
+- `docs/rpII_predicao_acidentes_relatorio_completo.tex` (novo, sem limite
+  de páginas)
+- `scripts/21_valida_latex.py` (novo)
+- `CLAUDE.md` atualizado: seção "Artigo final em LaTeX (§25)" reescrita
+  com o resultado da compilação real, os 2 arquivos `.tex` e a ferramenta
+  de validação; "Próximos passos" reduzido a revisão final dos coautores.
+
+## Adendo (2026-09-05): restauração de conteúdo pós-compilação real (2ª rodada)
+
+### Contexto
+O usuário recompilou `docs/rpII_predicao_acidentes.tex` de verdade (Overleaf)
+e contou manualmente: 10 páginas totais com referências, mas o CONTEÚDO
+(Introdução até Trabalhos Futuros, excluindo resumo/abstract/referências)
+ocupava só ~8,3 páginas — sobrava margem real (~2 páginas), contradizendo a
+suposição anterior de que o corte da rodada 1 já tinha atingido o limite.
+O corte anterior (feito sem `pdflatex` local, só por estimativa) havia sido
+mais conservador do que o necessário.
+
+### O que foi restaurado (todos os números vêm de CSVs já publicados nas
+Etapas 8/10/14/15/17/18/19 — nada recalculado ou inventado)
+- **Tabela GLM (`tab:glm`, §4.1)**: voltou a ter as 11 linhas de desfecho
+  (crimes totais, violentos, roubos, furtos, lesão corporal, homicídios,
+  sinistros totais/com vítima/atropelamento/colisão/fatais), não só as 4
+  citadas no texto. Colunas trocadas de (Bruto%, RR, IC, p) para
+  (RR, IC, p, p_BH) — o p_BH deixa explícito que nenhum resíduo sobrevive
+  à correção mesmo antes de olhar o IC.
+- **Achado colateral de Fisher exato** (5/12 dias-pico de crimes violentos
+  em dia de jogo, OR=3,51, some sob 3 ajustes triviais) devolvido ao corpo
+  do texto — tinha sido cortado na rodada 1.
+- **Tabela DiD por anel de distância (`tab:did-anel`, §4.2)**: devolvida,
+  mostrando os 3 estádios lado a lado (Neo Química Arena RR≈0,95 ns;
+  Allianz Parque RR≈1,17-1,18 persistente mas sem pile-up; Morumbi
+  2,66→1,24 ao remover as 2 datas de alavancagem) — sem essa tabela o texto
+  só mencionava o Morumbi, perdendo o contraste com os outros 2 estádios.
+- **Tabelas completas de comparação de modelos (§4.3)**: regressão
+  (`tab:regressao`, 7 candidatos por alvo: baselines + Prophet + Random
+  Forest + XGBoost Poisson) e classificação (`tab:classificacao`, 4-5
+  candidatos por alvo) — a rodada 1 tinha reduzido cada uma ao único
+  vencedor, perdendo a evidência de "venceu contra o quê".
+- **2 figuras devolvidas**: `mae_por_fold.png` (estabilidade da vantagem do
+  XGBoost ao longo dos 12 folds, não só a média pooled) e
+  `shap_beeswarm_acidentes.png` (visualização direta da distribuição de
+  SHAP por atributo). Total voltou a 4 figuras (de um máximo de 5; o
+  diagrama do pipeline mora na Metodologia via `\input`).
+- **"Interpretabilidade e cenários" separado de volta em 2 subseções**
+  (`Interpretabilidade (SHAP)` e `Análise de cenários`), como estava antes
+  do corte.
+- **Discussão ganhou um 3º parágrafo**: implicação prática para alocação de
+  efetivo policial/fiscalização (não sustentada por dados de futebol) e
+  reflexão sobre o achado de Fisher como exemplo de por que testes
+  isolados sem checagem de robustez não devem embasar política pública.
+- **`docs/metodologia.tex`**: "Fontes de dados" voltou a ser uma lista
+  (`itemize`) com detalhe por fonte (grão do BO, encoding do Infosiga,
+  definição de clássico, fuso do INMET, feriados por algoritmo de Páscoa)
+  em vez do parágrafo corrido condensado da rodada 1; parágrafo de
+  atributos ganhou as contagens exatas por grupo (95 atributos, 26/20/11/38
+  por grupo temporal/futebol/clima/histórico).
+
+### Validação
+`python scripts/21_valida_latex.py docs/rpII_predicao_acidentes.tex` → 0
+erros estruturais (271=271 chaves, 4 tabelas com nº de colunas correto,
+11 `\cite`/11 `\bibitem` e 9 `\ref`/9 `\label` todos resolvendo, 0 `%` cru).
+Compilação real (`pdflatex`) ainda pendente — usuário precisa recompilar e
+confirmar se o conteúdo agora preenche melhor as 8–10 páginas do SBC sem
+estourar.
+
+### Resultado produzido
+- `docs/metodologia.tex` (fontes de dados em itemize, contagem de
+  atributos por grupo)
+- `docs/rpII_predicao_acidentes.tex` (tabela GLM completa, tabela DiD por
+  anel, tabelas de regressão/classificação completas, 2 figuras
+  restauradas, subseções separadas, Discussão com 3º parágrafo)
+- `CLAUDE.md` atualizado (seção "Artigo final em LaTeX" com o novo status
+  de compilação pendente de reconfirmação)
+
+---
+
+# V2: análise por janelas de horário
+
+## V2 / Fase 1 (2026-11-15): base horária
+
+### Contexto
+A professora pediu para refazer a análise no grão de janelas de horário em torno de
+cada jogo (PRÉ = 2h antes, DURANTE = início..+2h, PÓS = +2h..+4h, FORA), com crimes
+e sinistros validados separadamente. Roteiro em `docs/prompt_v2_janelas.md`.
+
+### O que foi feito
+- `scripts/30_eventos_horarios.py` (rascunho anterior revisado e executado pela 1ª
+  vez): bronze → `data/silver/crime_eventos_sp.csv.gz` (974.737 linhas BO×natureza)
+  e `acidentes_eventos_sp.csv.gz` (90.829 sinistros), timestamp local e `tem_hora`;
+  tabela de qualidade da hora por tipo e por arquivo. Correções sobre o rascunho:
+  aceita o artefato Excel `1900-01-01 HH:MM:SS` como hora válida (36 registros
+  recuperados); datas no campo hora (`2000-06-01 00:00:00`, 20 registros) = sem hora;
+  `CATEGORIAS_VIOLENTAS` importada de `02_limpeza.py` (não copiada); conferência com
+  o silver diário.
+- `scripts/31_jogos_horarios.py`: 1 registro por jogo com `inicio_br` (fuso
+  corrigido), flags clássico/noturno/fim de semana/competição/feriado, estádio
+  habitual assumido (coordenadas da Etapa 10) + checagem do GLM diário da Etapa 7
+  com as datas corrigidas.
+- `scripts/32_base_horaria.py`: `data/gold/fato_hora_sp.csv` (17.520 × 58) +
+  dicionário `fato_hora_sp_dicionario.csv`; janelas pela regra do ponto médio
+  (hh:30) na linha do tempo contínua; teste de seleção dos registros sem hora;
+  relatório `reports/janelas/fase1_base_horaria.md`.
+
+### Bug do pipeline diário encontrado e corrigido (na base nova)
+- `BR-Football-Dataset.csv`: `time` está no horário do Reino Unido (GMT/BST) e
+  `date` é a data UK. `02_limpeza.py` usava ambos como se fossem de Brasília.
+- Consequências: **52/137 jogos (38%) estavam no dia seguinte**; `jogo_noturno`
+  (hora UK ≥ 19) **errado em 108/137 jogos**; os **11 "dias com 2 jogos"** citados
+  desde a Etapa 1 eram todos artefato (0 dias com 2 jogos após a correção; 126 → 137
+  dias de jogo).
+- `01:24:28` = São Paulo × Flamengo, Copa do Brasil 2022 (21:24:28 em Brasília). Três
+  jogos de SP capital (e 4% da base inteira) têm segundos ≠ 00, padrão de carimbo de
+  coleta → arredondados a 30 min, flag `horario_aproximado`.
+- **Checagem do GLM diário (Etapa 7) com datas corrigidas: o nulo se mantém** — 0/11
+  desfechos significativos após BH por domínio. `acidentes_fatais` fica um pouco mais
+  forte (RR 1,164, p = 0,025 sem correção; p_BH = 0,124). `fato_dia_sp.csv` e as
+  Etapas 7–24 **não foram refeitas** (só checagem, como pedido).
+
+### Achados de qualidade
+- Crimes: 33,9% sem hora (furtos 52,8%; roubos 8,1%; lesão dolosa 8,6%;
+  `crimes_violentos` 8,6%), estável nos 4 arquivos; 32,9% no minuto :00 e 53,1% em
+  :00/:30 → grão de 1 hora. 00:00 não é placeholder (hora 0 não incha vs 23h/1h).
+- Sinistros: 0,10% sem hora, sem arredondamento relevante (2,5% no :00).
+- Lote de furtos de 2022-06-19: 83% sem hora → cai quase todo em `sem_hora_furtos_total`.
+- **Teste de seleção** (GLM binomial diário com calendário, BH por domínio): em dia de
+  jogo a proporção sem hora é um pouco maior em `lesao_corporal_dolosa` (OR 1,16;
+  ~8,5% → ~9,8%) e `crimes_violentos` (OR 1,06; +0,5 p.p.) — limitação pequena, viés
+  para baixo de ~1,4%/0,5% na contagem horária em dia de jogo. Roubos, furtos e os 3
+  tipos de sinistro: sem seleção.
+
+### Decisões
+- Janela por ponto médio da hora; `hora_relativa` = ⌊(hh:30 − início)/1h⌋ ∈ [−6, 12];
+  prioridade DURANTE > PÓS > PRÉ (não usada: 0 sobreposições).
+- FORA dividido em `fora_dia_jogo` / `dia_sem_jogo` pela data de Brasília; 726 horas
+  `dia_sem_jogo` estão a +4..+12h de um jogo da noite anterior (o event study isola).
+- Exclusões como flags por domínio (`excluir_crime`, `excluir_sinistro`), linhas mantidas.
+- Clima NaN fica NaN (chuva 3,7% das horas, temperatura 1,2%).
+
+### Resultado produzido
+- `scripts/30_eventos_horarios.py`, `31_jogos_horarios.py`, `32_base_horaria.py`
+- `data/silver/{crime,acidentes}_eventos_sp.csv.gz`, `jogos_sp_horario.csv`, `qualidade_hora.csv`
+- `data/gold/fato_hora_sp.csv`, `fato_hora_sp_dicionario.csv`
+- `reports/janelas/fase1_base_horaria.md`, `reports/janelas/fase1/{tabelas,figuras}/`
+
+## V2 / Fase 1 — adendo (2026-11-15): calendário completo de jogos
+
+### Contexto
+Usuário aprovou o item opcional do prompt V2 (completar o calendário antes da Fase 2),
+ampliado para Paulistão, Libertadores, Sul-Americana **e Recopa**, com fonte verificável,
+horário de Brasília confirmado, estádio real e exclusão de mandos fora da capital —
+conferindo isso também nos 137 jogos da base original.
+
+### O que foi feito
+- **`scripts/31a_jogos_complementares.py`** (novo): baixa (API da Wikipédia, com espera e
+  retry por limite de taxa) e lê snapshots de 19 páginas em `data/bronze/wikipedia/`
+  (+ `manifesto.json` com revid/timestamp). Fonte primária = páginas de temporada de cada
+  clube na Wikipédia em inglês (cada partida é um *football box* com data, horário com fuso
+  explícito `{{UTZ|HH:MM|-3}}`, cidade, estádio, público, súmula). Páginas de edição
+  (Libertadores, Sul-Americana, Recopa, Paulistão en/pt) = conferência cruzada — a página de
+  edição do Paulistão na pt.wikipedia só tem tabela cruzada de placares na fase de grupos (sem
+  data/hora/estádio), por isso não serve de primária. FPF não usada (desafio Cloudflare).
+  Saídas: `data/bronze/jogos_complementares.csv` (86 jogos, `fonte_jogo` = permalink `oldid`),
+  `data/bronze/jogos_base_conferencia_wikipedia.csv` (conferência dos 137).
+- **`31_jogos_horarios.py`** integra os dois: calendário completo com `na_base_original`,
+  `incluir_analise`, `motivo_exclusao`, estádio real (todos conferidos) e checagem do GLM
+  diário com 3 versões (antigo / datas corrigidas / calendário completo).
+- **`32_base_horaria.py`** regenerado: janelas pelo calendário completo (principal) +
+  `janela_base_original`/`hora_relativa_base_original`/`dia_de_jogo_base_original`
+  (robustez da Fase 2) + `hora_jogo_fora_capital`; teste de seleção nas 2 versões;
+  relatório ganhou a seção 1b. `fato_hora_sp.csv` agora 17.520 × 64.
+
+### Resultados
+- **85 jogos novos em SP capital**: Paulistão 48, Libertadores 20, Sul-Americana 15, Recopa 1,
+  + 1 jogo de Série A ausente do BR-Football-Dataset (Palmeiras × Bragantino, 13/05/2023,
+  conferido em 2ª fonte). Todos com horário em UTC−3 explícito (0 sem horário confirmado);
+  33 conferidos em página de edição com 0 divergência de horário; data conferida com o link
+  da súmula do ge (0 divergência). Final da Sul-Americana 2022 (Córdoba) excluída (campo neutro).
+- **137/137 jogos originais com horário convertido idêntico ao da Wikipédia** — confirmação
+  independente da correção do fuso.
+- **7 dos 137 jogos originais eram mandos fora da capital** (6 na Arena Barueri, 1 na Vila
+  Belmiro — shows no Allianz/Morumbi; 6 confirmados em 2ª fonte) → excluídos; suas horas
+  PRÉ/DURANTE/PÓS ficam com flag `hora_jogo_fora_capital` (42 h) para sair da comparação.
+- 3 jogos na capital em estádio não habitual (Palmeiras no Morumbi ×2; São Paulo × Água Santa
+  no Allianz, Coldplay no Morumbi) → estádio real usado.
+- **Calendário analisável: 215 jogos** (130 originais + 85). Jan–mar: horas de jogo
+  6 → 288, dias de jogo 1 → 48 (a violação de positividade de jan–fev da Etapa 20 deixa de
+  existir). **0 dias com 2 jogos** mesmo com 215 jogos.
+- **GLM diário (spec Etapa 7) com calendário completo deixa de ser nulo total**:
+  `furtos_total` RR 1,040 (p_BH 0,024) e `crimes_totais` RR 1,029 (p_BH 0,024), sobrevivendo ao
+  BH do domínio crime; sinistros seguem nulos após BH. Checagem diária, não a estimativa do
+  projeto — a Fase 2 testa com janelas/EF/placebo.
+- **Teste de seleção** (sem hora × dia de jogo): com o calendário completo não há seleção
+  após BH (lesão p bruto 0,026, OR 1,08, p_BH 0,10); com a base original havia
+  (`lesao_corporal_dolosa`, `crimes_violentos`). Ambas as tabelas no relatório.
+- Achado colateral não integrado: as páginas de temporada trazem o **público de todos os
+  224 jogos em casa** (numérico) — resolveria a pendência de público desde a Etapa 12.
+
+### Decisão para a Fase 2 (do usuário)
+Análise principal = calendário completo (`janela`); robustez = só base original
+(`janela_base_original`, os 130 jogos do BR-Football em SP capital já corrigidos).
+
+## V2 / Fase 1 — adendo 2 (2026-11-15): Santos, jogos fora da capital e público
+
+### Pedido do usuário
+(1) Santos como 4º time monitorado; (2) duas categorias não exclusivas — `janela` (jogos dos
+4 times na capital) e `janela_fora_capital` (jogos dos 4 times fora da capital, com
+simultaneidade, times e flag RMSP), horário local convertido para Brasília pelo fuso da página;
+(3) público integrado nos jogos da capital, NaN se ausente, portões fechados/restrito marcados,
+amostra de ~20 em 2ª fonte; verificar jogos de grande público na capital sem os 4 times.
+
+### O que foi feito
+- `31a`: + páginas *2022/2023 Santos FC season* (data sem ano → ano da página; fuso
+  `[[UTC-03:00]]`; "Arena Corinthians" → Neo Química Arena). Nova tabela única de todos os jogos
+  oficiais dos 4 times, sem duplicata entre páginas (517: 216 na capital, 301 fora), com
+  `inicio_br = hora_local + (−3 − offset)`. Saída nova `data/bronze/jogos_fora_capital.csv`.
+  Validação do fuso fora da capital contra o BR-Football-Dataset (200/200) e páginas de edição
+  CONMEBOL (40/40) depois de corrigir 5 horários em que a Wikipédia errou (3ª fonte em
+  `horario_corrigido_fonte`). Público + `publico_status` a partir de `attendance`/`note`.
+- `31`: público nos jogos da capital; regra COVID (teto 70% em 23/01–09/03/2022, fonte
+  registrada) aplicada a todos os jogos do período; `data/silver/jogos_fora_capital_horario.csv`.
+- `32`: colunas `janela_fora_capital`, `hora_relativa_fora_capital`, `n_jogos_fora_simultaneos`,
+  `times_fora_capital`, `jogo_id_fora_capital`, `fora_capital_rmsp`, `hora_sem_jogo`,
+  `jogo_publico`, `jogo_publico_status`; removido `hora_jogo_fora_capital`. 17.520 × 72.
+  Relatório ganhou seções 1c–1f.
+- `data/bronze/publico_conferencia_amostra.csv` (20 jogos, 2ª fonte) e
+  `data/bronze/jogos_grande_publico_sem_times_monitorados.csv` (4 candidatos, não incluídos).
+
+### Resultados
+- Santos mandante na capital 1 vez (Santos × Ferroviária, 28/01/2023, Canindé) → `janela`
+  passa a 216 jogos. Canindé sem coordenada no projeto (lat/lon NaN).
+- `janela_fora_capital`: 301 jogos, 453/541/466 horas PRÉ/DURANTE/PÓS; até 4 jogos simultâneos;
+  17 jogos na RMSP. Sobreposição com `janela` existe (ex. 39 horas DURANTE nas duas).
+  Controle `hora_sem_jogo` = 11.520 horas.
+- Público: 216/216 com valor; 201 ok, 14 capacidade restrita, 1 portões fechados (Corinthians ×
+  Vasco, 29/07/2023, punição). Amostra: 18/20 encontrados, 17 idênticos, 1 com 0,6% de
+  diferença; a Wikipédia usa público total (ESPN às vezes o pagante). FPF e fbref bloqueiam
+  acesso automatizado (não contornado).
+- Grande público sem os 4 times (time principal masculino): finais do Brasileirão Feminino
+  2022 (41.070) e 2023 (42.566) na Neo Química e finais da Copinha sub-20 2022/2023 — aguardam
+  decisão do usuário.
+- GLM diário e teste de seleção praticamente inalterados com o jogo do Santos.
+
+## V2 / Fase 1 — ajustes finais (2026-11-16)
+- Eventos de grande público sem os 4 times (finais do Brasileirão Feminino 2022/2023 e da Copinha
+  2022/2023): horário de início confirmado na imprensa (10h, 14h, 15h30, 16h); horas PRÉ/DURANTE/PÓS
+  marcadas `excluir_evento_grande_publico` (24 h) — nem tratamento nem controle (decisão do usuário).
+- `CLAUDE.md`: linhas antigas de público, Paulistão e as 2 pendências que bloqueavam o roteiro
+  marcadas como superadas na V2.
+
+## V2 / Fase 2 (2026-11-16): análise explicativa por janelas — `scripts/33_analise_janelas.py`
+
+### O que foi feito (tudo separado para crimes e para sinistros; BH por domínio)
+1. Descritivo (janela vs mesmas horas/dia da semana sem jogo; perfil horário; alinhado pela hora do jogo).
+2. Modelo principal: GLM Poisson horário com as duas categorias juntas (C_pre/durante/pos + C_fdj e
+   F_pre/durante/pos), EF hora×dia da semana + ano×mês + feriado/véspera/férias + chuva/temperatura,
+   cluster por semana; controle = hora sem jogo dos 4 times. Robustezes: NB, cluster por dia, só janela,
+   só base original, com as horas dos eventos de grande público, total diário (crimes).
+3. Event study −6..+12 para as duas categorias (pedido do usuário) + teste de pré-tendência.
+4. Placebo/permutação (1.000 sorteios, dois passos em forma fechada).
+5. Heterogeneidade (clássico, noturno, fim de semana, competição, resultado só no PÓS, RMSP, por time
+   incl. Santos) e dose-resposta do público (log e tercis; cidade toda e entorno de 3 km).
+6. Espaço × tempo: disco de 3 km de cada estádio (crime sem células de pile-up + versão por bairros)
+   vs resto da cidade; agregado por inverso da variância; sensibilidade do Morumbi sem os 2 jogos da
+   Copa do Brasil 2023.
+7. Controles pareados (mesmo dia da semana, ±4 semanas, sem jogo, sem feriado; DiD vs horas fora).
+8. Pico horário (Pearson e cauda Poisson, P90/P95; sinistros também 2 h) + validação em 12 folds.
+
+### Correção feita durante a fase (antes de qualquer conclusão)
+A 1ª versão do placebo ajustava o modelo de base com as horas de jogo dentro e sorteava em ±6 semanas:
+os EF hora×dia da semana absorviam parte do efeito (jogos concentrados em poucas células) e o pool de
+candidatos ficava pequeno (mediana 2 por jogo fora da capital) → distribuição descentrada (até −10%) e p
+artificialmente baixo até em janelas nulas no GLM. Corrigido: base ajustada só nas horas sem jogo da
+categoria testada, candidatos em toda a amostra (mediana 48/31 por jogo). Crimes: placebo centrado
+(desvio ≤ 1,3%); sinistros ainda com até 6% de descentramento em horas tardias (declarado; vale o GLM).
+
+### Resultados
+**Crimes:** cidade toda, capital PRÉ `crimes_violentos` +4,7% (p_BH 0,041; placebo p<0,001; NB e cluster
+dia ok) e `roubos_total` +5,3% (p_BH 0,041) → "efeito robusto" pela regra; PÓS +2,7% (não robusto);
+DURANTE −2,1% (ns). MAS: pré-tendência rejeitada (p=0,007, sinais mistos; k=−3 já +3,9%) e o desenho
+pareado não confirma o PRÉ (+1,2%, IC −2,8 a +5,3) — mostra queda DURANTE (−6,8%, IC −10,8 a −3,0).
+O PRÉ é da cidade toda (resto +4,9%, p=0,002), não do entorno. No entorno de 3 km dos estádios:
+DURANTE +15% (p=0,035) e PÓS +31% (p<0,001); Morumbi +58%/+64%, sobrevive sem os 2 jogos da Copa do
+Brasil (+54%/+41%) e sem pile-up. Dose: PRÉ cresce com o público (tercis +1,7%/+4,5%/+9,1%). Fora da
+capital (TV): nulo em todas as janelas; event study com indício isolado em +10 h (IRR 1,048, p=0,037).
+Pico P90 mais frequente só no PRÉ da capital (RR 1,31, Fisher p=0,041). Pico de crime estável
+(prevalência fora da amostra 8,1% média).
+**Sinistros:** nulo na cidade toda nas duas categorias (todos p_BH ≥ 0,69), sem pré-tendência, pareado
+nulo, dose nula, picos sem diferença. Único sinal: entorno de 3 km no PRÉ +46% (p=0,001; Neo Química
++69%), base muito pequena (~0,1 sinistro com vítima/hora por estádio). Pico de sinistros com
+prevalência fora da amostra acima de 10% (12,9% média; dezembro 21%) — tendência de alta de 2023 que
+o EF ano×mês não extrapola; pico por 2 h não melhora → nível hora.
+
+### Saídas
+`reports/janelas/crimes/relatorio_fase2_crimes.md`, `reports/janelas/sinistros/relatorio_fase2_sinistros.md`,
+`reports/janelas/resumo_fase2.md`, tabelas e figuras em `reports/janelas/{crimes,sinistros}/`.
+`REUSA=1 python scripts/33_analise_janelas.py` refaz só placebo + relatórios a partir das tabelas.
+
+## V2 / Fase 2b (2026-11-16): checagens de robustez — `scripts/33b_robustez_janelas.py`
+Modelo principal da Fase 2 inalterado; só robustezes. Crimes e sinistros separados.
+
+### Mudanças no `33_analise_janelas.py`
+- **Regra do veredito revista (1e):** entre os candidatos (p_BH<0,05, placebo p<0,05, NB e cluster dia
+  com mesmo sinal): "efeito robusto" só se o pareado **confirma**; "robusto no GLM, pareado
+  inconclusivo" se não confirma nem contradiz; "contradito pelo pareado" se o IC95 do pareado exclui a
+  estimativa do GLM. PRÉ de `crimes_violentos`/`roubos_total` passou a "robusto no GLM, pareado inconclusivo".
+- Exploratórios (horas tardias do event study, entorno de sinistros) reportados com p_BH e sem destaque.
+- EF hora × mês/trimestre construídos SÓ como interações (hora 1..23 × mês 2..12): com dummies cheias a
+  matriz tinha posto incompleto e o LAPACK (gelsd) estourava memória.
+- `controles_pareados` grava a lista dos jogos usados (`controles_pareados_jogos.csv`).
+
+### Resultados
+- **1a (EF hora × mês):** PRÉ `crimes_violentos` +4,7% → +2,7% (p=0,053); `roubos_total` +5,3% → +2,9%
+  (p=0,060); hora × trimestre +3,6%/+3,8% (p≈0,02). ~45% do PRÉ era sazonalidade do perfil horário.
+- **1b (só os 112 jogos do pareado):** +4,1% (p=0,026) sem hora×mês → não é diferença de amostra; com
+  hora×mês +2,0% (p=0,25), perto do pareado (+1,2%). A discrepância GLM × pareado era sobretudo o controle
+  de sazonalidade do perfil horário.
+- **1c (dose com hora×mês):** gradiente por público persiste no PRÉ e PÓS (tercil alto PRÉ +6,2%, p=0,011;
+  PÓS +5,0%, p=0,024; interação log(público) no PÓS 1,109, p=0,007).
+- **1d (PRÉ estendido k=−3..−1):** +4,6% (p=0,001); com hora×mês +2,9% (p=0,017) — resíduo pequeno que
+  resiste, compatível com deslocamento de torcedores.
+- **2a (BH espacial):** crimes, 3 estádios agregados: `crimes_violentos` PÓS +31% (p_BH<0,001), DURANTE
+  +15% (p_BH 0,055 disco / bairros +22%, p_BH 0,017); `furtos_total` +32%/+66%/+85% (PRÉ/DURANTE/PÓS,
+  p_BH<0,001); `roubos_total` PÓS +39% (p_BH<0,001); lesão DURANTE +104% (p_BH<0,001). 28 termos por
+  estádio sobrevivem ao BH (família de 72), concentrados em furtos (3 estádios) e no Morumbi.
+- **2b (deslocamento):** DURANTE, 8/12 combinações estádio × desfecho com entorno >1 e resto da cidade <1;
+  resto da cidade nas janelas dos jogos fica ~igual (0,95–1,02), exceto o PRÉ (+5%, cidade toda).
+- **2c (DESCR_CONDUTA, exploratório):** excesso de furto no entorno = furto de veículo (O/E 2,3; ~metade do
+  excesso) e de transeunte (O/E 2,7); roubo: "OUTROS" (O/E 1,25). BOs sem conduta preenchida sobem muito
+  (furto O/E 17,5; roubo 3,8) — assinatura compatível com registro na operação do estádio.
+- **2d:** leituras alternativas não testáveis escritas no relatório (policiamento → registro; mais gente →
+  mais contagem sem mais risco por pessoa, Kurland, Johnson e Tilley 2014).
+- **3 (exploratórios):** horas tardias +8..+12 com p<0,05 têm p_BH 0,25–0,35 (não sobrevivem); sinistros
+  entorno PRÉ +46% (p_BH 0,004 na família dos agregados), base ~0,1/hora — exploratório.
+- **Sinistros:** PRÉ nulo em todas as checagens (hora×mês, 112 jogos, estendido, dose).
+
+### Saídas
+`reports/janelas/{crimes,sinistros}/relatorio_fase2b_<dom>.md`, `tabelas/fase2b_*.csv`,
+`reports/janelas/resumo_fase2b.md`. `REUSA=1 python scripts/33b_robustez_janelas.py` refaz só os relatórios.
+
+## V2 / Fase 3 (2026-11-17): canal de registro + bloco preditivo
+
+### Item 0 — canal de registro no entorno (`scripts/34a_canal_registro.py`)
+- Lê o bronze (delegacia de registro, `DESCR_SUBTIPOLOCAL`, `DESCR_CONDUTA`) no disco de 3 km; conferência:
+  contagens da versão original idênticas às do `33` (diferença 0).
+- **DRADE: só 10 BOs** no entorno em 2022–2023 — não existe posto/canal do estádio. 64% dos registros do
+  entorno são da Delegacia Eletrônica (BO online); 13% sem conduta.
+- Modelo do entorno (Fase 2) reestimado sem cada canal, 3 estádios agregados:
+  - **furtos** sobem nos dois canais (presencial PÓS 2,05; online PÓS 1,81) → robusto ao canal;
+  - **crimes violentos e roubos no PÓS vêm só do BO online** (1,44 e 1,49; presencial 1,00 e 1,11 ns) —
+    no BO online o local é declarado pela vítima (mesmo problema de localização da Etapa 10);
+  - crimes violentos DURANTE some sem os BOs sem conduta (1,15 → 1,07 ns).
+
+### Bloco preditivo (`scripts/34_preditivo_janelas.py`)
+- Previsão na véspera; só variáveis conhecidas (calendário, agenda de jogos, público histórico do mandante,
+  clima perfeito + variante com clima da véspera, histórico com defasagem ≥ 24 h). Cidade e entorno de 3 km
+  (estádio como variável). Baseline (média hora × dia da semana 4 semanas), GLM Poisson (spec da Fase 2 com
+  mês do ano + tendência), XGBoost Poisson (raso, fixo), Prophet (só cidade). Walk-forward 12 folds de 2023.
+  Ablação com/sem variáveis de jogo, IC por bootstrap em blocos de semana.
+- **Crimes:** melhor modelo = XGBoost (cidade: deviance 1,643 vs GLM 1,845, Prophet 1,824, baseline 1,926).
+  Jogo **não muda a previsão no geral** (ganho ≤ 1%), mas **ajuda nas horas de jogo**: cidade XGBoost
+  −3,9% de deviance e −0,12 de MAE nas janelas (com clima conservador −5,6%); entorno furtos XGBoost
+  −13,9% / GLM −8,7% de deviance nas janelas; entorno crimes violentos/roubos −4,6%/−3,8% de deviance mas
+  MAE igual (ganho só na cauda). Pico/hora de risco: variáveis de jogo **não** melhoram PR-AUC (diferenças
+  ≤ 0,004; PR-AUC 0,10–0,15 vs prevalência 0,05–0,08).
+- **Sinistros:** melhor modelo na cidade = GLM; jogo não ajuda (cidade ns; entorno GLM piora −4,5% nas
+  janelas). Pico sem ganho.
+- **SHAP** (rodado porque a ablação de crimes mostrou ganho): variáveis de jogo ≤ 1,2% do SHAP total,
+  |rho| com a hora do dia ≤ 0,28 → não fazem papel de calendário, mas pesam pouco.
+- **Tabela de risco** por estádio × janela (domingo 16h, quarta 21h30): excesso em 2 h de janela abaixo de
+  1 ocorrência por janela; maiores excessos — Morumbi crimes violentos DURANTE +0,67 (IC 0,21–1,26) sobre
+  base 1,15; furtos Neo Química DURANTE/PÓS +0,66/+0,71 sobre base ~0,7.
+- Notas: deviance do baseline no entorno inflada por previsões zero (comparar pelo MAE).
+
+### Saídas
+`reports/janelas/crimes/relatorio_fase3_canal_registro.md`, `reports/janelas/{crimes,sinistros}/relatorio_fase3_preditivo_<dom>.md`,
+`reports/janelas/resumo_fase3.md`, tabelas `fase3_*`. `REUSA=1` refaz só os relatórios.
+
+## V2 — Artigo da 3ª entrega (2026-11-17)
+- Base: `../entrega_parcial/entrega2/main.tex` e `referencias.bib` **copiados** (sem sobrescrever) para a
+  pasta nova `../entrega_parcial/entrega3/`, onde o artigo foi reescrito com os resultados da V2.
+- `scripts/35_figuras_artigo_v2.py` gera, só a partir de `reports/janelas/` e `data/`: `fig_event_study.png`,
+  `fig_entorno.png`, as tabelas `tab_janelas/tab_pre/tab_canal/tab_preditivo/tab_risco.tex` (incluídas por
+  `\input`) e `reports/janelas/artigo/numeros_artigo.csv` (481 números com a tabela de origem).
+- `referencias.bib`: + Ivandić et al. (2024); DOIs em Montolio & Planells-Struse (2016) e Kurland et al. (2014).
+- Seções: resumo novo; introdução nas 5 partes com o objetivo oficial **literal** e a delimitação explicando a
+  hora e as 4 janelas (objetivos específicos (i)–(iii) reescritos para a V2); correlatos com Montolio,
+  Ivandić e Kurland na tabela e no texto; metodologia em 2 páginas com a justificativa de cada escolha;
+  resultados em 5 subseções (tabela por janela com veredito, event study, PRÉ e sazonalidade, entorno +
+  canal de registro, preditivo, tabela de risco com coluna de furtos corrigida pela proporção com hora);
+  discussão/conclusão substituindo "efeito de calendário, não do jogo".
+- `docs/defesa_metodologia.md`: 34 perguntas prováveis com respostas curtas.
+- Validação: `21_valida_latex.py` → chaves balanceadas, 5 tabelas com colunas corretas, 0 `%` cru; o
+  "erro" de `\cite` sem `\bibitem` é do validador (o artigo usa BibTeX) — conferido à parte: todas as
+  citações têm entrada no `.bib`, nenhum `\ref` sem `\label`. Compilação real pendente (sem LaTeX local).
+
+---
+
+# V3: fechamento da 3ª entrega (2026-11-19)
+
+### Aprovação
+- O usuário revisou os resumos e **aprovou os resultados das Fases 2, 2b e 3 e o artigo da 3ª entrega
+  (2026-11-19)**. `CLAUDE.md`: "aguardando revisão" → "aprovada pelo usuário (2026-11-19)".
+
+### Ambiente (SSD novo)
+- A sessão anterior foi perdida na troca de SSD. A máquina nova não tinha Python nem Git: instalados via
+  winget (com autorização) Python 3.14.10 + launcher `py` e Git 2.56.0; no 3.14, só `numpy`, `pandas`,
+  `matplotlib` (o que o 35 importa; o 21 usa só a stdlib). Scripts 30–34 não rodados de novo.
+
+### Objetivos (`entrega3/main.tex`)
+- Objetivo geral trocado (era o da entrega 2: "dias", 3 mandantes) pelo texto do usuário: horas em torno dos
+  jogos dos 4 times, na capital e fora, crimes violentos/roubos/furtos/sinistros com vítima, previsão horária
+  e detecção de pico. Objetivos específicos passam a 4: (i) variação por janela (cidade e entorno para a
+  capital; cidade para fora); (ii) **novo**: pico mais frequente nas janelas; (iii) ganho de erro da
+  previsão; (iv) PR-AUC.
+- Coerência: frase "Para que isso possa ser verificado..." (agora cita crimes e sinistros separados), parágrafo
+  de delimitação (partes explicativa e preditiva, sem rótulos (i)/(ii) que colidiam com os objetivos) e fim
+  do 1º parágrafo da Discussão, respondendo os 4 objetivos separadamente para crimes e sinistros. Resumo não
+  contradizia nenhum objetivo — mantido. Título não alterado.
+
+### Validação do pico (pedido da professora)
+- Subseção nova "Horas de pico" em Resultados (crimes e sinistros em parágrafos separados): prevalência fora da
+  amostra nos 12 folds contra 10% (crimes média 8,1%, faixa 3,6–19,9%; sinistros 12,9%, 7,5–21,1%, 9/12 folds
+  acima de 10%), nível de agregação (sinistros: 2 h não melhora, desvio 4,4 vs 3,5 p.p.), concordância
+  (κ P90×cauda 0,98/0,96; P95 ⊂ P90, Jaccard 0,50) e frequência por janela (crimes só PRÉ capital RR 1,31,
+  Fisher p=0,041, **p_BH 0,244** nas 6 janelas; sinistros nada, maior RR 1,68 com P95 em 2 h, p=0,055).
+- Metodologia, parágrafo "Pico": + frase da validação (esperado e limiar reestimados só no treino de cada
+  fold mensal; prevalência no teste vs 10%; sinistros também em 2 h).
+- `35_figuras_artigo_v2.py`: `bh()` e `tab_pico()` → `tab_pico.tex` (painéis (a) validação e (b) RR por
+  janela; domínios em blocos separados, nunca somados) e 459 números novos (`pico_tab.*`) em
+  `numeros_artigo.csv` (481 → 940). Conferência: 5 tabelas antigas idênticas byte a byte; as 481 linhas antigas
+  idênticas em `chave`/`valor`/`fonte` (só `valor_bruto` difere na 16ª casa pela versão do pandas). PNGs com
+  diferença de renderização (matplotlib novo) → figuras aprovadas restauradas do backup.
+
+### Compilação
+- `docs/sbc-template.sty` copiado para `entrega3/`. **`sbc.bst` não encontrado** no projeto nem em
+  `entrega_parcial/` (usuário vai pegar no template do SBC).
+- `21_valida_latex.py`: chaves balanceadas (417), 7 tabelas com colunas corretas, 0 `%` cru; único erro = falso
+  positivo do `\cite` (as 17 chaves citadas existem no `referencias.bib`).
+
+### Git
+- `.gitignore` novo (bronze, uploads, `__pycache__`, `*.pyc`, auxiliares de LaTeX). 12 arquivos brutos já
+  rastreados desde o 1º commit (maior 51,6 MB) → proposto `git rm -r --cached data/bronze uploads`, não executado.
+  Nenhum arquivo do próximo commit passa de 100 MB (total ~44 MB). Nada commitado.

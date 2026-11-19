@@ -1,0 +1,55 @@
+dom,sem_2_jogos_CdB,estadio,area,janela,IRR,p
+crimes,False,Neo Quimica Arena,disco,pre,0.9162649267600277,0.5108073216987664
+crimes,False,Neo Quimica Arena,disco,durante,1.0645364353486735,0.5501508495216048
+crimes,False,Neo Quimica Arena,disco,pos,1.3140650044251543,0.024250773146736303
+crimes,False,Neo Quimica Arena,bairros,pre,0.7845961219041687,0.16040937143914347
+crimes,False,Neo Quimica Arena,bairros,durante,1.0400358558562868,0.7110762844388308
+crimes,False,Neo Quimica Arena,bairros,pos,1.1711812447757672,0.25725445319424767
+crimes,False,Allianz Parque,disco,pre,1.0387237235475668,0.6830952977628577
+crimes,False,Allianz Parque,disco,durante,1.0413672386340027,0.7040072652530706
+crimes,False,Allianz Parque,disco,pos,1.213707960171274,0.05589489752029364
+crimes,False,Allianz Parque,bairros,pre,1.2464636076556064,0.16205931858228584
+crimes,False,Allianz Parque,bairros,durante,1.2984373704021313,0.04056295048142423
+crimes,False,Allianz Parque,bairros,pos,1.3404774302198823,0.049924733392760094
+crimes,False,Morumbi,disco,pre,1.2573995801068092,0.09503351774539258
+crimes,False,Morumbi,disco,durante,1.5804993258987672,0.001276138732331008
+crimes,False,Morumbi,disco,pos,1.6398629850105388,0.004909051871930496
+crimes,False,Morumbi,bairros,pre,1.3689474336483485,0.038297471860804094
+crimes,False,Morumbi,bairros,durante,1.778205467924704,0.0028809689599048715
+crimes,False,Morumbi,bairros,pos,1.9011941407971626,0.0010145738275963879
+crimes,True,Neo Quimica Arena,disco,pre,0.9177774009438423,0.5190506251606863
+crimes,True,Neo Quimica Arena,disco,durante,1.0691477408846082,0.523910512171569
+crimes,True,Neo Quimica Arena,disco,pos,1.3229146524582398,0.021137783834073078
+crimes,True,Neo Quimica Arena,bairros,pre,0.784964632093056,0.16235258004416575
+crimes,True,Neo Quimica Arena,bairros,durante,1.0413245065163634,0.7025081427838418
+crimes,True,Neo Quimica Arena,bairros,pos,1.1741077993799471,0.25020569597265085
+crimes,True,Allianz Parque,disco,pre,1.04574647548636,0.6286774820416225
+crimes,True,Allianz Parque,disco,durante,1.0383624288240563,0.724088177947815
+crimes,True,Allianz Parque,disco,pos,1.2111531127644164,0.05834211618121153
+crimes,True,Allianz Parque,bairros,pre,1.246384374866736,0.16226652414452392
+crimes,True,Allianz Parque,bairros,durante,1.2983138678818484,0.04090485016788252
+crimes,True,Allianz Parque,bairros,pos,1.3455289026872805,0.047325276965427834
+crimes,True,Morumbi,disco,pre,1.2356830497017592,0.1273562282187662
+crimes,True,Morumbi,disco,durante,1.5443021267714305,0.003026232249621824
+crimes,True,Morumbi,disco,pos,1.414321855009981,0.02078617068231076
+crimes,True,Morumbi,bairros,pre,1.2258630683882614,0.20016093558043258
+crimes,True,Morumbi,bairros,durante,1.6370116409678486,0.007425406099068952
+crimes,True,Morumbi,bairros,pos,1.6211588755465098,0.0075811363012954665
+sinistros,False,Neo Quimica Arena,disco,pre,1.688915532113326,0.004705848619275226
+sinistros,False,Neo Quimica Arena,disco,durante,1.3792802920239238,0.1569170804442451
+sinistros,False,Neo Quimica Arena,disco,pos,1.0835183097242145,0.8122255100846006
+sinistros,False,Allianz Parque,disco,pre,1.3825177471879364,0.12419488906878938
+sinistros,False,Allianz Parque,disco,durante,1.053105138864308,0.8438151433639978
+sinistros,False,Allianz Parque,disco,pos,1.0188156707675229,0.9405272903321837
+sinistros,False,Morumbi,disco,pre,1.2687040729883574,0.2819429070441891
+sinistros,False,Morumbi,disco,durante,1.094041981727376,0.6972153914936551
+sinistros,False,Morumbi,disco,pos,1.0770220417376402,0.7644996942333535
+sinistros,True,Neo Quimica Arena,disco,pre,1.684926323044196,0.0047769728330745945
+sinistros,True,Neo Quimica Arena,disco,durante,1.3767179369004618,0.15873605652044886
+sinistros,True,Neo Quimica Arena,disco,pos,1.0813827779646599,0.8166169035818185
+sinistros,True,Allianz Parque,disco,pre,1.393043166973151,0.11701523237120917
+sinistros,True,Allianz Parque,disco,durante,1.0466943863960483,0.8620434830861773
+sinistros,True,Allianz Parque,disco,pos,1.0241828932372965,0.9243248197482274
+sinistros,True,Morumbi,disco,pre,1.3117084297883659,0.21123548920651758
+sinistros,True,Morumbi,disco,durante,1.0727087414492948,0.7746482552382058
+sinistros,True,Morumbi,disco,pos,1.0474185434496914,0.8561992707523042
