@@ -1,0 +1,75 @@
+coluna,grupo,descricao,dtype,pct_nulo
+hora_ts,chave,"inicio da hora local (Brasilia), 2022-01-01 00:00 a 2023-12-31 23:00",datetime64[ns],0.0
+data,calendario,data local da hora,datetime64[ns],0.0
+hora_do_dia,calendario,0-23,int32,0.0
+dia_semana,calendario,0=domingo ... 6=sabado (mesma convencao de calendario_sp.csv),int64,0.0
+ano,calendario,ano,int64,0.0
+mes,calendario,1-12,int64,0.0
+semana_id,calendario,indice da semana (segunda a domingo) desde 2021-12-27; cluster dos erros-padrao na Fase 2,int64,0.0
+feriado,calendario,feriado nacional/estadual/municipal (02_limpeza.py),bool,0.0
+vespera_feriado,calendario,dia anterior a feriado,bool,0.0
+ferias,calendario,ferias_escolares OU recesso_escolar (SME-SP),bool,0.0
+ferias_escolares,calendario,ferias escolares SME-SP,bool,0.0
+recesso_escolar,calendario,recesso escolar SME-SP,bool,0.0
+chuva_mm,clima,"precipitacao da hora, INMET A701, UTC-3; NaN = falha do sensor",float64,3.7
+chuva,clima,chuva_mm > 0 (NaN se chuva_mm ausente),object,3.7
+temp_c,clima,"temperatura do ar (bulbo seco) da hora, INMET A701",float64,1.23
+crimes_violentos,crimes,registros COM hora nesta hora: CATEGORIAS_VIOLENTAS + ROUBO* (grao BO x natureza),int64,0.0
+lesao_corporal_dolosa,crimes,registros com hora: LESAO CORPORAL DOLOSA,int64,0.0
+roubos_total,crimes,registros com hora: natureza comecando com ROUBO,int64,0.0
+furtos_total,crimes,registros com hora: natureza comecando com FURTO,int64,0.0
+acidentes_total,sinistros,"sinistros com hora nesta hora (Infosiga, os 3 tipo_registro)",int64,0.0
+acidentes_com_vitima,sinistros,sinistros com hora: SINISTRO NAO FATAL + SINISTRO FATAL,int64,0.0
+atropelamentos,sinistros,sinistros com hora: tp_sinistro_atropelamento == S,int64,0.0
+sem_hora_crimes_violentos,crimes,DIARIO (repetido nas 24h do dia): registros de crimes_violentos da data sem hora valida,int64,0.0
+sem_hora_lesao_corporal_dolosa,crimes,DIARIO (repetido nas 24h do dia): registros de lesao_corporal_dolosa da data sem hora valida,int64,0.0
+sem_hora_roubos_total,crimes,DIARIO (repetido nas 24h do dia): registros de roubos_total da data sem hora valida,int64,0.0
+sem_hora_furtos_total,crimes,DIARIO (repetido nas 24h do dia): registros de furtos_total da data sem hora valida,int64,0.0
+sem_hora_acidentes_total,sinistros,DIARIO (repetido nas 24h do dia): registros de acidentes_total da data sem hora valida,int64,0.0
+sem_hora_acidentes_com_vitima,sinistros,DIARIO (repetido nas 24h do dia): registros de acidentes_com_vitima da data sem hora valida,int64,0.0
+sem_hora_atropelamentos,sinistros,DIARIO (repetido nas 24h do dia): registros de atropelamentos da data sem hora valida,int64,0.0
+total_dia_crimes_violentos,crimes,DIARIO: total de crimes_violentos na data (com + sem hora) = silver diario,int64,0.0
+total_dia_lesao_corporal_dolosa,crimes,DIARIO: total de lesao_corporal_dolosa na data (com + sem hora) = silver diario,int64,0.0
+total_dia_roubos_total,crimes,DIARIO: total de roubos_total na data (com + sem hora) = silver diario,int64,0.0
+total_dia_furtos_total,crimes,DIARIO: total de furtos_total na data (com + sem hora) = silver diario,int64,0.0
+total_dia_acidentes_total,sinistros,DIARIO: total de acidentes_total na data (com + sem hora) = silver diario,int64,0.0
+total_dia_acidentes_com_vitima,sinistros,DIARIO: total de acidentes_com_vitima na data (com + sem hora) = silver diario,int64,0.0
+total_dia_atropelamentos,sinistros,DIARIO: total de atropelamentos na data (com + sem hora) = silver diario,int64,0.0
+janela,jogo,pre | durante | pos | fora_dia_jogo | dia_sem_jogo (regras no relatorio da Fase 1),object,0.0
+janela4,jogo,pre | durante | pos | fora (fora = fora_dia_jogo + dia_sem_jogo),object,0.0
+hora_relativa,jogo,"floor((hh:30 - inicio)/1h), -6..+12; NaN fora desse raio. PRE={-2,-1}, DURANTE={0,1}, POS={2,3}",float64,76.59
+jogo_id,jogo,jogo associado a hora (so quando hora_relativa existe),object,76.59
+jogo_duplo,jogo,2+ jogos reivindicam a hora para PRE/DURANTE/POS (prioridade durante>pos>pre),bool,0.0
+n_jogos_ate_12h,jogo,nº de jogos com esta hora em hora_relativa -6..+12,int64,0.0
+dia_de_jogo,jogo,"a data de Brasilia da hora tem jogo em SP capital (calendario completo, fuso corrigido)",bool,0.0
+jogo_id_do_dia,jogo,jogo da data (independe de a hora estar perto dele),object,70.41
+jogo_inicio_br,jogo,"inicio do jogo associado, horario de Brasilia (fuso corrigido)",datetime64[ns],76.59
+jogo_mandante,jogo,Corinthians | Palmeiras | Sao Paulo,object,76.59
+jogo_visitante,jogo,visitante,object,76.59
+jogo_competicao,jogo,Serie A | Copa do Brasil | Campeonato Paulista | Copa Libertadores | Copa Sul-Americana | Recopa Sul-Americana,object,76.59
+jogo_fase,jogo,fase/rodada (so jogos complementares; vazio na base original),object,90.67
+jogo_classico,jogo,visitante tambem do grupo Corinthians/Palmeiras/Sao Paulo/Santos,object,76.59
+jogo_noturno,jogo,inicio >= 19h de Brasilia (corrigido),object,76.59
+jogo_fim_de_semana,jogo,jogo em sabado/domingo (data de Brasilia),object,76.59
+jogo_estadio,jogo,"estadio REAL do jogo (conferido na Wikipedia, 31a)",object,76.59
+jogo_estadio_lat,jogo,latitude do estadio (Etapa 10),float64,76.7
+jogo_estadio_lon,jogo,longitude do estadio (Etapa 10),float64,76.7
+jogo_resultado_mandante,jogo,vitoria|empate|derrota -- so conhecido apos o jogo: usar so na janela POS,object,76.59
+jogo_horario_aproximado,jogo,"horario original com segundos != 00, arredondado a 30 min",object,76.59
+jogo_na_base_original,jogo,True = jogo do BR-Football-Dataset; False = complementar (Wikipedia),object,76.59
+jogo_publico,jogo,"publico do jogo na capital (Wikipedia, total); NaN = ausente; 0 so com portoes fechados",float64,76.59
+jogo_publico_status,jogo,"ok | capacidade_restrita (COVID 23/01-09/03/2022, teto 70%) | portoes_fechados",object,76.59
+janela_base_original,jogo,ROBUSTEZ: janela so com os jogos da base original (sem Paulistao/Libertadores/Sul-Americana/Recopa),object,0.0
+hora_relativa_base_original,jogo,ROBUSTEZ: hora_relativa so com a base original,float64,85.91
+dia_de_jogo_base_original,jogo,ROBUSTEZ: dia de jogo so com a base original,bool,0.0
+janela_fora_capital,jogo_fora,pre | durante | pos | nenhum -- jogos dos 4 times FORA da capital (TV/bares); nao exclusiva de `janela`,object,0.0
+hora_relativa_fora_capital,jogo_fora,hora relativa (-6..+12) ao jogo fora da capital escolhido,float64,75.06
+n_jogos_fora_simultaneos,jogo_fora,nº de jogos fora da capital com esta hora em PRE/DURANTE/POS,int64,0.0
+times_fora_capital,jogo_fora,times monitorados envolvidos nesses jogos (ex. Corinthians+Santos),object,91.67
+jogo_id_fora_capital,jogo_fora,id do jogo fora da capital escolhido (prioridade durante>pos>pre),object,75.06
+fora_capital_rmsp,jogo_fora,algum desses jogos foi na Regiao Metropolitana de SP (ex. Arena Barueri),bool,0.0
+hora_sem_jogo,controle,"CONTROLE da Fase 2: fora das janelas da capital, janela_fora_capital=nenhum e data sem jogo na capital",bool,0.0
+hora_evento_grande_publico,flag,id do evento de grande publico SEM os 4 times (final Brasileirao Feminino/Copinha) cuja janela PRE/DURANTE/POS contem a hora,object,99.86
+excluir_evento_grande_publico,flag,True = hora fora da amostra principal da Fase 2 (nem tratamento nem controle); robustez com elas de volta,bool,0.0
+excluir_crime,flag,dia fora das analises de crime: censura 2023-12-30/31 + lote de furtos 2022-06-19,bool,0.0
+excluir_sinistro,flag,"dia fora das analises de sinistro: censura 2023-12-30/31 + lacunas Infosiga 2022-01-17, 2023-08-07",bool,0.0

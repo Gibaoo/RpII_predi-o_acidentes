@@ -1,0 +1,31 @@
+tipo,periodo,pct_dos_sem_hora
+crime_todos,A NOITE,22.26
+crime_todos,A TARDE,21.4
+crime_todos,PELA MANHÃ,20.23
+crime_todos,(NULO),17.85
+crime_todos,DE MADRUGADA,13.16
+crime_todos,EM HORA INCERTA,5.1
+crimes_violentos,A NOITE,30.63
+crimes_violentos,PELA MANHÃ,18.37
+crimes_violentos,DE MADRUGADA,18.17
+crimes_violentos,A TARDE,17.6
+crimes_violentos,EM HORA INCERTA,13.88
+crimes_violentos,(NULO),1.34
+lesao_corporal_dolosa,A NOITE,29.04
+lesao_corporal_dolosa,A TARDE,23.24
+lesao_corporal_dolosa,PELA MANHÃ,20.35
+lesao_corporal_dolosa,DE MADRUGADA,14.74
+lesao_corporal_dolosa,EM HORA INCERTA,12.61
+lesao_corporal_dolosa,(NULO),0.02
+roubos_total,A NOITE,32.04
+roubos_total,DE MADRUGADA,19.56
+roubos_total,PELA MANHÃ,18.29
+roubos_total,A TARDE,16.21
+roubos_total,EM HORA INCERTA,12.17
+roubos_total,(NULO),1.73
+furtos_total,A TARDE,21.79
+furtos_total,A NOITE,21.35
+furtos_total,PELA MANHÃ,20.41
+furtos_total,(NULO),19.71
+furtos_total,DE MADRUGADA,12.62
+furtos_total,EM HORA INCERTA,4.12

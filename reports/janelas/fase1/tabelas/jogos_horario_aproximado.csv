@@ -1,0 +1,4 @@
+jogo_id,competicao,mandante,visitante,gols_mandante,gols_visitante,data_uk,horario_uk,inicio_br_bruto,inicio_br
+20220807_Palmeiras,Serie A,Palmeiras,Goias,3.0,0.0,2022-08-07,19:50:28,2022-08-07 15:50:28,2022-08-07 16:00:00
+20220824_SaoPaulo,Copa do Brasil,Sao Paulo,Flamengo,1.0,3.0,2022-08-25,01:24:28,2022-08-24 21:24:28,2022-08-24 21:30:00
+20230930_SaoPaulo,Serie A,Sao Paulo,Corinthians,2.0,1.0,2023-09-30,22:30:36,2023-09-30 18:30:36,2023-09-30 18:30:00

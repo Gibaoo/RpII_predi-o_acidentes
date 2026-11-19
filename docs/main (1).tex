@@ -1,0 +1,365 @@
+\documentclass[12pt]{article}
+
+\usepackage{sbc-template}
+
+\usepackage{graphicx,url}
+\usepackage[utf8]{inputenc}
+\usepackage[brazil]{babel}
+\usepackage{amsmath}
+\usepackage{booktabs}
+\usepackage{hyperref}
+
+\sloppy
+
+\title{Previsão de Crimes Violentos e de Sinistros de Trânsito em Dias
+de Jogos de Futebol: Proposta de um Sistema de Ciência de Dados para a
+Cidade de São Paulo}
+
+\author{Gilberto Serafim Dias de Araújo\inst{1}, Leonardo de Cico\inst{1},
+Pedro Henrique de Almeida\inst{1}}
+
+\address{Universidade de São Paulo (USP)\\
+  São Paulo -- SP -- Brasil
+  \email{serafimgilberto0@usp.br, leocico@usp.br, pedroalmeida04@usp.br}
+}
+
+\begin{document}
+
+\maketitle
+
+\begin{resumo}
+Partidas de futebol concentram multidões em torno de estádios e áreas de
+entretenimento e alteram, por algumas horas, as rotinas de deslocamento e
+convívio de uma cidade inteira. A literatura em criminologia ambiental mostra
+que essa alteração de rotina está associada a variações mensuráveis na
+incidência de crimes e de sinistros de trânsito. Este trabalho propõe a
+arquitetura de um sistema preditivo que integra, em uma tabela analítica de
+granularidade diária, o calendário de partidas dos clubes da cidade de São
+Paulo, os registros oficiais de ocorrências criminais e de sinistros de
+trânsito, e variáveis de clima e de calendário. São descritas as fontes de
+dados públicas, o pipeline de engenharia de dados, a formulação do problema
+preditivo e o protocolo de comparação entre um modelo baseado em árvores de
+decisão (XGBoost) e um modelo aditivo de séries temporais (Prophet). A
+proposta adapta ao contexto brasileiro o desenho experimental de estudos
+internacionais que relacionam eventos esportivos e criminalidade espacial.
+\end{resumo}
+
+\begin{abstract}
+Football matches concentrate crowds around stadiums and entertainment areas
+and disrupt, for a few hours, the commuting and social routines of an entire
+city. Environmental criminology literature shows that this routine disruption
+is associated with measurable variation in crime and traffic accident
+incidence. This work proposes the architecture of a predictive system that
+integrates, into a single daily analytical table, the match calendar of São
+Paulo football clubs, official records of criminal occurrences and traffic
+accidents, and weather and calendar variables. We describe the public data
+sources, the data engineering pipeline, the formulation of the predictive
+problem and the protocol for comparing a tree-based model (XGBoost) with an
+additive time-series model (Prophet). The proposal adapts to the Brazilian
+context the experimental design of international studies relating sporting
+events and spatial crime analysis.
+\end{abstract}
+
+\section{Introdução}
+
+Grandes eventos esportivos são, do ponto de vista urbano, deslocamentos
+temporários de rotina. Em poucas horas, dezenas de milhares de pessoas se
+concentram no entorno de um estádio, alteram trajetos habituais, consomem
+álcool em bares e praças de concentração e retornam simultaneamente para casa
+ao final da partida. A Teoria da Atividade Rotineira \cite{cohen1979} descreve
+exatamente esse cenário como propício à ocorrência de crimes: a convergência,
+no tempo e no espaço, de ofensores motivados, alvos disponíveis e ausência de
+vigilância capaz. São Paulo é um caso extremo desse fenômeno no Brasil, por
+concentrar quatro clubes de série A, quatro estádios de grande porte e uma
+agenda que, entre campeonatos estadual, nacional, copas e competições
+continentais, raramente deixa uma semana sem jogo na cidade. Ao mesmo tempo, a
+disponibilidade de dados abertos sobre segurança pública, sinistros de trânsito
+e clima tornou tecnicamente viável investigar essa relação com métodos
+quantitativos, o que até pouco tempo dependia de coleta manual.
+
+O problema tratado neste trabalho é a antecipação, em nível diário e para o
+município de São Paulo, de dias atípicos de violência e de sinistros de
+trânsito associados à realização de partidas de futebol. A pergunta que
+orienta a investigação é concreta: conhecendo o calendário de jogos, as
+características de cada partida (mandante, horário, competição, rivalidade,
+público esperado), as condições meteorológicas previstas e o calendário civil,
+é possível estimar com antecedência de um dia se determinada data apresentará
+volume de ocorrências acima do padrão? A delimitação é deliberada. Não se
+pretende explicar as causas da criminalidade urbana nem localizar
+espacialmente cada ocorrência; a unidade de análise é o dia na cidade, e o
+produto é uma estimativa de risco utilizável no planejamento de efetivo
+policial e de fiscalização de trânsito.
+
+Três dificuldades justificam a pesquisa. A primeira é metodológica: os
+trabalhos de referência sobre o tema \cite{kurland2014,ristea2018,ristea2020}
+são espaciais e explicativos, construídos sobre células de grade no entorno do
+estádio e voltados a medir a associação entre evento e crime, não a produzir
+previsões operacionais para a cidade como um todo. A segunda é de
+disponibilidade de dados: parte relevante do ganho preditivo relatado nesses
+estudos vem de mensagens geolocalizadas de redes sociais, fonte cujo acesso
+programático foi drasticamente restringido nos últimos anos, o que torna
+necessário verificar quanto do sinal permanece recuperável apenas com dados
+oficiais e de calendário. A terceira é a escassez de estudos que tratem crimes
+e sinistros de trânsito como alvos de um mesmo pipeline: no contexto de dias de
+jogo, ambos compartilham os mesmos determinantes -- aglomeração, consumo de
+álcool, deslocamento noturno concentrado --, mas costumam ser estudados por
+comunidades separadas e sobre bases não integradas.
+
+O objetivo geral é propor e especificar um sistema de Ciência de Dados que
+estime, em granularidade diária, o risco de picos de crimes violentos e de
+sinistros de trânsito na cidade de São Paulo a partir do calendário de partidas
+de futebol e de variáveis contextuais. Desdobra-se em quatro objetivos
+específicos: (i) levantar e caracterizar as fontes públicas necessárias,
+verificando a granularidade efetivamente disponível em cada uma; (ii)
+especificar um pipeline de integração que consolide fontes de granularidades
+distintas em uma tabela analítica diária única; (iii) formular a tarefa
+preditiva e o critério de definição de pico, com protocolo de validação
+temporal; e (iv) definir o desenho de comparação entre um modelo tabular
+baseado em árvores e um modelo aditivo de séries temporais, de modo a isolar a
+contribuição das variáveis de jogo em relação a um modelo apenas sazonal.
+
+O restante do trabalho está organizado da seguinte forma. A Seção 2 revisa os
+trabalhos relacionados que fundamentam o desenho da proposta e explicita como
+esta se posiciona em relação a eles. A Seção 3 apresenta a metodologia, com as
+fontes de dados, o pipeline de engenharia de dados, a formulação do problema
+preditivo e o protocolo de avaliação. A Seção 4 apresenta o cronograma de
+execução previsto.
+
+\section{Trabalhos Relacionados}
+
+A relação entre eventos esportivos e criminalidade urbana já foi estudada sob
+perspectivas metodológicas distintas. Kurland et al. \cite{kurland2014}
+examinaram o entorno do Villa Park (Aston Villa Football Club, Birmingham) e
+mostraram que a distribuição espacial de furtos e de crimes violentos contra a
+pessoa difere de forma significativa entre dias de jogo e dias de comparação em
+um raio de aproximadamente três quilômetros do estádio. O estudo é relevante
+aqui por dois motivos: estabelece o desenho de dias de evento contra dias de
+controle equivalentes, adotado nesta proposta, e evidencia que o efeito do jogo
+não se restringe ao perímetro imediato do estádio, o que sustenta a escolha de
+uma unidade de análise mais ampla.
+
+Ristea et al. \cite{ristea2018} propuseram um dos primeiros arcabouços que
+combinam dados criminais georreferenciados com mensagens do Twitter para
+explicar a ocorrência de crimes ao redor de um estádio. Ocorrências policiais e
+mensagens geolocalizadas da região do Villa Park foram agregadas em células de
+500\,m $\times$ 500\,m, comparando-se oito horas em torno do início da partida
+em dias de jogo e em dias de controle. Por meio do índice de Moran bivariado e
+de modelos de regressão binomial negativa, os autores mostraram que a densidade
+de mensagens de conteúdo violento -- identificadas por dicionário léxico --
+apresenta correlação espacial mais forte com dano criminal, furto e violência
+contra a pessoa do que o volume total de mensagens. O achado sustenta um
+princípio adotado nesta proposta: subconjuntos qualificados de uma fonte
+dinâmica (aqui, clássicos e jogos noturnos, e não simplesmente ``houve jogo'')
+tendem a ser mais informativos do que o agregado indiferenciado.
+
+Em trabalho posterior, Ristea et al. \cite{ristea2020} estenderam a abordagem
+para Chicago, cruzando criminalidade, mensagens geolocalizadas e variáveis
+demográficas, socioeconômicas e ambientais no entorno do United Center. Com
+estimação de densidade de kernel localizada, construíram modelos de previsão
+espacial para sete tipos de crime, comparando dias de jogo em casa, jogos fora
+e dias de controle. A inclusão dos dados de redes sociais elevou a AUC de
+previsão para quase todos os tipos de crime, com ganhos maiores para furto de
+veículos e roubo e ganhos reduzidos para crimes já fortemente concentrados no
+espaço e no tempo. Essa heterogeneidade motiva, nesta proposta, a análise
+desagregada por categoria de ocorrência: é esperado que o efeito das variáveis
+de jogo seja desigual entre crimes patrimoniais em via pública e crimes de
+outra natureza.
+
+Os três trabalhos convergem em limitações que também condicionam esta proposta:
+a defasagem e a granularidade heterogênea entre bases, e o problema da unidade
+de área modificável (MAUP), pelo qual a escolha da unidade espacial pode
+alterar substancialmente os resultados. O posicionamento deste trabalho em
+relação a eles é, portanto, duplo. Metodologicamente, desloca-se do objetivo
+explicativo e espacial para um objetivo preditivo e temporal, adotando o dia na
+cidade como unidade de análise e a previsão de pico como tarefa. Quanto aos
+dados, substitui-se a fonte dinâmica de redes sociais -- indisponível em escala
+para o caso brasileiro -- por atributos de partida conhecidos com antecedência,
+o que tem a vantagem colateral de tornar o sistema utilizável de forma
+prospectiva, e não apenas retrospectiva. Acrescenta-se, por fim, o tratamento
+conjunto de crimes e de sinistros de trânsito como alvos do mesmo pipeline.
+
+\section{Metodologia}
+
+\subsection{Fontes de dados}
+
+O sistema integra quatro categorias de dados públicos referentes ao município
+de São Paulo:
+
+\begin{itemize}
+  \item \textbf{Partidas de futebol}: histórico de jogos do Campeonato
+  Brasileiro, do Campeonato Paulista, da Copa do Brasil e das competições
+  continentais envolvendo os clubes da cidade, obtido de bases estruturadas
+  públicas, com data, horário, mandante, visitante, estádio, competição,
+  público e placar;
+  \item \textbf{Ocorrências criminais}: registros da Secretaria de Segurança
+  Pública do Estado de São Paulo (SSP-SP), com recorte para roubo, furto, lesão
+  corporal dolosa e homicídio doloso;
+  \item \textbf{Sinistros de trânsito}: registros do Sistema de Informações
+  Gerenciais de Sinistros de Trânsito (Infosiga SP), com data, hora, tipo de
+  via, localização e gravidade;
+  \item \textbf{Clima e calendário}: temperatura, precipitação e umidade
+  provenientes de estações meteorológicas públicas, complementadas por dia da
+  semana, feriado e véspera de feriado.
+\end{itemize}
+
+A primeira atividade do projeto é a verificação da granularidade efetivamente
+publicada em cada fonte, porque dela depende a viabilidade do recorte diário. A
+base de sinistros e a de partidas oferecem resolução de data e hora; já os
+indicadores criminais são frequentemente divulgados em agregações mensais por
+município, sendo necessário recorrer às bases de boletins de ocorrência
+individualizados. Caso a desagregação diária não se confirme para alguma
+categoria de crime, essa categoria é excluída do alvo, e não substituída por
+interpolação, procedimento que introduziria variação artificial justamente na
+variável a ser prevista.
+
+\subsection{Pipeline de engenharia de dados}
+
+Propõe-se um esquema relacional normalizado, com tabelas independentes para
+partidas, ocorrências criminais, sinistros de trânsito e calendário/clima,
+consolidadas por consultas SQL em uma tabela analítica única na qual cada linha
+representa um dia na cidade de São Paulo. A Tabela~\ref{tab:variaveis} resume as
+variáveis previstas.
+
+\begin{table}[ht]
+\centering
+\caption{Variáveis da tabela analítica diária}
+\label{tab:variaveis}
+\small
+\begin{tabular}{@{}llll@{}}
+\toprule
+\textbf{Variável} & \textbf{Tipo} & \textbf{Fonte} & \textbf{Função} \\
+\midrule
+data & Data & Calendário & Chave da tabela analítica \\
+houve\_jogo & Binário & Base de partidas & Indicador de evento \\
+n\_jogos & Inteiro & Base de partidas & Múltiplas partidas no dia \\
+classico & Binário & Base de partidas & Jogo entre grandes rivais \\
+publico & Numérico & Base de partidas & Magnitude da aglomeração \\
+periodo\_partida & Categórico & Base de partidas & Tarde ou noite \\
+competicao & Categórico & Base de partidas & Estadual, nacional, copa \\
+resultado\_mandante & Categórico & Base de partidas & Vitória, empate, derrota \\
+precipitacao & Numérico & Meteorologia & Inibidor de circulação \\
+temperatura\_max & Numérico & Meteorologia & Controle sazonal \\
+dia\_semana & Categórico & Calendário & Sazonalidade semanal \\
+feriado & Binário & Calendário & Alteração de rotina \\
+lag\_1, lag\_7 & Numérico & Alvos & Defasagens do alvo \\
+crimes\_dia & Inteiro & SSP-SP & Variável-alvo \\
+sinistros\_dia & Inteiro & Infosiga SP & Variável-alvo \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Duas decisões de projeto merecem registro. A primeira é a construção explícita
+de variáveis defasadas ($lag_1$, $lag_7$): modelos tabulares não possuem noção
+intrínseca de ordem temporal, e sem essas variáveis o efeito do jogo seria
+confundido com o nível corrente da série. A segunda é a definição do conjunto
+de dias de controle, formado por dias sem jogo pareados por dia da semana, mês
+e condição meteorológica, de modo que a comparação não capture apenas o fato de
+que grande parte das partidas ocorre em fins de semana.
+
+\subsection{Formulação do problema preditivo}
+
+Seguindo \cite{ristea2020}, a tarefa é formulada como classificação binária: a
+cada dia $d$ atribui-se rótulo $1$ quando o volume de ocorrências supera um
+limiar de pico, e $0$ caso contrário. O limiar é definido a partir da
+distribuição empírica do próprio alvo -- percentil 90 da série de referência do
+mesmo mês --, e não por valor absoluto arbitrário, o que evita que a
+sazonalidade anual concentre todos os picos em um único período. A
+probabilidade de pico é modelada como função de um vetor de variáveis
+explicativas $f_1(d), \ldots, f_n(d)$:
+
+\begin{equation}
+P(\text{pico}_d = 1 \mid f_1(d), \ldots, f_n(d)) =
+\frac{1}{1 + e^{-(\beta_0 + \sum_{i=1}^{n}\beta_i f_i(d))}}
+\end{equation}
+
+A formulação permite comparar subconjuntos de variáveis explicativas: um
+modelo apenas com defasagens e calendário, contra um modelo que incorpora as
+variáveis de partida. A diferença de desempenho entre os dois é a medida da
+contribuição incremental do futebol, de forma análoga à comparação entre
+modelos com e sem dados de redes sociais em \cite{ristea2020}. O mesmo conjunto
+de variáveis é avaliado também na formulação de regressão sobre a contagem
+diária, o que preserva informação descartada pela binarização.
+
+\subsection{Modelos candidatos e protocolo de avaliação}
+
+Comparam-se dois algoritmos de naturezas complementares. O XGBoost, conjunto de
+árvores de decisão treinadas sequencialmente por gradiente, é adequado a dados
+tabulares heterogêneos e captura interações não lineares sem especificação
+manual -- por exemplo, o efeito conjunto de chuva, horário noturno e clássico
+sobre o risco de sinistros. O Prophet, modelo de decomposição aditiva, trata
+automaticamente tendência e sazonalidades semanal e anual e permite declarar
+datas de jogos e feriados como eventos especiais, estimando diretamente seu
+efeito médio sobre a série. A comparação é informativa porque os dois modelos
+falham por motivos opostos: o primeiro ignora a estrutura temporal se ela não
+for codificada em variáveis; o segundo acomoda mal um grande número de
+regressores contínuos.
+
+A avaliação segue validação temporal (\emph{out-of-time}): treino em um
+intervalo histórico e teste no período subsequente, sem embaralhamento
+aleatório, que violaria a dependência temporal da série. As métricas são MAE e
+RMSE para a formulação de regressão e AUC e precisão@$k$ para a classificação
+de picos, esta última por corresponder ao uso pretendido, em que apenas os dias
+de maior risco estimado receberiam alocação adicional de efetivo. Como
+referência mínima, os modelos são confrontados com dois \emph{baselines}: a
+média histórica por dia da semana e mês, e um modelo sazonal ingênuo que repete
+o valor observado sete dias antes. A implementação prevista utiliza Python, com
+\emph{scikit-learn}, \emph{xgboost}, \emph{prophet} e PostgreSQL.
+
+\section{Cronograma}
+
+A Tabela~\ref{tab:cronograma} distribui as atividades ao longo das doze semanas
+de execução, organizadas em seis quinzenas. A sobreposição entre atividades é
+intencional: a obtenção das bases oficiais é o principal gargalo do projeto e
+corre em paralelo com a modelagem do banco, e o treinamento começa sobre
+subconjuntos já consolidados, sem aguardar a carga completa.
+
+\begin{table}[ht]
+\centering
+\caption{Cronograma de execução (quinzenas, de 26/08 a 18/11)}
+\label{tab:cronograma}
+\small
+\begin{tabular}{@{}lcccccc@{}}
+\toprule
+\textbf{Atividade} & \textbf{Q1} & \textbf{Q2} & \textbf{Q3} & \textbf{Q4} &
+\textbf{Q5} & \textbf{Q6} \\
+\midrule
+Revisão bibliográfica e consolidação do escopo & X & & & & & \\
+Levantamento e obtenção das bases públicas & X & X & & & & \\
+Modelagem do banco relacional e carga dos dados & & X & X & & & \\
+Construção da tabela analítica e engenharia de atributos & & & X & X & & \\
+Definição do critério de pico e do protocolo de validação & & & X & & & \\
+Treinamento e ajuste dos modelos (XGBoost e Prophet) & & & & X & X & \\
+Avaliação comparativa e análise de variáveis & & & & & X & X \\
+Redação do relatório final e apresentação & & & & & & X \\
+\bottomrule
+\end{tabular}
+\\[4pt]
+\footnotesize
+Q1: 26/08--08/09 \quad Q2: 09/09--22/09 \quad Q3: 23/09--06/10 \quad
+Q4: 07/10--20/10 \quad Q5: 21/10--03/11 \quad Q6: 04/11--18/11
+\end{table}
+
+\begin{thebibliography}{9}
+
+\bibitem{cohen1979} Cohen, L.~E. and Felson, M. (1979) ``Social change and
+crime rate trends: a routine activity approach''. \emph{American Sociological
+Review}, 44(4), pp.~588--608.
+
+\bibitem{kurland2014} Kurland, J., Johnson, S.~D. and Tilley, N. (2014)
+``Offenses around stadiums: a natural experiment on crime attraction and
+generation''. \emph{Journal of Research in Crime and Delinquency}, 51(1),
+pp.~5--28.
+
+\bibitem{ristea2018} Ristea, A., Kurland, J., Resch, B., Leitner, M. and
+Langford, C. (2018) ``Estimating the spatial distribution of crime events
+around a football stadium from georeferenced tweets''. \emph{ISPRS
+International Journal of Geo-Information}, 7(2), 43.
+
+\bibitem{ristea2020} Ristea, A., Al Boni, M., Resch, B., Gerber, M.~S. and
+Leitner, M. (2020) ``Spatial crime distribution and prediction for sporting
+events using social media''. \emph{International Journal of Geographical
+Information Science}, 34(9), pp.~1708--1739.
+
+\end{thebibliography}
+
+\end{document}

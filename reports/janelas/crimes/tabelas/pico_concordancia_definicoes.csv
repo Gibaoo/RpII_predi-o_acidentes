@@ -1,0 +1,4 @@
+nivel,def_1,def_2,jaccard,kappa
+hora,P90_pearson,P95_pearson,0.5002875215641173,0.6431211498973306
+hora,P90_pearson,P90_cauda_poisson,0.971655328798186,0.9840265797712605
+hora,P95_pearson,P90_cauda_poisson,0.5002875215641173,0.6431211498973306

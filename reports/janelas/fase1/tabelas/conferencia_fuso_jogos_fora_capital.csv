@@ -1,0 +1,253 @@
+fonte_conf,competicao,data_br,mandante,visitante,cidade,inicio_br_wiki,inicio_br_conf,achou,offset_local_edicao,diff_min,bate
+br_football,Copa do Brasil,2022-02-23,Salgueiro,Santos,Salgueiro,2022-02-23 19:00:00,2022-02-23 19:00:00,True,,0.0,True
+br_football,Copa do Brasil,2022-02-24,Campinense,São Paulo,Campina Grande,2022-02-24 21:30:00,2022-02-24 21:30:00,True,,0.0,True
+br_football,Copa do Brasil,2022-03-08,Fluminense-PI,Santos,Teresina,2022-03-08 21:30:00,2022-03-08 21:30:00,True,,0.0,True
+br_football,Serie A,2022-04-09,Fluminense,Santos,Rio de Janeiro,2022-04-09 16:30:00,2022-04-09 16:30:00,True,,0.0,True
+br_football,Serie A,2022-04-10,Botafogo,Corinthians,Rio de Janeiro,2022-04-10 16:00:00,2022-04-10 16:00:00,True,,0.0,True
+br_football,Serie A,2022-04-16,Goiás,Palmeiras,Goiânia,2022-04-16 16:30:00,2022-04-16 16:30:00,True,,0.0,True
+br_football,Serie A,2022-04-17,Santos,Coritiba,Santos,2022-04-17 11:00:00,2022-04-17 11:00:00,True,,0.0,True
+br_football,Serie A,2022-04-17,Flamengo,São Paulo,Rio de Janeiro,2022-04-17 16:00:00,2022-04-17 16:00:00,True,,0.0,True
+br_football,Copa do Brasil,2022-04-20,Coritiba,Santos,Curitiba,2022-04-20 19:30:00,2022-04-20 19:30:00,True,,0.0,True
+br_football,Serie A,2022-04-20,Flamengo,Palmeiras,Rio de Janeiro,2022-04-20 19:30:00,2022-04-20 19:30:00,True,,0.0,True
+br_football,Copa do Brasil,2022-04-20,Juventude,São Paulo,Caxias do Sul,2022-04-20 19:30:00,2022-04-20 19:30:00,True,,0.0,True
+br_football,Copa do Brasil,2022-04-20,Portuguesa (RJ),Corinthians,Londrina (Paraná),2022-04-20 21:30:00,2022-04-20 21:30:00,True,,0.0,True
+br_football,Serie A,2022-04-23,Red Bull Bragantino,São Paulo,Bragança Paulista,2022-04-23 16:30:00,2022-04-23 16:30:00,True,,0.0,True
+br_football,Serie A,2022-04-23,Palmeiras,Corinthians,Barueri,2022-04-23 19:00:00,2022-04-23 19:00:00,True,,0.0,True
+br_football,Serie A,2022-04-24,Santos,América Mineiro,Santos,2022-04-24 16:00:00,2022-04-24 16:00:00,True,,0.0,True
+br_football,Copa do Brasil,2022-04-30,Palmeiras,Juazeirense,Barueri,2022-04-30 21:00:00,2022-04-30 21:00:00,True,,0.0,True
+br_football,Serie A,2022-05-08,Red Bull Bragantino,Corinthians,Bragança Paulista,2022-05-08 18:00:00,2022-05-08 18:00:00,True,,0.0,True
+br_football,Serie A,2022-05-08,Santos,Cuiabá,Santos,2022-05-08 18:00:00,2022-05-08 18:00:00,True,,0.0,True
+br_football,Serie A,2022-05-08,Fortaleza,São Paulo,Fortaleza,2022-05-08 19:00:00,2022-05-08 19:00:00,True,,0.0,True
+br_football,Copa do Brasil,2022-05-11,Juazeirense,Palmeiras,Londrina,2022-05-11 19:00:00,2022-05-11 19:00:00,True,,0.0,True
+br_football,Copa do Brasil,2022-05-12,São Paulo,Juventude,Barueri,2022-05-12 19:30:00,2022-05-12 19:30:00,True,,0.0,True
+br_football,Copa do Brasil,2022-05-12,Santos,Coritiba,Santos,2022-05-12 21:30:00,2022-05-12 21:30:00,True,,0.0,True
+br_football,Serie A,2022-05-14,Internacional,Corinthians,Porto Alegre,2022-05-14 19:00:00,2022-05-14 19:00:00,True,,0.0,True
+br_football,Serie A,2022-05-15,Goiás,Santos,Goiânia,2022-05-15 19:00:00,2022-05-15 19:00:00,True,,0.0,True
+br_football,Serie A,2022-05-21,Santos,Ceará,Barueri,2022-05-21 18:30:00,2022-05-21 18:30:00,True,,0.0,True
+br_football,Serie A,2022-05-21,Juventude,Palmeiras,Caxias do Sul,2022-05-21 19:00:00,2022-05-21 19:00:00,True,,0.0,True
+br_football,Serie A,2022-05-29,Santos,Palmeiras,Santos,2022-05-29 16:00:00,2022-05-29 16:00:00,True,,0.0,True
+br_football,Serie A,2022-06-04,Athletico Paranaense,Santos,Curitiba,2022-06-04 19:00:00,2022-06-04 19:00:00,True,,0.0,True
+br_football,Serie A,2022-06-04,Avaí,São Paulo,Florianópolis,2022-06-04 19:00:00,2022-06-04 19:00:00,True,,0.0,True
+br_football,Serie A,2022-06-04,Atlético Goianiense,Corinthians,Goiânia,2022-06-04 20:30:00,2022-06-04 20:30:00,True,,0.0,True
+br_football,Serie A,2022-06-07,Cuiabá,Corinthians,Cuiabá,2022-06-07 21:30:00,2022-06-07 21:30:00,True,,0.0,True
+br_football,Serie A,2022-06-08,Santos,Internacional,Santos,2022-06-08 21:30:00,2022-06-08 21:30:00,True,,0.0,True
+br_football,Serie A,2022-06-09,Coritiba,São Paulo,Curitiba,2022-06-09 20:00:00,2022-06-09 20:00:00,True,,0.0,True
+br_football,Serie A,2022-06-11,Atlético Mineiro,Santos,Belo Horizonte,2022-06-11 19:00:00,2022-06-11 19:00:00,True,,0.0,True
+br_football,Serie A,2022-06-12,Coritiba,Palmeiras,Curitiba,2022-06-12 18:00:00,2022-06-12 18:00:00,True,,0.0,True
+br_football,Serie A,2022-06-14,Juventude,Santos,Caxias do Sul,2022-06-14 21:30:00,2022-06-14 21:30:00,True,,0.0,True
+br_football,Serie A,2022-06-15,Athletico Paranaense,Corinthians,Curitiba,2022-06-15 21:30:00,2022-06-15 21:30:00,True,,0.0,True
+br_football,Serie A,2022-06-16,Botafogo,São Paulo,Rio de Janeiro,2022-06-16 16:00:00,2022-06-16 16:00:00,True,,0.0,True
+br_football,Serie A,2022-06-18,Santos,Red Bull Bragantino,Santos,2022-06-18 21:00:00,2022-06-18 21:00:00,True,,0.0,True
+br_football,Serie A,2022-06-26,Avaí,Palmeiras,Florianópolis,2022-06-26 16:00:00,2022-06-26 16:00:00,True,,0.0,True
+br_football,Serie A,2022-07-02,Fluminense,Corinthians,Rio de Janeiro,2022-07-02 16:30:00,2022-07-02 16:30:00,True,,0.0,True
+br_football,Serie A,2022-07-02,Santos,Flamengo,Santos,2022-07-02 19:00:00,2022-07-02 19:00:00,True,,0.0,True
+br_football,Serie A,2022-07-03,Atlético Goianiense,São Paulo,Goiânia,2022-07-03 16:00:00,2022-07-03 16:00:00,True,,0.0,True
+br_football,Serie A,2022-07-10,Santos,Atlético Goianiense,Santos,2022-07-10 18:00:00,2022-07-10 18:00:00,True,,0.0,True
+br_football,Serie A,2022-07-10,Atlético Mineiro,São Paulo,Belo Horizonte,2022-07-10 18:00:00,2022-07-10 18:00:00,True,,0.0,True
+br_football,Serie A,2022-07-10,Fortaleza,Palmeiras,Fortaleza,2022-07-10 18:00:00,2022-07-10 18:00:00,True,,0.0,True
+br_football,Copa do Brasil,2022-07-13,Santos,Corinthians,Santos,2022-07-13 21:30:00,2022-07-13 21:30:00,True,,0.0,True
+br_football,Serie A,2022-07-16,Avaí,Santos,Florianópolis,2022-07-16 19:00:00,2022-07-16 19:00:00,True,,0.0,True
+br_football,Serie A,2022-07-16,Ceará,Corinthians,Fortaleza,2022-07-16 21:00:00,2022-07-16 21:00:00,True,,0.0,True
+br_football,Serie A,2022-07-20,Internacional,São Paulo,Porto Alegre,2022-07-20 20:30:00,2022-07-20 20:30:00,True,,0.0,True
+br_football,Serie A,2022-07-20,Santos,Botafogo,Santos,2022-07-20 21:30:00,2022-07-20 21:30:00,True,,0.0,True
+br_football,Serie A,2022-07-21,América Mineiro,Palmeiras,Belo Horizonte,2022-07-21 20:00:00,2022-07-21 20:00:00,True,,0.0,True
+br_football,Serie A,2022-07-24,Atlético Mineiro,Corinthians,Belo Horizonte,2022-07-24 18:00:00,2022-07-24 18:00:00,True,,0.0,True
+br_football,Serie A,2022-07-24,Fortaleza,Santos,Fortaleza,2022-07-24 19:00:00,2022-07-24 19:00:00,True,,0.0,True
+br_football,Copa do Brasil,2022-07-27,Atlético Goianiense,Corinthians,Goiânia,2022-07-27 21:30:00,2022-07-27 21:30:00,True,,0.0,True
+br_football,Serie A,2022-07-30,Ceará,Palmeiras,Fortaleza,2022-07-30 16:30:00,2022-07-30 16:30:00,True,,0.0,True
+br_football,Serie A,2022-07-31,Athletico Paranaense,São Paulo,Curitiba,2022-07-31 16:00:00,2022-07-31 16:00:00,True,,0.0,True
+br_football,Serie A,2022-08-01,Santos,Fluminense,Santos,2022-08-01 20:00:00,2022-08-01 20:00:00,True,,0.0,True
+br_football,Serie A,2022-08-06,Avaí,Corinthians,Florianópolis,2022-08-06 19:00:00,2022-08-06 19:00:00,True,,0.0,True
+br_football,Serie A,2022-08-08,Coritiba,Santos,Curitiba,2022-08-08 20:00:00,2022-08-08 20:00:00,True,,0.0,True
+br_football,Serie A,2022-08-14,América Mineiro,Santos,Belo Horizonte,2022-08-14 18:00:00,2022-08-14 18:00:00,True,,0.0,True
+br_football,Copa do Brasil,2022-08-18,América Mineiro,São Paulo,Belo Horizonte,2022-08-18 21:00:00,2022-08-18 21:00:00,True,,0.0,True
+br_football,Serie A,2022-08-21,Fortaleza,Corinthians,Fortaleza,2022-08-21 18:00:00,2022-08-21 18:00:00,True,,0.0,True
+br_football,Serie A,2022-08-21,Santos,São Paulo,Santos,2022-08-21 19:00:00,2022-08-21 19:00:00,True,,0.0,True
+br_football,Copa do Brasil,2022-08-24,Fluminense,Corinthians,Rio de Janeiro,2022-08-24 19:30:00,2022-08-24 19:30:00,True,,0.0,True
+br_football,Serie A,2022-08-27,Fluminense,Palmeiras,Rio de Janeiro,2022-08-27 19:00:00,2022-08-27 19:00:00,True,,0.0,True
+br_football,Serie A,2022-08-28,Cuiabá,Santos,Cuiabá,2022-08-28 18:00:00,2022-08-28 18:00:00,True,,0.0,True
+br_football,Serie A,2022-09-03,Red Bull Bragantino,Palmeiras,Bragança Paulista,2022-09-03 19:00:00,2022-09-03 19:00:00,True,,0.0,True
+br_football,Serie A,2022-09-04,Cuiabá,São Paulo,Cuiabá,2022-09-04 19:00:00,2022-09-04 19:00:00,True,,0.0,True
+br_football,Serie A,2022-09-05,Santos,Goiás,Santos,2022-09-05 20:00:00,2022-09-05 20:00:00,True,,0.0,True
+br_football,Serie A,2022-09-10,Ceará,Santos,Fortaleza,2022-09-10 16:30:00,2022-09-10 16:30:00,True,,0.0,True
+br_football,Copa do Brasil,2022-09-14,Flamengo,São Paulo,Rio de Janeiro,2022-09-14 21:45:00,2022-09-14 22:00:00,True,,-15.0,True
+br_football,Serie A,2022-09-18,Ceará,São Paulo,Fortaleza,2022-09-18 16:00:00,2022-09-18 16:00:00,True,,0.0,True
+br_football,Serie A,2022-09-18,América Mineiro,Corinthians,Belo Horizonte,2022-09-18 18:00:00,2022-09-18 18:00:00,True,,0.0,True
+br_football,Serie A,2022-09-27,Santos,Athletico Paranaense,Santos,2022-09-27 21:00:00,2022-09-27 21:00:00,True,,0.0,True
+br_football,Serie A,2022-09-28,Atlético Mineiro,Palmeiras,Belo Horizonte,2022-09-28 21:45:00,2022-09-28 22:00:00,True,,-15.0,True
+br_football,Serie A,2022-10-01,Internacional,Santos,Porto Alegre,2022-10-01 15:00:00,2022-10-01 15:00:00,True,,0.0,True
+br_football,Serie A,2022-10-03,Botafogo,Palmeiras,Rio de Janeiro,2022-10-03 20:00:00,2022-10-03 20:00:00,True,,0.0,True
+br_football,Serie A,2022-10-04,Juventude,Corinthians,Caxias do Sul,2022-10-04 21:30:00,2022-10-04 21:30:00,True,,0.0,True
+br_football,Serie A,2022-10-05,Santos,Atlético Mineiro,Santos,2022-10-05 21:30:00,2022-10-05 21:30:00,True,,0.0,True
+br_football,Serie A,2022-10-06,América Mineiro,São Paulo,Belo Horizonte,2022-10-06 20:00:00,2022-10-06 20:00:00,True,,0.0,True
+br_football,Serie A,2022-10-10,Atlético Goianiense,Palmeiras,Goiânia,2022-10-10 18:30:00,2022-10-10 18:30:00,True,,0.0,True
+br_football,Serie A,2022-10-10,Santos,Juventude,Santos,2022-10-10 20:00:00,2022-10-10 20:00:00,True,,0.0,True
+br_football,Serie A,2022-10-17,Red Bull Bragantino,Santos,Bragança Paulista,2022-10-17 20:00:00,2022-10-17 20:00:00,True,,0.0,True
+br_football,Copa do Brasil,2022-10-19,Flamengo,Corinthians,Rio de Janeiro,2022-10-19 21:45:00,2022-10-19 22:00:00,True,,-15.0,True
+br_football,Serie A,2022-10-22,Santos,Corinthians,Santos,2022-10-22 19:00:00,2022-10-22 19:00:00,True,,0.0,True
+br_football,Serie A,2022-10-23,Juventude,São Paulo,Caxias do Sul,2022-10-23 16:00:00,2022-10-23 16:00:00,True,,0.0,True
+br_football,Serie A,2022-10-25,Flamengo,Santos,Rio de Janeiro,2022-10-25 21:45:00,2022-10-25 22:00:00,True,,-15.0,True
+br_football,Serie A,2022-10-25,Athletico Paranaense,Palmeiras,Curitiba,2022-10-25 21:45:00,2022-10-25 22:00:00,True,,-15.0,True
+br_football,Serie A,2022-10-29,Goiás,Corinthians,Goiânia,2022-10-29 19:30:00,2022-10-29 19:30:00,True,,0.0,True
+br_football,Serie A,2022-11-02,Atlético Goianiense,Santos,Goiânia,2022-11-02 19:00:00,2022-11-02 19:00:00,True,,0.0,True
+br_football,Serie A,2022-11-02,Flamengo,Corinthians,Rio de Janeiro,2022-11-02 21:30:00,2022-11-02 21:30:00,True,,0.0,True
+br_football,Serie A,2022-11-05,Santos,Avaí,Barueri,2022-11-05 16:30:00,2022-11-05 16:30:00,True,,0.0,True
+br_football,Serie A,2022-11-05,Fluminense,São Paulo,Rio de Janeiro,2022-11-05 16:30:00,2022-11-05 16:30:00,True,,0.0,True
+br_football,Serie A,2022-11-06,Cuiabá,Palmeiras,Cuiabá,2022-11-06 18:30:00,2022-11-06 18:30:00,True,,0.0,True
+br_football,Serie A,2022-11-09,Coritiba,Corinthians,Curitiba,2022-11-09 19:00:00,2022-11-09 19:00:00,True,,0.0,True
+br_football,Serie A,2022-11-10,Botafogo,Santos,Rio de Janeiro,2022-11-10 20:00:00,2022-11-10 20:00:00,True,,0.0,True
+br_football,Serie A,2022-11-13,Goiás,São Paulo,Goiânia,2022-11-13 16:00:00,2022-11-13 16:00:00,True,,0.0,True
+br_football,Serie A,2022-11-13,Internacional,Palmeiras,Porto Alegre,2022-11-13 16:00:00,2022-11-13 16:00:00,True,,0.0,True
+br_football,Serie A,2022-11-13,Santos,Fortaleza,Santos,2022-11-13 16:00:00,2022-11-13 16:00:00,True,,0.0,True
+br_football,Copa do Brasil,2023-02-23,Ceilândia,Santos,Taguatinga,2023-02-23 20:00:00,2023-02-23 20:00:00,True,,0.0,True
+br_football,Copa do Brasil,2023-03-09,Santos,Iguatu,Santos,2023-03-09 21:30:00,,False,,,False
+br_football,Copa do Brasil,2023-04-11,Botafogo-SP,Santos,Ribeirão Preto,2023-04-11 19:00:00,2023-04-11 19:00:00,True,,0.0,True
+br_football,Copa do Brasil,2023-04-12,Remo,Corinthians,Belém,2023-04-12 21:30:00,2023-04-12 21:30:00,True,,0.0,True
+br_football,Serie A,2023-04-15,Botafogo,São Paulo,Rio de Janeiro,2023-04-15 18:30:00,2023-04-15 18:30:00,True,,0.0,True
+br_football,Serie A,2023-04-16,Grêmio,Santos,Caxias do Sul,2023-04-16 18:30:00,2023-04-16 18:30:00,True,,0.0,True
+br_football,Serie A,2023-04-23,Vasco,Palmeiras,Rio de Janeiro,2023-04-23 16:00:00,2023-04-23 16:00:00,True,,0.0,True
+br_football,Serie A,2023-04-23,Santos,Atlético Mineiro,Santos,2023-04-23 16:00:00,2023-04-23 16:00:00,True,,0.0,True
+br_football,Serie A,2023-04-23,Goiás,Corinthians,Goiânia,2023-04-23 19:00:00,2023-04-23 19:00:00,True,,0.0,True
+br_football,Copa do Brasil,2023-04-25,Ituano,São Paulo,Itu,2023-04-25 21:30:00,2023-04-25 21:30:00,True,,0.0,True
+br_football,Copa do Brasil,2023-04-26,Santos,Botafogo-SP,Santos,2023-04-26 19:00:00,2023-04-26 19:00:00,True,,0.0,True
+br_football,Copa do Brasil,2023-04-26,Tombense,Palmeiras,Uberlândia,2023-04-26 20:00:00,2023-04-26 20:00:00,True,,0.0,True
+br_football,Serie A,2023-04-29,Coritiba,São Paulo,Curitiba,2023-04-29 16:30:00,2023-04-29 16:30:00,True,,0.0,True
+br_football,Serie A,2023-04-29,Santos,América Mineiro,Santos,2023-04-29 18:30:00,2023-04-29 18:30:00,True,,0.0,True
+br_football,Serie A,2023-05-06,Cruzeiro,Santos,Belo Horizonte,2023-05-06 16:00:00,2023-05-06 16:00:00,True,,0.0,True
+br_football,Serie A,2023-05-07,Goiás,Palmeiras,Goiânia,2023-05-07 18:30:00,2023-05-07 18:30:00,True,,0.0,True
+br_football,Serie A,2023-05-10,Santos,Bahia,Santos,2023-05-10 19:00:00,2023-05-10 19:00:00,True,,0.0,True
+br_football,Serie A,2023-05-11,Botafogo,Corinthians,Rio de Janeiro,2023-05-11 19:30:00,2023-05-11 19:30:00,True,,0.0,True
+br_football,Serie A,2023-05-11,Fortaleza,São Paulo,Fortaleza,2023-05-11 20:00:00,2023-05-11 20:00:00,True,,0.0,True
+br_football,Serie A,2023-05-14,Vasco,Santos,Rio de Janeiro,2023-05-14 16:00:00,2023-05-14 16:00:00,True,,0.0,True
+br_football,Copa do Brasil,2023-05-17,Santos,Bahia,Santos,2023-05-17 19:00:00,2023-05-17 19:00:00,True,,0.0,True
+br_football,Copa do Brasil,2023-05-17,Sport,São Paulo,Recife,2023-05-17 20:00:00,2023-05-17 20:00:00,True,,0.0,True
+br_football,Copa do Brasil,2023-05-17,Atlético Mineiro,Corinthians,Belo Horizonte,2023-05-17 21:30:00,2023-05-17 21:30:00,True,,0.0,True
+br_football,Serie A,2023-05-20,Santos,Palmeiras,Santos,2023-05-20 21:00:00,2023-05-20 21:00:00,True,,0.0,True
+br_football,Serie A,2023-05-21,Flamengo,Corinthians,Rio de Janeiro,2023-05-21 16:00:00,2023-05-21 16:00:00,True,,0.0,True
+br_football,Serie A,2023-05-28,Atlético Mineiro,Palmeiras,Belo Horizonte,2023-05-28 18:30:00,2023-05-28 18:30:00,True,,0.0,True
+br_football,Serie A,2023-05-28,Red Bull Bragantino,Santos,Bragança Paulista,2023-05-28 18:30:00,2023-05-28 18:30:00,True,,0.0,True
+br_football,Copa do Brasil,2023-05-31,Bahia,Santos,Salvador,2023-05-31 19:00:00,2023-05-31 19:00:00,True,,0.0,True
+br_football,Copa do Brasil,2023-05-31,Fortaleza,Palmeiras,Fortaleza,2023-05-31 19:00:00,2023-05-31 19:00:00,True,,0.0,True
+br_football,Serie A,2023-06-03,América Mineiro,Corinthians,Belo Horizonte,2023-06-03 18:30:00,2023-06-03 18:30:00,True,,0.0,True
+br_football,Serie A,2023-06-03,Santos,Internacional,Santos,2023-06-03 21:00:00,2023-06-03 21:00:00,True,,0.0,True
+br_football,Serie A,2023-06-04,Grêmio,São Paulo,Porto Alegre,2023-06-04 16:00:00,2023-06-04 16:00:00,True,,0.0,True
+br_football,Serie A,2023-06-10,Coritiba,Santos,Curitiba,2023-06-10 16:00:00,2023-06-10 16:00:00,True,,0.0,True
+br_football,Serie A,2023-06-21,Santos,Corinthians,Santos,2023-06-21 20:00:00,2023-06-21 20:00:00,True,,0.0,True
+br_football,Serie A,2023-06-21,Bahia,Palmeiras,Salvador,2023-06-21 21:30:00,2023-06-21 21:30:00,True,,0.0,True
+br_football,Serie A,2023-06-24,Athletico Paranaense,Corinthians,Curitiba,2023-06-24 16:00:00,2023-06-24 16:00:00,True,,0.0,True
+br_football,Serie A,2023-06-24,Cruzeiro,São Paulo,Belo Horizonte,2023-06-24 21:00:00,2023-06-24 21:00:00,True,,0.0,True
+br_football,Serie A,2023-06-25,Santos,Flamengo,Santos,2023-06-25 18:30:00,2023-06-25 18:30:00,True,,0.0,True
+br_football,Serie A,2023-07-02,Athletico Paranaense,Palmeiras,Curitiba,2023-07-02 16:00:00,2023-07-02 16:00:00,True,,0.0,True
+br_football,Serie A,2023-07-02,Cuiabá,Santos,Cuiabá,2023-07-02 18:30:00,2023-07-02 18:30:00,True,,0.0,True
+br_football,Copa do Brasil,2023-07-05,América Mineiro,Corinthians,Belo Horizonte,2023-07-05 21:30:00,2023-07-05 21:30:00,True,,0.0,True
+br_football,Serie A,2023-07-08,Atlético Mineiro,Corinthians,Belo Horizonte,2023-07-08 18:30:00,2023-07-08 18:30:00,True,,0.0,True
+br_football,Serie A,2023-07-09,Santos,Goiás,Santos,2023-07-09 11:00:00,2023-07-09 11:00:00,True,,0.0,True
+br_football,Serie A,2023-07-09,Red Bull Bragantino,São Paulo,Bragança Paulista,2023-07-09 16:00:00,2023-07-09 16:00:00,True,,0.0,True
+br_football,Serie A,2023-07-16,Internacional,Palmeiras,Porto Alegre,2023-07-16 18:30:00,2023-07-16 18:30:00,True,,0.0,True
+br_football,Serie A,2023-07-22,Bahia,Corinthians,Salvador,2023-07-22 18:30:00,2023-07-22 18:30:00,True,,0.0,True
+br_football,Serie A,2023-07-22,Cuiabá,São Paulo,Cuiabá,2023-07-22 18:30:00,2023-07-22 18:30:00,True,,0.0,True
+br_football,Serie A,2023-07-23,Santos,Botafogo,Santos,2023-07-23 16:00:00,2023-07-23 16:00:00,True,,0.0,True
+br_football,Serie A,2023-07-29,Fluminense,Santos,Rio de Janeiro,2023-07-29 16:00:00,2023-07-29 16:00:00,True,,0.0,True
+br_football,Serie A,2023-07-30,América Mineiro,Palmeiras,Belo Horizonte,2023-07-30 16:00:00,2023-07-30 16:00:00,True,,0.0,True
+br_football,Serie A,2023-08-05,Santos,Athletico Paranaense,Santos,2023-08-05 16:00:00,2023-08-05 16:00:00,True,,0.0,True
+br_football,Serie A,2023-08-05,Internacional,Corinthians,Porto Alegre,2023-08-05 18:30:00,2023-08-05 18:30:00,True,,0.0,True
+br_football,Serie A,2023-08-05,Fluminense,Palmeiras,Rio de Janeiro,2023-08-05 21:00:00,2023-08-05 21:00:00,True,,0.0,True
+br_football,Serie A,2023-08-13,Flamengo,São Paulo,Rio de Janeiro,2023-08-13 18:30:00,2023-08-13 18:30:00,True,,0.0,True
+br_football,Serie A,2023-08-13,Fortaleza,Santos,Fortaleza,2023-08-13 18:30:00,2023-08-13 18:30:00,True,,0.0,True
+br_football,Serie A,2023-08-19,Cuiabá,Palmeiras,Cuiabá,2023-08-19 18:30:00,2023-08-19 18:30:00,True,,0.0,True
+br_football,Serie A,2023-08-19,Cruzeiro,Corinthians,Belo Horizonte,2023-08-19 21:00:00,2023-08-19 21:00:00,True,,0.0,True
+br_football,Serie A,2023-08-20,Santos,Grêmio,Santos,2023-08-20 16:00:00,2023-08-20 16:00:00,True,,0.0,True
+br_football,Serie A,2023-08-27,América Mineiro,São Paulo,Belo Horizonte,2023-08-27 16:00:00,2023-08-27 16:00:00,True,,0.0,True
+br_football,Serie A,2023-08-27,Atlético Mineiro,Santos,Belo Horizonte,2023-08-27 16:00:00,2023-08-27 16:00:00,True,,0.0,True
+br_football,Serie A,2023-09-03,América Mineiro,Santos,Belo Horizonte,2023-09-03 18:30:00,2023-09-03 18:30:00,True,,0.0,True
+br_football,Serie A,2023-09-13,Internacional,São Paulo,Porto Alegre,2023-09-13 21:30:00,2023-09-13 21:30:00,True,,0.0,True
+br_football,Serie A,2023-09-14,Fortaleza,Corinthians,Fortaleza,2023-09-14 19:00:00,2023-09-14 19:00:00,True,,0.0,True
+br_football,Serie A,2023-09-14,Santos,Cruzeiro,Santos,2023-09-14 19:00:00,2023-09-14 19:00:00,True,,0.0,True
+br_football,Copa do Brasil,2023-09-17,Flamengo,São Paulo,Rio de Janeiro,2023-09-17 16:00:00,2023-09-17 16:00:00,True,,0.0,True
+br_football,Serie A,2023-09-18,Bahia,Santos,Salvador,2023-09-18 20:00:00,2023-09-18 20:00:00,True,,0.0,True
+br_football,Serie A,2023-09-21,Grêmio,Palmeiras,Porto Alegre,2023-09-21 21:30:00,2023-09-21 21:30:00,True,,0.0,True
+br_football,Serie A,2023-10-01,Santos,Vasco,Santos,2023-10-01 16:00:00,2023-10-01 16:00:00,True,,0.0,True
+br_football,Serie A,2023-10-01,Red Bull Bragantino,Palmeiras,Bragança Paulista,2023-10-01 18:30:00,2023-10-01 18:30:00,True,,0.0,True
+br_football,Serie A,2023-10-07,Vasco,São Paulo,Rio de Janeiro,2023-10-07 18:30:00,2023-10-07 18:30:00,True,,0.0,True
+br_football,Serie A,2023-10-08,Palmeiras,Santos,Barueri,2023-10-08 16:00:00,2023-10-08 16:00:00,True,,0.0,True
+br_football,Serie A,2023-10-18,Goiás,São Paulo,Goiânia,2023-10-18 21:30:00,2023-10-18 21:30:00,True,,0.0,True
+br_football,Serie A,2023-10-19,Santos,Red Bull Bragantino,Santos,2023-10-19 20:00:00,2023-10-19 20:00:00,True,,0.0,True
+br_football,Serie A,2023-10-19,Fluminense,Corinthians,Rio de Janeiro,2023-10-19 21:30:00,2023-10-19 21:30:00,True,,0.0,True
+br_football,Serie A,2023-10-22,Internacional,Santos,Porto Alegre,2023-10-22 16:00:00,2023-10-22 16:00:00,True,,0.0,True
+br_football,Serie A,2023-10-22,Coritiba,Palmeiras,Curitiba,2023-10-22 18:30:00,2023-10-22 18:30:00,True,,0.0,True
+br_football,Serie A,2023-10-25,Cuiabá,Corinthians,Cuiabá,2023-10-25 21:30:00,2023-10-25 21:30:00,True,,0.0,True
+br_football,Serie A,2023-10-26,Santos,Coritiba,Santos,2023-10-26 21:30:00,2023-10-26 21:30:00,True,,0.0,True
+br_football,Serie A,2023-10-29,Athletico Paranaense,São Paulo,Curitiba,2023-10-29 16:00:00,2023-10-29 16:00:00,True,,0.0,True
+br_football,Serie A,2023-11-01,Flamengo,Santos,Brasília,2023-11-01 20:00:00,2023-11-01 20:00:00,True,,0.0,True
+br_football,Serie A,2023-11-01,Botafogo,Palmeiras,Rio de Janeiro,2023-11-01 21:30:00,2023-11-01 21:30:00,True,,0.0,True
+br_football,Serie A,2023-11-04,Palmeiras,Athletico Paranaense,Barueri,2023-11-04 21:30:00,2023-11-04 21:30:00,True,,0.0,True
+br_football,Serie A,2023-11-05,Red Bull Bragantino,Corinthians,Bragança Paulista,2023-11-05 16:00:00,2023-11-05 16:00:00,True,,0.0,True
+br_football,Serie A,2023-11-06,Santos,Cuiabá,Santos,2023-11-06 21:00:00,2023-11-06 21:00:00,True,,0.0,True
+br_football,Serie A,2023-11-08,São Paulo,Red Bull Bragantino,Santos,2023-11-08 20:00:00,2023-11-08 20:00:00,True,,0.0,True
+br_football,Serie A,2023-11-08,Flamengo,Palmeiras,Rio de Janeiro,2023-11-08 21:30:00,2023-11-08 21:30:00,True,,0.0,True
+br_football,Serie A,2023-11-09,Goiás,Santos,Goiânia,2023-11-09 19:00:00,2023-11-09 19:00:00,True,,0.0,True
+br_football,Serie A,2023-11-11,Palmeiras,Internacional,Barueri,2023-11-11 21:00:00,2023-11-11 21:00:00,True,,0.0,True
+br_football,Serie A,2023-11-12,Grêmio,Corinthians,Porto Alegre,2023-11-12 16:00:00,2023-11-12 16:00:00,True,,0.0,True
+br_football,Serie A,2023-11-12,Santos,São Paulo,Santos,2023-11-12 18:30:00,2023-11-12 18:30:00,True,,0.0,True
+br_football,Serie A,2023-11-22,Fluminense,São Paulo,Rio de Janeiro,2023-11-22 21:30:00,2023-11-22 21:30:00,True,,0.0,True
+br_football,Serie A,2023-11-26,Botafogo,Santos,Rio de Janeiro,2023-11-26 16:00:00,2023-11-26 16:00:00,True,,0.0,True
+br_football,Serie A,2023-11-26,Fortaleza,Palmeiras,Fortaleza,2023-11-26 18:30:00,2023-11-26 18:30:00,True,,0.0,True
+br_football,Serie A,2023-11-28,Vasco da Gama,Corinthians,Rio de Janeiro,2023-11-28 21:30:00,2023-11-28 21:30:00,True,,0.0,True
+br_football,Serie A,2023-11-29,Santos,Fluminense,Santos,2023-11-29 19:00:00,2023-11-29 19:00:00,True,,0.0,True
+br_football,Serie A,2023-11-29,Bahia,São Paulo,Salvador,2023-11-29 20:00:00,2023-11-29 20:00:00,True,,0.0,True
+br_football,Serie A,2023-12-02,Atlético Mineiro,São Paulo,Belo Horizonte,2023-12-02 21:00:00,2023-12-02 21:00:00,True,,0.0,True
+br_football,Serie A,2023-12-03,Athletico Paranaense,Santos,Curitiba,2023-12-03 18:30:00,2023-12-03 18:30:00,True,,0.0,True
+br_football,Serie A,2023-12-06,Coritiba,Corinthians,Curitiba,2023-12-06 21:30:00,2023-12-06 21:30:00,True,,0.0,True
+br_football,Serie A,2023-12-06,Santos,Fortaleza,Santos,2023-12-06 21:30:00,2023-12-06 21:30:00,True,,0.0,True
+br_football,Serie A,2023-12-06,Cruzeiro,Palmeiras,Belo Horizonte,2023-12-06 21:30:00,2023-12-06 21:30:00,True,,0.0,True
+pagina_edicao,Recopa Sudamericana,2022-02-23,Athletico Paranaense,Palmeiras,"Curitiba, Brazil",2022-02-23 21:30:00,2022-02-23 21:30:00,True,-3.0,0.0,True
+pagina_edicao,Copa Sudamericana,2022-04-05,Banfield,Santos,"Banfield, Argentina",2022-04-05 19:15:00,2022-04-05 19:15:00,True,-3.0,0.0,True
+pagina_edicao,Copa Libertadores,2022-04-05,Always Ready,Corinthians,"La Paz, Bolivia",2022-04-05 21:30:00,2022-04-05 21:30:00,True,-4.0,0.0,True
+pagina_edicao,Copa Libertadores,2022-04-06,Deportivo Táchira,Palmeiras,"San Cristóbal, Venezuela",2022-04-06 21:00:00,2022-04-06 21:00:00,True,-4.0,0.0,True
+pagina_edicao,Copa Sudamericana,2022-04-07,Ayacucho,São Paulo,"Lima, Peru",2022-04-07 21:30:00,2022-04-07 21:30:00,True,-5.0,0.0,True
+pagina_edicao,Copa Sudamericana,2022-04-13,Santos,Universidad Católica,"Santos, Brazil",2022-04-13 19:15:00,2022-04-13 19:15:00,True,-3.0,0.0,True
+pagina_edicao,Copa Libertadores,2022-04-27,Emelec,Palmeiras,"Guayaquil, Ecuador",2022-04-27 21:00:00,2022-04-27 21:00:00,True,-5.0,0.0,True
+pagina_edicao,Copa Sudamericana,2022-04-28,Jorge Wilstermann,São Paulo,"Cochabamba, Bolivia",2022-04-28 19:15:00,2022-04-28 19:15:00,True,-4.0,0.0,True
+pagina_edicao,Copa Sudamericana,2022-04-28,Unión La Calera,Santos,"Viña del Mar, Chile",2022-04-28 21:30:00,2022-04-28 21:30:00,True,-4.0,0.0,True
+pagina_edicao,Copa Libertadores,2022-05-03,Independiente Petrolero,Palmeiras,"Sucre, Bolivia",2022-05-03 21:30:00,2022-05-03 21:30:00,True,-4.0,0.0,True
+pagina_edicao,Copa Libertadores,2022-05-04,Deportivo Cali,Corinthians,"Palmira, Colombia",2022-05-04 21:00:00,2022-05-04 21:00:00,True,-5.0,0.0,True
+pagina_edicao,Copa Sudamericana,2022-05-05,Everton,São Paulo,"Viña del Mar, Chile",2022-05-05 19:15:00,2022-05-05 19:15:00,True,-4.0,0.0,True
+pagina_edicao,Copa Sudamericana,2022-05-05,Universidad Católica,Santos,"Quito, Ecuador",2022-05-05 21:30:00,2022-05-05 21:30:00,True,-5.0,0.0,True
+pagina_edicao,Copa Libertadores,2022-05-17,Boca Juniors,Corinthians,"Buenos Aires, Argentina",2022-05-17 21:30:00,2022-05-17 21:30:00,True,-3.0,0.0,True
+pagina_edicao,Copa Sudamericana,2022-05-18,Santos,Unión La Calera,"Santos, Brazil",2022-05-18 21:30:00,2022-05-18 21:30:00,True,-3.0,0.0,True
+pagina_edicao,Copa Sudamericana,2022-05-24,Santos,Banfield,"Santos, Brazil",2022-05-24 19:15:00,2022-05-24 19:15:00,True,-3.0,0.0,True
+pagina_edicao,Copa Libertadores,2022-06-29,Cerro Porteño,Palmeiras,"Asunción, Paraguay",2022-06-29 19:15:00,,False,,,False
+pagina_edicao,Copa Sudamericana,2022-06-29,Deportivo Táchira,Santos,"San Cristóbal, Venezuela",2022-06-29 21:30:00,2022-06-29 21:30:00,True,-4.0,0.0,True
+pagina_edicao,Copa Sudamericana,2022-06-30,Universidad Católica,São Paulo,"Santiago, Chile",2022-06-30 21:30:00,2022-06-30 21:30:00,True,-4.0,0.0,True
+pagina_edicao,Copa Libertadores,2022-07-05,Boca Juniors,Corinthians,"Buenos Aires, Argentina",2022-07-05 21:30:00,,False,,,False
+pagina_edicao,Copa Sudamericana,2022-07-06,Santos,Deportivo Táchira,"Santos, Brazil",2022-07-06 21:30:00,2022-07-06 21:30:00,True,-3.0,0.0,True
+pagina_edicao,Copa Libertadores,2022-08-03,Atlético Mineiro,Palmeiras,"Belo Horizonte, Brazil",2022-08-03 21:30:00,,False,,,False
+pagina_edicao,Copa Libertadores,2022-08-09,Flamengo,Corinthians,"Rio de Janeiro, Brazil",2022-08-09 21:30:00,,False,,,False
+pagina_edicao,Copa Sudamericana,2022-08-10,Ceará,São Paulo,"Fortaleza, Brazil",2022-08-10 19:15:00,2022-08-10 19:15:00,True,-3.0,0.0,True
+pagina_edicao,Copa Libertadores,2022-08-30,Athletico Paranaense,Palmeiras,"Curitiba, Brazil",2022-08-30 21:30:00,,False,,,False
+pagina_edicao,Copa Sudamericana,2022-09-01,Atlético Goianiense,São Paulo,"Goiânia, Brazil",2022-09-01 21:30:00,2022-09-01 21:30:00,True,-3.0,0.0,True
+pagina_edicao,Copa Sudamericana,2022-10-01,São Paulo,Independiente del Valle,"Córdoba, Argentina",2022-10-01 17:00:00,,False,,,False
+pagina_edicao,Copa Sudamericana,2023-04-04,Blooming,Santos,"Santa Cruz de la Sierra, Bolivia",2023-04-04 21:30:00,2023-04-04 21:30:00,True,-4.0,0.0,True
+pagina_edicao,Copa Libertadores,2023-04-05,Bolívar,Palmeiras,"La Paz, Bolivia",2023-04-05 21:30:00,2023-04-05 21:30:00,True,-4.0,0.0,True
+pagina_edicao,Copa Libertadores,2023-04-06,Liverpool,Corinthians,"Montevideo, Uruguay",2023-04-06 19:00:00,2023-04-06 19:00:00,True,-3.0,0.0,True
+pagina_edicao,Copa Sudamericana,2023-04-06,Tigre,São Paulo,"Victoria, Argentina",2023-04-06 21:00:00,2023-04-06 21:00:00,True,-3.0,0.0,True
+pagina_edicao,Copa Sudamericana,2023-04-20,Santos,Audax Italiano,"Santos, Brazil",2023-04-20 19:00:00,2023-04-20 19:00:00,True,-3.0,0.0,True
+pagina_edicao,Copa Sudamericana,2023-05-02,Tolima,São Paulo,"Ibagué, Colombia",2023-05-02 19:00:00,,False,,,False
+pagina_edicao,Copa Sudamericana,2023-05-02,Newell's Old Boys,Santos,"Rosario, Argentina",2023-05-02 21:30:00,2023-05-02 21:30:00,True,-3.0,0.0,True
+pagina_edicao,Copa Libertadores,2023-05-03,Barcelona,Palmeiras,"Guayaquil, Ecuador",2023-05-03 21:30:00,2023-05-03 21:30:00,True,-5.0,0.0,True
+pagina_edicao,Copa Sudamericana,2023-05-23,Academia Puerto Cabello,São Paulo,"Valencia, Venezuela",2023-05-23 21:30:00,2023-05-23 21:30:00,True,-4.0,0.0,True
+pagina_edicao,Copa Libertadores,2023-05-24,Cerro Porteño,Palmeiras,"Asunción, Paraguay",2023-05-24 19:00:00,2023-05-24 19:00:00,True,-4.0,0.0,True
+pagina_edicao,Copa Sudamericana,2023-05-24,Audax Italiano,Santos,"Rancagua, Chile",2023-05-24 21:00:00,2023-05-24 21:00:00,True,-4.0,0.0,True
+pagina_edicao,Copa Libertadores,2023-05-24,Argentinos Juniors,Corinthians,"Buenos Aires, Argentina",2023-05-24 21:30:00,2023-05-24 21:30:00,True,-3.0,0.0,True
+pagina_edicao,Copa Sudamericana,2023-06-06,Santos,Newell's Old Boys,"Santos, Brazil",2023-06-06 21:30:00,2023-06-06 21:30:00,True,-3.0,0.0,True
+pagina_edicao,Copa Libertadores,2023-06-07,Independiente del Valle,Corinthians,"Quito, Ecuador",2023-06-07 19:00:00,2023-06-07 19:00:00,True,-5.0,0.0,True
+pagina_edicao,Copa Sudamericana,2023-06-29,Santos,Blooming,"Santos, Brazil",2023-06-29 19:00:00,2023-06-29 19:00:00,True,-3.0,0.0,True
+pagina_edicao,Copa Sudamericana,2023-07-18,Universitario,Corinthians,"Lima, Peru",2023-07-18 21:30:00,2023-07-18 21:30:00,True,-5.0,0.0,True
+pagina_edicao,Copa Libertadores,2023-08-02,Atlético Mineiro,Palmeiras,"Belo Horizonte, Brazil",2023-08-02 21:30:00,,False,,,False
+pagina_edicao,Copa Sudamericana,2023-08-03,San Lorenzo,São Paulo,"Buenos Aires, Argentina",2023-08-03 19:00:00,2023-08-03 19:00:00,True,-3.0,0.0,True
+pagina_edicao,Copa Sudamericana,2023-08-08,Newell's Old Boys,Corinthians,"Rosario, Argentina",2023-08-08 21:30:00,2023-08-08 21:30:00,True,-3.0,0.0,True
+pagina_edicao,Copa Libertadores,2023-08-23,Deportivo Pereira,Palmeiras,"Pereira, Colombia",2023-08-23 21:30:00,,False,,,False
+pagina_edicao,Copa Sudamericana,2023-08-24,LDU,São Paulo,"Quito, Ecuador",2023-08-24 19:00:00,,False,,,False
+pagina_edicao,Copa Sudamericana,2023-08-29,Estudiantes,Corinthians,"La Plata, Argentina",2023-08-29 21:30:00,2023-08-29 21:30:00,True,-3.0,0.0,True
+pagina_edicao,Copa Libertadores,2023-09-28,Boca Juniors,Palmeiras,"Buenos Aires, Argentina",2023-09-28 21:30:00,,False,,,False
+pagina_edicao,Copa Sudamericana,2023-10-03,Fortaleza,Corinthians,"Fortaleza, Brazil",2023-10-03 21:30:00,2023-10-03 21:30:00,True,-3.0,0.0,True

@@ -1,0 +1,9 @@
+dominio,tipo,dias,dias_divergentes,max_abs_diff,total_novo,total_diario
+crimes,crime_todos,730,0,0,974737,974737
+crimes,crimes_violentos,730,0,0,377402,377402
+crimes,lesao_corporal_dolosa,730,0,0,65418,65418
+crimes,roubos_total,730,0,0,305029,305029
+crimes,furtos_total,730,0,0,561909,561909
+sinistros,acidentes_total,730,0,0,90829,90829
+sinistros,acidentes_com_vitima,730,0,0,58856,58856
+sinistros,atropelamentos,730,0,0,12152,12152

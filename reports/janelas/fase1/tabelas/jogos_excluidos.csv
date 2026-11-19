@@ -1,0 +1,9 @@
+jogo_id,competicao,mandante,visitante,estadio,cidade,motivo_exclusao,na_base_original,fonte_extra
+20220423_Palmeiras,Serie A,Palmeiras,Corinthians,Arena Barueri,Barueri,mando_fora_da_capital,True,https://www.campograndenews.com.br/esportes/palmeiras-e-melhor-e-vence-derby-por-3-a-0-em-barueri
+20220430_Palmeiras,Copa do Brasil,Palmeiras,Juazeirense,Arena Barueri,Barueri,mando_fora_da_capital,True,
+20220512_SaoPaulo,Copa do Brasil,Sao Paulo,EC Juventude,Arena Barueri,Barueri,mando_fora_da_capital,True,https://www.gazetaesportiva.com/?p=3196232
+20221001_SaoPaulo,Copa Sul-Americana,Sao Paulo,Independiente del Valle,Estadio Mario Alberto Kempes,Córdoba,campo_neutro_fora_do_estado,False,
+20231008_Palmeiras,Serie A,Palmeiras,Santos,Arena Barueri,Barueri,mando_fora_da_capital,True,https://www.abola.pt/noticias/the-weekend-despeja-palmeiras-e-abel-pode-ter-novembro-complicado-2023100621514310770
+20231104_Palmeiras,Serie A,Palmeiras,Athletico Paranaense,Arena Barueri,Barueri,mando_fora_da_capital,True,https://www.tribunadosertao.com.br/esportes/2023/11/08/556621-por-que-palmeiras-e-sao-paulo-nao-jogarao-em-seus-respectivos-estadios-no-brasileirao-entenda
+20231108_SaoPaulo,Serie A,Sao Paulo,Bragantino,Vila Belmiro,Santos,mando_fora_da_capital,True,https://www.itatiaia.com.br/editorias/saopaulo/2023/11/09/sao-paulo-vence-na-vila-e-impede-bragantino-de-assumir-lideranca-do-brasileiro/
+20231111_Palmeiras,Serie A,Palmeiras,Internacional,Arena Barueri,Barueri,mando_fora_da_capital,True,https://www.tribunadosertao.com.br/esportes/2023/11/08/556621-por-que-palmeiras-e-sao-paulo-nao-jogarao-em-seus-respectivos-estadios-no-brasileirao-entenda
