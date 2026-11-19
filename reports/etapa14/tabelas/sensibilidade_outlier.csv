@@ -1,0 +1,5 @@
+tratamento,tarefa,n_teste,n_pico_teste,recall,f1,pr_auc,MAE,RMSE
+com tratamento (projeto),classificacao,90,3.0,0.0,0.0,0.04719416386083053,,
+com tratamento (projeto),regressao,90,,,,,39.21536797417535,49.87991505078045
+sem tratamento (sensibilidade),classificacao,92,3.0,0.0,0.0,0.0546491120134531,,
+sem tratamento (sensibilidade),regressao,92,,,,,43.05046463012695,62.66670930468685

@@ -1,0 +1,127 @@
+data,numero_jogos_sp,mandante,visitante,campeonato,classico,horario_jogo,jogo_noturno,resultado_mandante,gols_mandante,gols_visitante,publico,publico_disponivel,capacidade_estadio,taxa_ocupacao,fonte_jogo
+2022-03-17,1,Sao Paulo,Manaus,Copa do Brasil,False,00:30:00,False,vitoria_mandante,2.0,0.0,,False,66795,,br_football_dataset
+2022-04-10,2,Palmeiras,Ceara,Serie A,False,01:00:00,False,derrota_mandante,2.0,3.0,,False,43713,,br_football_dataset
+2022-04-16,1,Corinthians,Avai,Serie A,False,23:00:00,True,vitoria_mandante,3.0,0.0,,False,49282,,br_football_dataset
+2022-04-23,1,Palmeiras,Corinthians,Serie A,True,23:00:00,True,vitoria_mandante,3.0,0.0,,False,43713,,br_football_dataset
+2022-05-01,2,Palmeiras,Juazeirense,Copa do Brasil,False,01:00:00,False,vitoria_mandante,2.0,1.0,,False,43713,,br_football_dataset
+2022-05-03,1,Sao Paulo,Santos,Serie A,True,00:00:00,False,vitoria_mandante,2.0,1.0,,False,66795,,br_football_dataset
+2022-05-08,1,Palmeiras,Fluminense,Serie A,False,20:00:00,True,empate,1.0,1.0,,False,43713,,br_football_dataset
+2022-05-12,2,Corinthians,Portuguesa RJ,Copa do Brasil,False,01:30:00,False,vitoria_mandante,2.0,0.0,,False,49282,,br_football_dataset
+2022-05-14,1,Palmeiras,Bragantino,Serie A,False,20:30:00,True,vitoria_mandante,2.0,0.0,,False,43713,,br_football_dataset
+2022-05-15,1,Sao Paulo,Cuiaba,Serie A,False,20:00:00,True,vitoria_mandante,2.0,1.0,,False,66795,,br_football_dataset
+2022-05-22,1,Corinthians,Sao Paulo,Serie A,True,20:00:00,True,empate,1.0,1.0,,False,49282,,br_football_dataset
+2022-05-28,1,Sao Paulo,Ceara,Serie A,False,23:00:00,True,empate,2.0,2.0,,False,66795,,br_football_dataset
+2022-05-29,1,Corinthians,America MG,Serie A,False,22:00:00,True,empate,1.0,1.0,,False,49282,,br_football_dataset
+2022-06-05,1,Palmeiras,Atletico Mineiro,Serie A,False,20:00:00,True,empate,0.0,0.0,,False,43713,,br_football_dataset
+2022-06-09,1,Palmeiras,Botafogo RJ,Serie A,False,23:00:00,True,vitoria_mandante,4.0,0.0,,False,43713,,br_football_dataset
+2022-06-11,1,Corinthians,EC Juventude,Serie A,False,20:30:00,True,vitoria_mandante,2.0,0.0,,False,49282,,br_football_dataset
+2022-06-12,1,Sao Paulo,America MG,Serie A,False,20:00:00,True,vitoria_mandante,1.0,0.0,,False,66795,,br_football_dataset
+2022-06-16,1,Palmeiras,Atletico Goianiense,Serie A,False,22:00:00,True,vitoria_mandante,4.0,2.0,,False,43713,,br_football_dataset
+2022-06-19,1,Corinthians,Goias,Serie A,False,20:00:00,True,vitoria_mandante,1.0,0.0,,False,49282,,br_football_dataset
+2022-06-21,1,Sao Paulo,Palmeiras,Serie A,True,00:00:00,False,derrota_mandante,1.0,2.0,,False,66795,,br_football_dataset
+2022-06-23,1,Corinthians,Santos,Copa do Brasil,True,01:30:00,False,vitoria_mandante,4.0,0.0,,False,49282,,br_football_dataset
+2022-06-24,1,Sao Paulo,Palmeiras,Copa do Brasil,True,00:00:00,False,vitoria_mandante,1.0,0.0,,False,66795,,br_football_dataset
+2022-06-25,1,Corinthians,Santos,Serie A,True,23:00:00,True,empate,0.0,0.0,,False,49282,,br_football_dataset
+2022-06-26,1,Sao Paulo,EC Juventude,Serie A,False,22:00:00,True,empate,0.0,0.0,,False,66795,,br_football_dataset
+2022-07-03,1,Palmeiras,Athletico Paranaense,Serie A,False,01:00:00,False,derrota_mandante,0.0,2.0,,False,43713,,br_football_dataset
+2022-07-10,1,Corinthians,Flamengo,Serie A,False,20:00:00,True,vitoria_mandante,1.0,0.0,,False,49282,,br_football_dataset
+2022-07-15,1,Palmeiras,Sao Paulo,Copa do Brasil,True,00:00:00,False,vitoria_mandante,2.0,1.0,,False,43713,,br_football_dataset
+2022-07-17,1,Sao Paulo,Fluminense,Serie A,False,20:00:00,True,empate,2.0,2.0,,False,66795,,br_football_dataset
+2022-07-19,1,Palmeiras,Cuiaba,Serie A,False,00:00:00,False,vitoria_mandante,1.0,0.0,,False,43713,,br_football_dataset
+2022-07-21,1,Corinthians,Coritiba,Serie A,False,01:30:00,False,vitoria_mandante,3.0,1.0,,False,49282,,br_football_dataset
+2022-07-23,1,Sao Paulo,Goias,Serie A,False,23:00:00,True,empate,3.0,3.0,,False,66795,,br_football_dataset
+2022-07-24,1,Palmeiras,Internacional,Serie A,False,20:00:00,True,vitoria_mandante,2.0,1.0,,False,43713,,br_football_dataset
+2022-07-29,1,Sao Paulo,America MG,Copa do Brasil,False,00:00:00,False,vitoria_mandante,1.0,0.0,,False,66795,,br_football_dataset
+2022-07-30,1,Corinthians,Botafogo RJ,Serie A,False,23:00:00,True,vitoria_mandante,1.0,0.0,,False,49282,,br_football_dataset
+2022-08-07,2,Sao Paulo,Flamengo,Serie A,False,00:30:00,False,derrota_mandante,0.0,2.0,,False,66795,,br_football_dataset
+2022-08-13,1,Corinthians,Palmeiras,Serie A,True,23:00:00,True,derrota_mandante,0.0,1.0,,False,49282,,br_football_dataset
+2022-08-14,1,Sao Paulo,Bragantino,Serie A,False,20:00:00,True,vitoria_mandante,3.0,0.0,,False,66795,,br_football_dataset
+2022-08-18,1,Corinthians,Atletico Goianiense,Copa do Brasil,False,01:30:00,False,vitoria_mandante,4.0,1.0,,False,49282,,br_football_dataset
+2022-08-21,1,Palmeiras,Flamengo,Serie A,False,20:00:00,True,empate,1.0,1.0,,False,43713,,br_football_dataset
+2022-08-25,1,Sao Paulo,Flamengo,Copa do Brasil,False,01:24:28,False,derrota_mandante,1.0,3.0,,False,66795,,br_football_dataset
+2022-08-28,1,Sao Paulo,Fortaleza FC,Serie A,False,20:00:00,True,derrota_mandante,0.0,1.0,,False,66795,,br_football_dataset
+2022-08-30,1,Corinthians,Bragantino,Serie A,False,01:30:00,False,vitoria_mandante,1.0,0.0,,False,49282,,br_football_dataset
+2022-09-04,1,Corinthians,Internacional,Serie A,False,20:00:00,True,empate,2.0,2.0,,False,49282,,br_football_dataset
+2022-09-11,2,Palmeiras,EC Juventude,Serie A,False,01:00:00,False,vitoria_mandante,2.0,1.0,,False,43713,,br_football_dataset
+2022-09-16,1,Corinthians,Fluminense,Copa do Brasil,False,00:00:00,False,vitoria_mandante,3.0,0.0,,False,49282,,br_football_dataset
+2022-09-18,1,Palmeiras,Santos,Serie A,True,22:30:00,True,vitoria_mandante,1.0,0.0,,False,43713,,br_football_dataset
+2022-09-26,1,Sao Paulo,Avai,Serie A,False,00:00:00,False,vitoria_mandante,4.0,0.0,,False,66795,,br_football_dataset
+2022-09-28,1,Corinthians,Atletico Goianiense,Serie A,False,23:00:00,True,vitoria_mandante,2.0,1.0,,False,49282,,br_football_dataset
+2022-10-02,1,Corinthians,Cuiaba,Serie A,False,01:00:00,False,vitoria_mandante,2.0,0.0,,False,49282,,br_football_dataset
+2022-10-06,1,Palmeiras,Coritiba,Serie A,False,23:00:00,True,vitoria_mandante,4.0,0.0,,False,43713,,br_football_dataset
+2022-10-09,2,Corinthians,Athletico Paranaense,Serie A,False,01:00:00,False,vitoria_mandante,2.0,1.0,,False,49282,,br_football_dataset
+2022-10-13,1,Corinthians,Flamengo,Copa do Brasil,False,01:45:00,False,empate,0.0,0.0,,False,49282,,br_football_dataset
+2022-10-16,1,Palmeiras,Sao Paulo,Serie A,True,20:00:00,True,empate,0.0,0.0,,False,43713,,br_football_dataset
+2022-10-21,1,Sao Paulo,Coritiba,Serie A,False,00:00:00,False,vitoria_mandante,3.0,1.0,,False,66795,,br_football_dataset
+2022-10-23,1,Palmeiras,Avai,Serie A,False,01:00:00,False,vitoria_mandante,3.0,0.0,,False,43713,,br_football_dataset
+2022-10-27,2,Corinthians,Fluminense,Serie A,False,01:45:00,False,derrota_mandante,0.0,2.0,,False,49282,,br_football_dataset
+2022-11-02,1,Sao Paulo,Atletico Mineiro,Serie A,False,00:30:00,False,empate,2.0,2.0,,False,66795,,br_football_dataset
+2022-11-03,1,Palmeiras,Fortaleza FC,Serie A,False,00:30:00,False,vitoria_mandante,2.0,0.0,,False,43713,,br_football_dataset
+2022-11-05,1,Corinthians,Ceara,Serie A,False,23:30:00,True,vitoria_mandante,1.0,0.0,,False,49282,,br_football_dataset
+2022-11-09,1,Sao Paulo,Internacional,Serie A,False,00:30:00,False,derrota_mandante,0.0,1.0,,False,66795,,br_football_dataset
+2022-11-10,1,Palmeiras,America MG,Serie A,False,00:30:00,False,vitoria_mandante,2.0,1.0,,False,43713,,br_football_dataset
+2022-11-13,1,Corinthians,Atletico Mineiro,Serie A,False,19:00:00,True,derrota_mandante,0.0,1.0,,False,49282,,br_football_dataset
+2023-04-12,1,Sao Paulo,Ituano,Copa do Brasil,False,01:30:00,False,empate,0.0,0.0,,False,66795,,br_football_dataset
+2023-04-13,1,Palmeiras,Tombense,Copa do Brasil,False,00:00:00,False,vitoria_mandante,4.0,2.0,,False,43713,,br_football_dataset
+2023-04-15,1,Palmeiras,Cuiaba,Serie A,False,20:00:00,True,vitoria_mandante,2.0,1.0,,False,43713,,br_football_dataset
+2023-04-16,1,Corinthians,Cruzeiro,Serie A,False,20:00:00,True,vitoria_mandante,2.0,1.0,,False,49282,,br_football_dataset
+2023-04-22,1,Sao Paulo,America MG,Serie A,False,22:30:00,True,vitoria_mandante,3.0,0.0,,False,66795,,br_football_dataset
+2023-04-27,1,Corinthians,Clube Do Remo,Copa do Brasil,False,01:30:00,False,vitoria_mandante,2.0,0.0,,False,49282,,br_football_dataset
+2023-04-29,1,Palmeiras,Corinthians,Serie A,True,22:30:00,True,vitoria_mandante,2.0,1.0,,False,43713,,br_football_dataset
+2023-05-07,1,Sao Paulo,Internacional,Serie A,False,20:00:00,True,vitoria_mandante,2.0,0.0,,False,66795,,br_football_dataset
+2023-05-09,1,Corinthians,Fortaleza FC,Serie A,False,00:00:00,False,empate,1.0,1.0,,False,49282,,br_football_dataset
+2023-05-11,1,Palmeiras,Gremio,Serie A,False,01:30:00,False,vitoria_mandante,4.0,1.0,,False,43713,,br_football_dataset
+2023-05-14,1,Corinthians,Sao Paulo,Serie A,True,20:00:00,True,empate,1.0,1.0,,False,49282,,br_football_dataset
+2023-05-17,1,Palmeiras,Fortaleza FC,Copa do Brasil,False,23:00:00,True,vitoria_mandante,3.0,0.0,,False,43713,,br_football_dataset
+2023-05-20,1,Sao Paulo,Vasco Da Gama RJ,Serie A,False,22:30:00,True,vitoria_mandante,4.0,2.0,,False,66795,,br_football_dataset
+2023-05-28,2,Sao Paulo,Goias,Serie A,False,01:00:00,False,vitoria_mandante,2.0,1.0,,False,66795,,br_football_dataset
+2023-06-01,2,Corinthians,Atletico Mineiro,Copa do Brasil,False,01:30:00,False,vitoria_mandante,2.0,0.0,,False,49282,,br_football_dataset
+2023-06-04,1,Palmeiras,Coritiba,Serie A,False,22:30:00,True,vitoria_mandante,3.0,1.0,,False,43713,,br_football_dataset
+2023-06-10,1,Corinthians,Cuiaba,Serie A,False,22:30:00,True,empate,1.0,1.0,,False,49282,,br_football_dataset
+2023-06-11,1,Sao Paulo,Palmeiras,Serie A,True,20:00:00,True,derrota_mandante,0.0,2.0,,False,66795,,br_football_dataset
+2023-06-21,1,Sao Paulo,Athletico Paranaense,Serie A,False,23:00:00,True,vitoria_mandante,2.0,1.0,,False,66795,,br_football_dataset
+2023-06-25,1,Palmeiras,Botafogo RJ,Serie A,False,20:00:00,True,derrota_mandante,0.0,1.0,,False,43713,,br_football_dataset
+2023-07-01,1,Sao Paulo,Fluminense,Serie A,False,20:00:00,True,empate,0.0,0.0,,False,66795,,br_football_dataset
+2023-07-02,1,Corinthians,Bragantino,Serie A,False,15:00:00,False,derrota_mandante,0.0,1.0,,False,49282,,br_football_dataset
+2023-07-05,1,Sao Paulo,Palmeiras,Copa do Brasil,True,23:30:00,True,vitoria_mandante,1.0,0.0,,False,66795,,br_football_dataset
+2023-07-09,1,Palmeiras,Flamengo,Serie A,False,01:00:00,False,empate,1.0,1.0,,False,43713,,br_football_dataset
+2023-07-14,1,Palmeiras,Sao Paulo,Copa do Brasil,True,00:00:00,False,derrota_mandante,1.0,2.0,,False,43713,,br_football_dataset
+2023-07-15,1,Corinthians,America MG,Copa do Brasil,False,20:30:00,True,vitoria_mandante,3.0,2.0,,False,49282,,br_football_dataset
+2023-07-16,1,Sao Paulo,Santos,Serie A,True,20:00:00,True,vitoria_mandante,4.0,1.0,,False,66795,,br_football_dataset
+2023-07-22,1,Palmeiras,Fortaleza FC,Serie A,False,20:00:00,True,vitoria_mandante,3.0,1.0,,False,43713,,br_football_dataset
+2023-07-26,1,Corinthians,Sao Paulo,Copa do Brasil,True,01:30:00,False,vitoria_mandante,2.0,1.0,,False,49282,,br_football_dataset
+2023-07-29,1,Corinthians,Vasco Da Gama RJ,Serie A,False,22:30:00,True,vitoria_mandante,3.0,1.0,,False,49282,,br_football_dataset
+2023-07-30,1,Sao Paulo,EC Bahia,Serie A,False,15:00:00,False,empate,0.0,0.0,,False,66795,,br_football_dataset
+2023-08-06,1,Sao Paulo,Atletico Mineiro,Serie A,False,20:00:00,True,derrota_mandante,0.0,2.0,,False,66795,,br_football_dataset
+2023-08-13,1,Corinthians,Coritiba,Serie A,False,20:00:00,True,vitoria_mandante,3.0,1.0,,False,49282,,br_football_dataset
+2023-08-14,1,Palmeiras,Cruzeiro,Serie A,False,23:00:00,True,vitoria_mandante,1.0,0.0,,False,43713,,br_football_dataset
+2023-08-16,1,Sao Paulo,Corinthians,Copa do Brasil,True,23:30:00,True,vitoria_mandante,2.0,0.0,,False,66795,,br_football_dataset
+2023-08-19,1,Sao Paulo,Botafogo RJ,Serie A,False,20:00:00,True,empate,0.0,0.0,,False,66795,,br_football_dataset
+2023-08-27,2,Corinthians,Goias,Serie A,False,01:00:00,False,empate,1.0,1.0,,False,49282,,br_football_dataset
+2023-09-03,1,Corinthians,Palmeiras,Serie A,True,20:00:00,True,empate,0.0,0.0,,False,49282,,br_football_dataset
+2023-09-16,1,Palmeiras,Goias,Serie A,False,01:30:00,False,empate,0.0,0.0,,False,43713,,br_football_dataset
+2023-09-19,1,Corinthians,Gremio,Serie A,False,01:00:00,False,empate,4.0,4.0,,False,49282,,br_football_dataset
+2023-09-21,1,Sao Paulo,Fortaleza FC,Serie A,False,01:30:00,False,derrota_mandante,1.0,2.0,,False,66795,,br_football_dataset
+2023-09-23,1,Corinthians,Botafogo RJ,Serie A,False,00:00:00,False,vitoria_mandante,1.0,0.0,,False,49282,,br_football_dataset
+2023-09-24,1,Sao Paulo,Flamengo,Copa do Brasil,False,20:00:00,True,empate,1.0,1.0,,False,66795,,br_football_dataset
+2023-09-27,1,Sao Paulo,Coritiba,Serie A,False,23:00:00,True,vitoria_mandante,2.0,1.0,,False,66795,,br_football_dataset
+2023-09-30,1,Sao Paulo,Corinthians,Serie A,True,22:30:36,True,vitoria_mandante,2.0,1.0,,False,66795,,br_football_dataset
+2023-10-08,2,Corinthians,Flamengo,Serie A,False,01:00:00,False,empate,1.0,1.0,,False,49282,,br_football_dataset
+2023-10-19,1,Palmeiras,Atletico Mineiro,Serie A,False,23:00:00,True,derrota_mandante,0.0,2.0,,False,43713,,br_football_dataset
+2023-10-21,1,Sao Paulo,Gremio,Serie A,False,22:30:00,True,vitoria_mandante,3.0,0.0,,False,66795,,br_football_dataset
+2023-10-22,1,Corinthians,America MG,Serie A,False,22:30:00,True,empate,1.0,1.0,,False,49282,,br_football_dataset
+2023-10-26,1,Palmeiras,Sao Paulo,Serie A,True,00:00:00,False,vitoria_mandante,5.0,0.0,,False,43713,,br_football_dataset
+2023-10-28,1,Palmeiras,EC Bahia,Serie A,False,23:00:00,True,vitoria_mandante,1.0,0.0,,False,43713,,br_football_dataset
+2023-10-29,1,Corinthians,Santos,Serie A,True,21:30:00,True,empate,1.0,1.0,,False,49282,,br_football_dataset
+2023-11-01,1,Corinthians,Athletico Paranaense,Serie A,False,22:00:00,True,vitoria_mandante,1.0,0.0,,False,49282,,br_football_dataset
+2023-11-02,1,Sao Paulo,Cruzeiro,Serie A,False,23:00:00,True,vitoria_mandante,1.0,0.0,,False,66795,,br_football_dataset
+2023-11-05,1,Palmeiras,Athletico Paranaense,Serie A,False,00:30:00,False,vitoria_mandante,1.0,0.0,,False,43713,,br_football_dataset
+2023-11-08,1,Sao Paulo,Bragantino,Serie A,False,23:00:00,True,vitoria_mandante,1.0,0.0,,False,66795,,br_football_dataset
+2023-11-09,1,Corinthians,Atletico Mineiro,Serie A,False,22:00:00,True,empate,1.0,1.0,,False,49282,,br_football_dataset
+2023-11-12,1,Palmeiras,Internacional,Serie A,False,00:00:00,False,vitoria_mandante,3.0,0.0,,False,43713,,br_football_dataset
+2023-11-25,1,Corinthians,EC Bahia,Serie A,False,00:00:00,False,derrota_mandante,1.0,5.0,,False,49282,,br_football_dataset
+2023-11-26,1,Sao Paulo,Cuiaba,Serie A,False,21:30:00,True,empate,0.0,0.0,,False,66795,,br_football_dataset
+2023-11-30,1,Palmeiras,America MG,Serie A,False,00:30:00,False,vitoria_mandante,4.0,0.0,,False,43713,,br_football_dataset
+2023-12-02,1,Corinthians,Internacional,Serie A,False,21:00:00,True,derrota_mandante,1.0,2.0,,False,49282,,br_football_dataset
+2023-12-03,1,Palmeiras,Fluminense,Serie A,False,19:00:00,True,vitoria_mandante,1.0,0.0,,False,43713,,br_football_dataset
+2023-12-07,1,Sao Paulo,Flamengo,Serie A,False,00:30:00,False,vitoria_mandante,1.0,0.0,,False,66795,,br_football_dataset

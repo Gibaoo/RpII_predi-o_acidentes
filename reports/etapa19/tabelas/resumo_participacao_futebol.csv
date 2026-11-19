@@ -1,0 +1,9 @@
+cenário,baseline,alvo,delta_total_margem,%|futebol|
+A_domingo_jogo_comum,baseline_domingo,"crimes_violentos (regressão, log da taxa)",0.03267621994018555,0.30137233089151144
+A_domingo_jogo_comum,baseline_domingo,"acidentes_com_vitima (regressão, log da taxa)",0.0016150474548339844,2.741570829505211
+B_domingo_classico,baseline_domingo,"crimes_violentos (regressão, log da taxa)",0.18065547943115234,19.586872929254476
+B_domingo_classico,baseline_domingo,"acidentes_com_vitima (regressão, log da taxa)",0.07615232467651367,4.114090108586148
+C_quarta_noturno,baseline_quarta,"crimes_violentos (regressão, log da taxa)",-0.06311607360839844,26.6354473064016
+C_quarta_noturno,baseline_quarta,"acidentes_com_vitima (regressão, log da taxa)",0.06688833236694336,9.431572741787335
+D_domingo_classico_chuva,B_domingo_classico,"acidentes_com_vitima (regressão, log da taxa) -- D vs B (só chuva muda)",0.00115966796875,0.150767628814916
+B_domingo_classico,baseline_domingo,"acidentes_com_vitima (classificação, log-odds)",1.5253240776207035,32.68262937137873

@@ -1,0 +1,7 @@
+data,crimes_totais,nome_dia_semana,feriado,tem_jogo_sp
+2023-12-31,161,domingo,False,False
+2023-12-30,554,sábado,False,False
+2023-12-25,696,segunda,True,False
+2022-01-02,711,domingo,False,False
+2022-12-25,802,domingo,True,False
+2022-01-01,810,sábado,True,False

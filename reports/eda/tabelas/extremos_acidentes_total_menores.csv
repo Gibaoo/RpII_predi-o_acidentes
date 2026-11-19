@@ -1,0 +1,7 @@
+data,acidentes_total,nome_dia_semana,feriado,tem_jogo_sp,frac_com_vitima
+2022-01-17,7,segunda,False,False,1.0
+2023-08-07,24,segunda,False,False,0.9583333333333334
+2023-01-02,52,segunda,False,False,0.6346153846153846
+2022-01-04,59,terça,False,False,0.559322033898305
+2023-12-31,61,domingo,False,False,0.5409836065573771
+2022-01-02,62,domingo,False,False,0.7419354838709677

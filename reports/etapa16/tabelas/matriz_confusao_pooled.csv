@@ -1,0 +1,11 @@
+base,modelo,TP,FP,FN,TN,consistente
+crimes_violentos,classe_majoritaria,0,0,20,343,True
+crimes_violentos,dia_semana_risco,10,166,10,177,True
+crimes_violentos,logreg_balanced,2,98,18,245,True
+crimes_violentos,random_forest,1,2,19,341,True
+crimes_violentos,xgboost,0,10,20,333,True
+acidentes_com_vitima,classe_majoritaria,0,0,92,270,True
+acidentes_com_vitima,dia_semana_risco,42,142,50,128,True
+acidentes_com_vitima,logreg_balanced,53,83,39,187,True
+acidentes_com_vitima,random_forest,11,6,81,264,True
+acidentes_com_vitima,xgboost,8,18,84,252,True

@@ -1,0 +1,17 @@
+feature,checagem,frac_igual_ao_alvo,ok
+crimes_violentos_lag1,== alvo do MESMO dia?,0.00410958904109589,True
+crimes_violentos_lag2,== alvo do MESMO dia?,0.0027397260273972603,True
+crimes_violentos_lag3,== alvo do MESMO dia?,0.005479452054794521,True
+crimes_violentos_lag7,== alvo do MESMO dia?,0.00684931506849315,True
+crimes_violentos_lag14,== alvo do MESMO dia?,0.00684931506849315,True
+crimes_violentos_lag28,== alvo do MESMO dia?,0.00684931506849315,True
+crimes_violentos_lag364,== alvo do MESMO dia?,0.00684931506849315,True
+acidentes_com_vitima_lag1,== alvo do MESMO dia?,0.028767123287671233,True
+acidentes_com_vitima_lag2,== alvo do MESMO dia?,0.024657534246575342,True
+acidentes_com_vitima_lag3,== alvo do MESMO dia?,0.0273972602739726,True
+acidentes_com_vitima_lag7,== alvo do MESMO dia?,0.0273972602739726,True
+acidentes_com_vitima_lag14,== alvo do MESMO dia?,0.015068493150684932,True
+acidentes_com_vitima_lag28,== alvo do MESMO dia?,0.03424657534246575,True
+acidentes_com_vitima_lag364,== alvo do MESMO dia?,0.00821917808219178,True
+crimes_violentos_rollmean7,corr(now) < corr(prev)?,,True
+acidentes_com_vitima_rollmean7,corr(now) < corr(prev)?,,True

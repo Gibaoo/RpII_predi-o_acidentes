@@ -1,0 +1,4 @@
+tarefa,base,modelo,colsample_bytree,learning_rate,max_depth,min_child_weight,n_estimators,reg_alpha,reg_lambda,subsample,C,penalty
+regressao,crimes_violentos,xgboost_poisson,0.8650089137415928,0.028869220380495747,3.0,4.0,409.0,0.0013342990285187936,2.339586455122247,0.7799016533479063,,
+regressao,acidentes_com_vitima,xgboost_poisson,0.8654007076432223,0.01017364485544501,3.0,2.0,409.0,0.06218656551522513,9.502324350134847,0.6703701010709381,,
+classificacao,acidentes_com_vitima,logreg_balanced,,,,,,,,,1.0907475835157696,l1

@@ -1,0 +1,96 @@
+feature,grupo,leakage_ok,descricao
+trend,temporal,True,indice do dia normalizado 0..1 (tendencia linear)
+sin_doy,temporal,True,codificacao ciclica (dia do ano / dia da semana)
+cos_doy,temporal,True,codificacao ciclica (dia do ano / dia da semana)
+sin_dow,temporal,True,codificacao ciclica (dia do ano / dia da semana)
+cos_dow,temporal,True,codificacao ciclica (dia do ano / dia da semana)
+dow_0,temporal,True,"one-hot dia da semana (dia_semana==0, domingo)"
+dow_1,temporal,True,"one-hot dia da semana (dia_semana==1, segunda)"
+dow_2,temporal,True,"one-hot dia da semana (dia_semana==2, terça)"
+dow_3,temporal,True,"one-hot dia da semana (dia_semana==3, quarta)"
+dow_4,temporal,True,"one-hot dia da semana (dia_semana==4, quinta)"
+dow_5,temporal,True,"one-hot dia da semana (dia_semana==5, sexta)"
+dow_6,temporal,True,"one-hot dia da semana (dia_semana==6, sábado)"
+dia_do_mes,temporal,True,dia do mes 1..31
+mes,temporal,True,campo de calendario do fato (conhecido em avanco)
+trimestre,temporal,True,campo de calendario do fato (conhecido em avanco)
+semana_ano,temporal,True,campo de calendario do fato (conhecido em avanco)
+fim_de_semana,temporal,True,campo de calendario do fato (conhecido em avanco)
+feriado,temporal,True,campo de calendario do fato (conhecido em avanco)
+feriado_nacional,temporal,True,campo de calendario do fato (conhecido em avanco)
+feriado_estadual,temporal,True,campo de calendario do fato (conhecido em avanco)
+feriado_municipal,temporal,True,campo de calendario do fato (conhecido em avanco)
+vespera_feriado,temporal,True,campo de calendario do fato (conhecido em avanco)
+periodo_letivo,temporal,True,campo de calendario do fato (conhecido em avanco)
+ferias_escolares,temporal,True,campo de calendario do fato (conhecido em avanco)
+recesso_escolar,temporal,True,campo de calendario do fato (conhecido em avanco)
+pos_feriado,temporal,True,dia seguinte a um feriado
+tem_jogo_sp,futebol,True,fixture/flag do dia (tabela publicada com antecedencia)
+numero_jogos_sp,futebol,True,fixture/flag do dia (tabela publicada com antecedencia)
+classico,futebol,True,fixture/flag do dia (tabela publicada com antecedencia)
+jogo_noturno,futebol,True,fixture/flag do dia (tabela publicada com antecedencia)
+jogo_d_menos_1,futebol,True,fixture/flag do dia (tabela publicada com antecedencia)
+jogo_d_mais_1,futebol,True,fixture/flag do dia (tabela publicada com antecedencia)
+classico_d_menos_1,futebol,True,fixture/flag do dia (tabela publicada com antecedencia)
+classico_d_mais_1,futebol,True,fixture/flag do dia (tabela publicada com antecedencia)
+jogo_copa,futebol,True,jogo de Copa do Brasil (proxy grosseiro de importancia)
+jogo_serie_a,futebol,True,jogo de Serie A
+jogo_d_menos_2,futebol,True,houve jogo ha 2 dias (convencao do gold)
+jogo_d_mais_2,futebol,True,ha jogo daqui a 2 dias (convencao do gold)
+n_jogos_janela7,futebol,True,nº de jogos nos ultimos 7 dias incl. hoje (fixture conhecido)
+dias_desde_jogo,futebol,True,dias desde o ultimo jogo (>=0)
+dias_ate_jogo,futebol,True,dias ate o proximo jogo (>=0)
+jogo_x_fds,futebol,True,interacao explicita (o modelo tambem pode achar sozinho)
+jogo_x_noturno,futebol,True,interacao explicita (o modelo tambem pode achar sozinho)
+classico_x_fds,futebol,True,interacao explicita (o modelo tambem pode achar sozinho)
+publico,futebol,True,BLOQUEADO: 100% NaN (fonte Kaggle nao integrada)
+taxa_ocupacao,futebol,True,BLOQUEADO: depende de publico
+temp_media,clima,assume previsao D0,clima observado do dia (proxy de previsao perfeita)
+temp_max,clima,assume previsao D0,clima observado do dia (proxy de previsao perfeita)
+temp_min,clima,assume previsao D0,clima observado do dia (proxy de previsao perfeita)
+precipitacao_total,clima,assume previsao D0,clima observado do dia (proxy de previsao perfeita)
+umidade_media,clima,assume previsao D0,clima observado do dia (proxy de previsao perfeita)
+vento_max,clima,assume previsao D0,clima observado do dia (proxy de previsao perfeita)
+chuva,clima,assume previsao D0,clima observado do dia (proxy de previsao perfeita)
+clima_missing,clima,True,flag: alguma variavel de clima ausente no dia (lacunas INMET)
+temp_media_lag1,clima,True,clima de ontem (alternativa conservadora a previsao)
+precipitacao_total_lag1,clima,True,clima de ontem (alternativa conservadora a previsao)
+umidade_media_lag1,clima,True,clima de ontem (alternativa conservadora a previsao)
+crimes_violentos_lag1,historica,True,crimes_violentos 1 dia(s) atras (interpolado nos buracos)
+crimes_violentos_lag2,historica,True,crimes_violentos 2 dia(s) atras (interpolado nos buracos)
+crimes_violentos_lag3,historica,True,crimes_violentos 3 dia(s) atras (interpolado nos buracos)
+crimes_violentos_lag7,historica,True,crimes_violentos 7 dia(s) atras (interpolado nos buracos)
+crimes_violentos_lag14,historica,True,crimes_violentos 14 dia(s) atras (interpolado nos buracos)
+crimes_violentos_lag28,historica,True,crimes_violentos 28 dia(s) atras (interpolado nos buracos)
+crimes_violentos_lag364,historica,True,crimes_violentos 364 dia(s) atras (interpolado nos buracos)
+crimes_violentos_rollmean7,historica,True,"media movel 7d de crimes_violentos, deslocada 1 dia"
+crimes_violentos_rollstd7,historica,True,"desvio movel 7d de crimes_violentos, deslocado 1 dia"
+crimes_violentos_rollmean14,historica,True,"media movel 14d de crimes_violentos, deslocada 1 dia"
+crimes_violentos_rollstd14,historica,True,"desvio movel 14d de crimes_violentos, deslocado 1 dia"
+crimes_violentos_rollmean28,historica,True,"media movel 28d de crimes_violentos, deslocada 1 dia"
+crimes_violentos_rollstd28,historica,True,"desvio movel 28d de crimes_violentos, deslocado 1 dia"
+crimes_violentos_resid_lag1,historica,ver ressalva E15,residuo dessazonalizado de ontem (ajuste de calendario usa serie inteira)
+crimes_violentos_resid_lag7,historica,ver ressalva E15,residuo dessazonalizado de 7 dias atras
+crimes_violentos_lag1_vs_rollmean28,historica,True,ontem menos a media movel de 28d
+pico_p90_crimes_violentos_lag1,historica,True,ontem foi pico? (0/1)
+pico_p90_crimes_violentos_soma7,historica,True,nº de picos nos 7 dias anteriores
+sazonal_esperado_crimes_violentos,historica,ver ressalva E15,valor esperado de {base} so pelo calendario (ajuste na serie inteira)
+acidentes_com_vitima_lag1,historica,True,acidentes_com_vitima 1 dia(s) atras (interpolado nos buracos)
+acidentes_com_vitima_lag2,historica,True,acidentes_com_vitima 2 dia(s) atras (interpolado nos buracos)
+acidentes_com_vitima_lag3,historica,True,acidentes_com_vitima 3 dia(s) atras (interpolado nos buracos)
+acidentes_com_vitima_lag7,historica,True,acidentes_com_vitima 7 dia(s) atras (interpolado nos buracos)
+acidentes_com_vitima_lag14,historica,True,acidentes_com_vitima 14 dia(s) atras (interpolado nos buracos)
+acidentes_com_vitima_lag28,historica,True,acidentes_com_vitima 28 dia(s) atras (interpolado nos buracos)
+acidentes_com_vitima_lag364,historica,True,acidentes_com_vitima 364 dia(s) atras (interpolado nos buracos)
+acidentes_com_vitima_rollmean7,historica,True,"media movel 7d de acidentes_com_vitima, deslocada 1 dia"
+acidentes_com_vitima_rollstd7,historica,True,"desvio movel 7d de acidentes_com_vitima, deslocado 1 dia"
+acidentes_com_vitima_rollmean14,historica,True,"media movel 14d de acidentes_com_vitima, deslocada 1 dia"
+acidentes_com_vitima_rollstd14,historica,True,"desvio movel 14d de acidentes_com_vitima, deslocado 1 dia"
+acidentes_com_vitima_rollmean28,historica,True,"media movel 28d de acidentes_com_vitima, deslocada 1 dia"
+acidentes_com_vitima_rollstd28,historica,True,"desvio movel 28d de acidentes_com_vitima, deslocado 1 dia"
+acidentes_com_vitima_resid_lag1,historica,ver ressalva E15,residuo dessazonalizado de ontem (ajuste de calendario usa serie inteira)
+acidentes_com_vitima_resid_lag7,historica,ver ressalva E15,residuo dessazonalizado de 7 dias atras
+acidentes_com_vitima_lag1_vs_rollmean28,historica,True,ontem menos a media movel de 28d
+pico_p90_acidentes_com_vitima_lag1,historica,True,ontem foi pico? (0/1)
+pico_p90_acidentes_com_vitima_soma7,historica,True,nº de picos nos 7 dias anteriores
+sazonal_esperado_acidentes_com_vitima,historica,ver ressalva E15,valor esperado de {base} so pelo calendario (ajuste na serie inteira)

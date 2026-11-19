@@ -1,0 +1,2 @@
+base,accuracy_baseline,precision_baseline,recall_baseline,f1_baseline,roc_auc_baseline,pr_auc_baseline,accuracy_tunado,precision_tunado,recall_tunado,f1_tunado,roc_auc_tunado,pr_auc_tunado
+acidentes_com_vitima,0.662983,0.389706,0.576087,0.464912,0.668579,0.476273,0.643646408839779,0.38509316770186336,0.6739130434782609,0.4901185770750988,0.664468220138297,0.41684356622188756

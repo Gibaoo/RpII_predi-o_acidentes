@@ -1,0 +1,4 @@
+alvo (tarefa),futebol_%_bruto_producao,futebol_%_bruto_rasos,futebol_%_líquido_producao,futebol_%_líquido_rasos,rank1_producao,rank1_rasos
+crimes_violentos (regressao),2.178691864013672,2.1781163215637207,0.0,0.0,sin_dow,sin_dow
+acidentes_com_vitima (regressao),18.71410369873047,13.011102676391602,0.0,0.0,sin_dow,sin_dow
+acidentes_com_vitima (classificacao),26.62373761961001,24.29396247435846,0.0,0.0,cos_doy,cos_doy

@@ -1,0 +1,7 @@
+cenário,descrição,pred_crimes_violentos,pred_acidentes_com_vitima,prob_pico_acidentes_(logreg)
+A_domingo_jogo_comum,Domingo + jogo comum (não-clássico),508.2864990234375,79.41722869873047,0.8553557841313915
+B_domingo_classico,Domingo + clássico,589.3525390625,85.56297302246094,0.5388694097858594
+C_quarta_noturno,Quarta-feira + jogo noturno,510.6906433105469,86.44599151611328,0.627139179061849
+baseline_domingo,"Domingo sem jogo (baseline pareado p/ A, B, D)",491.946044921875,79.28907012939453,0.20269545367023087
+baseline_quarta,Quarta-feira sem jogo (baseline pareado p/ C),543.96240234375,80.8529052734375,0.17712095166036373
+D_domingo_classico_chuva,"Domingo + clássico + chuva (precipitação = 4.1mm, mediana dos dias de chuva observados)",576.0841064453125,85.6622543334961,0.46498966306480616

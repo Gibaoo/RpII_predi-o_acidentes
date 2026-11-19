@@ -1,0 +1,12 @@
+data,nome_dia_semana,feriado,tem_jogo_sp,classico,acidentes_com_vitima,is_outlier_lote
+2022-05-30,segunda,0,False,False,109,False
+2022-07-09,sábado,1,False,False,106,False
+2022-09-02,sexta,0,False,False,123,False
+2022-11-24,quinta,0,False,False,116,False
+2022-12-05,segunda,0,False,False,100,False
+2023-06-24,sábado,0,False,False,125,False
+2023-08-03,quinta,0,False,False,119,False
+2023-10-03,terça,0,False,False,110,False
+2023-10-11,quarta,0,False,False,120,False
+2023-11-15,quarta,1,False,False,97,False
+2023-12-04,segunda,0,False,False,109,False

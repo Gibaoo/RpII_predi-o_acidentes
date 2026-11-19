@@ -1,0 +1,33 @@
+cenario,baseline,alvo,grupo,delta_shap,delta_total_predicao
+A_domingo_jogo_comum,baseline_domingo,"crimes_violentos (regressão, log da taxa)",historica,0.05208014324307442,0.03267621994018555
+A_domingo_jogo_comum,baseline_domingo,"crimes_violentos (regressão, log da taxa)",clima,-0.041790712624788284,0.03267621994018555
+A_domingo_jogo_comum,baseline_domingo,"crimes_violentos (regressão, log da taxa)",temporal,0.022739248350262642,0.03267621994018555
+A_domingo_jogo_comum,baseline_domingo,"crimes_violentos (regressão, log da taxa)",futebol,-0.0003524929052218795,0.03267621994018555
+A_domingo_jogo_comum,baseline_domingo,"acidentes_com_vitima (regressão, log da taxa)",historica,0.016170693561434746,0.0016150474548339844
+A_domingo_jogo_comum,baseline_domingo,"acidentes_com_vitima (regressão, log da taxa)",clima,-0.012312518432736397,0.0016150474548339844
+A_domingo_jogo_comum,baseline_domingo,"acidentes_com_vitima (regressão, log da taxa)",temporal,-0.0031358953565359116,0.0016150474548339844
+A_domingo_jogo_comum,baseline_domingo,"acidentes_com_vitima (regressão, log da taxa)",futebol,0.0008912957273423672,0.0016150474548339844
+B_domingo_classico,baseline_domingo,"crimes_violentos (regressão, log da taxa)",clima,0.11817595362663269,0.18065547943115234
+B_domingo_classico,baseline_domingo,"crimes_violentos (regressão, log da taxa)",futebol,0.03586239367723465,0.18065547943115234
+B_domingo_classico,baseline_domingo,"crimes_violentos (regressão, log da taxa)",temporal,0.027836278080940247,0.18065547943115234
+B_domingo_classico,baseline_domingo,"crimes_violentos (regressão, log da taxa)",historica,-0.0012193978764116764,0.18065547943115234
+B_domingo_classico,baseline_domingo,"acidentes_com_vitima (regressão, log da taxa)",historica,0.05665358528494835,0.07615232467651367
+B_domingo_classico,baseline_domingo,"acidentes_com_vitima (regressão, log da taxa)",temporal,0.01483024749904871,0.07615232467651367
+B_domingo_classico,baseline_domingo,"acidentes_com_vitima (regressão, log da taxa)",futebol,0.003132999874651432,0.07615232467651367
+B_domingo_classico,baseline_domingo,"acidentes_com_vitima (regressão, log da taxa)",clima,0.0015360903926193714,0.07615232467651367
+C_quarta_noturno,baseline_quarta,"crimes_violentos (regressão, log da taxa)",historica,-0.04074632376432419,-0.06311607360839844
+C_quarta_noturno,baseline_quarta,"crimes_violentos (regressão, log da taxa)",futebol,-0.01857975870370865,-0.06311607360839844
+C_quarta_noturno,baseline_quarta,"crimes_violentos (regressão, log da taxa)",temporal,-0.007109684869647026,-0.06311607360839844
+C_quarta_noturno,baseline_quarta,"crimes_violentos (regressão, log da taxa)",clima,0.003319992683827877,-0.06311607360839844
+C_quarta_noturno,baseline_quarta,"acidentes_com_vitima (regressão, log da taxa)",temporal,0.03410401567816734,0.06688833236694336
+C_quarta_noturno,baseline_quarta,"acidentes_com_vitima (regressão, log da taxa)",historica,0.02954927459359169,0.06688833236694336
+C_quarta_noturno,baseline_quarta,"acidentes_com_vitima (regressão, log da taxa)",futebol,0.007023133337497711,0.06688833236694336
+C_quarta_noturno,baseline_quarta,"acidentes_com_vitima (regressão, log da taxa)",clima,-0.003787650726735592,0.06688833236694336
+D_domingo_classico_chuva,B_domingo_classico,"acidentes_com_vitima (regressão, log da taxa) -- D vs B (só chuva muda)",clima,0.0007496880134567618,0.00115966796875
+D_domingo_classico_chuva,B_domingo_classico,"acidentes_com_vitima (regressão, log da taxa) -- D vs B (só chuva muda)",temporal,0.00022366091434378177,0.00115966796875
+D_domingo_classico_chuva,B_domingo_classico,"acidentes_com_vitima (regressão, log da taxa) -- D vs B (só chuva muda)",historica,0.00018467278277967125,0.00115966796875
+D_domingo_classico_chuva,B_domingo_classico,"acidentes_com_vitima (regressão, log da taxa) -- D vs B (só chuva muda)",futebol,1.748558133840561e-06,0.00115966796875
+B_domingo_classico,baseline_domingo,"acidentes_com_vitima (classificação, log-odds)",clima,1.0187940245878317,1.5253240776207035
+B_domingo_classico,baseline_domingo,"acidentes_com_vitima (classificação, log-odds)",futebol,0.8756125984716969,1.5253240776207035
+B_domingo_classico,baseline_domingo,"acidentes_com_vitima (classificação, log-odds)",temporal,-0.5769067402526018,1.5253240776207035
+B_domingo_classico,baseline_domingo,"acidentes_com_vitima (classificação, log-odds)",historica,0.20782419481377779,1.5253240776207035

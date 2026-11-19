@@ -1,0 +1,13 @@
+data,nome_dia_semana,feriado,tem_jogo_sp,classico,crimes_violentos,is_outlier_lote
+2022-05-29,domingo,0,True,False,626,False
+2022-06-19,domingo,0,True,False,715,True
+2022-07-23,sábado,0,True,False,634,False
+2022-09-09,sexta,0,False,False,680,False
+2022-10-02,domingo,0,True,False,667,False
+2022-10-30,domingo,0,False,False,722,False
+2022-11-24,quinta,0,False,False,755,False
+2023-02-20,segunda,0,False,False,591,False
+2023-02-21,terça,1,False,False,563,False
+2023-02-25,sábado,0,False,False,744,False
+2023-06-11,domingo,0,True,True,704,False
+2023-10-11,quarta,0,False,False,627,False
