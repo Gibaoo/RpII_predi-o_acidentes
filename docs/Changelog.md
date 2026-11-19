@@ -2163,3 +2163,12 @@ Modelo principal da Fase 2 inalterado; só robustezes. Crimes e sinistros separa
 - `.gitignore` novo (bronze, uploads, `__pycache__`, `*.pyc`, auxiliares de LaTeX). 12 arquivos brutos já
   rastreados desde o 1º commit (maior 51,6 MB) → proposto `git rm -r --cached data/bronze uploads`, não executado.
   Nenhum arquivo do próximo commit passa de 100 MB (total ~44 MB). Nada commitado.
+
+### Depois (mesmo dia)
+- Remoto estava vazio: `main` recriado como commit único sem brutos; V2/V3 no PR #1, mergeado pelo usuário.
+  Histórico original só na branch local `historico-setembro`. `*_eventos_sp.csv.gz` no `.gitignore`.
+- `sbc.bst` extraído do template enviado pela professora; `.sty` do template idêntico ao do projeto.
+- 1ª compilação real: 14 páginas, seções dentro dos limites. `\clearpage` antes da Discussão (Tabelas 6–7
+  partiam a seção 5).
+- Título trocado (decisão do usuário): "Crimes e Sinistros de Trânsito nas Horas em torno dos Jogos de
+  Futebol na Cidade de São Paulo: Efeito por Janela e Ganho Preditivo".

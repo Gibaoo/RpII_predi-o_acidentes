@@ -206,10 +206,16 @@ commitar; não editar os `.tex` até o usuário aprovar os resultados).
   sobre os p de Fisher já publicados (transformação, não reestimação): PRÉ de crimes p=0,041 → p_BH 0,244.
 - Com matplotlib/pandas novos (SSD novo) o 35 gera PNGs com diferença só de renderização; as figuras
   aprovadas foram restauradas. Se rodar o 35 de novo, restaurar `fig_*.png` ou aceitar a diferença visual.
-- Compilação: `sbc-template.sty` copiado para `entrega3/`; **`sbc.bst` não existe no projeto nem em
-  `entrega_parcial/`** — o usuário vai pegar no template do SBC. `21_valida_latex.py` precisa de caminho
+- Compilação: `sbc-template.sty` copiado para `entrega3/`; `sbc.bst` extraído (2026-11-19) do template enviado
+  pela professora (`Downloads\modelosparapublicaodeartigos.zip`, `Template_SBC/template-latex/`); o `.sty`
+  do zip é idêntico ao do projeto (mesmo hash). `21_valida_latex.py` precisa de caminho
   absoluto (ou relativo à raiz do projeto); único "erro" = falso positivo do `\cite` (BibTeX).
-- Título mantém "Dias de Jogos" (não mudar sem o usuário; sugestão registrada no resumo da sessão V3).
+- **Título novo (decidido pelo usuário, 2026-11-19)**: "Crimes e Sinistros de Trânsito nas Horas em torno dos
+  Jogos de Futebol na Cidade de São Paulo: Efeito por Janela e Ganho Preditivo" (substitui "Previsão de Picos
+  de Crimes Violentos e de Sinistros de Trânsito em Dias de Jogos...").
+- **1ª compilação real (usuário, 2026-11-19)**: 14 páginas, todas as seções no limite (título+resumo ~0,7;
+  introdução ~1,4; correlatos ~3,0; metodologia ~1,5; resultados ~5,4; discussão ~0,75), sem referência
+  quebrada. As Tabelas 6–7 caíam no meio da Discussão → `\clearpage` antes da seção 5. Recompilar para conferir.
 
 ## Status do trabalho DIÁRIO antigo (histórico; o atual é a V2/V3 acima): Etapas 1–20, 23 e 24 concluídas e revisadas, incl. auditoria pooled/fold_macro do ROC-AUC e PR-AUC e auditoria de colinearidade com calendário no SHAP (checkpoint 2026-09-04). Todas as pendências abertas fechadas nesse mesmo checkpoint: auditoria completa do grupo futebol (0,0% líquido nos 3 modelos), robustez do SHAP a hiperparâmetro raso vs produção (confirmada), e discrepância PSM/IPTW da Etapa 20 (resolvida — era violação de positividade). §21/22 satisfeitos por `README.md`. **§25 (relatório final) compilado de verdade pelo usuário e dentro do alvo de páginas do SBC** (`docs/rpII_predicao_acidentes.tex`, 10 páginas c/ referências); referências bibliográficas completas; também existe uma versão estendida sem limite de páginas (`docs/rpII_predicao_acidentes_relatorio_completo.tex`). Falta só revisão final dos coautores. Roteiro completo (§1–25) coberto pela primeira vez neste checkpoint.
 ## Nota: numeração das "Etapas" deste projeto = numeração das Seções do próprio `docs/briefing_original.md` (Etapa 6 = §6 EDA, ..., Etapa 14 = §14 Modelos ML). Daqui pra frente: §15 séries temporais/validação, §16 métricas, §17 otimização, §18 interpretabilidade/SHAP, §19 cenários, §20 causalidade, §21+ código/pipeline/resultados/visualizações/relatório final.
@@ -690,12 +696,11 @@ falha do pipeline. Preparar a Discussão do artigo em torno disso desde já.
   novo, só organização/diagrama).
 
 ## Próximos passos (atualizado 2026-11-19)
-1. Usuário: copiar `sbc.bst` do template do SBC para `../entrega_parcial/entrega3/` e compilar
-   `main.tex` (pdflatex → bibtex → pdflatex ×2); conferir limites de página da 2ª entrega (título+resumo 1;
+1. Usuário: compilar `../entrega_parcial/entrega3/main.tex` (`.sty` e `.bst` já estão lá) (pdflatex → bibtex → pdflatex ×2); conferir limites de página da 2ª entrega (título+resumo 1;
    introdução 2; correlatos 4; metodologia 2; resultados 6; discussão+conclusão 1). Se estourar, enxugar
    texto (nunca fonte/margem).
-2. Decidir o título (hoje ainda diz "Dias de Jogos").
-3. Versionar (usuário roda os comandos): `.gitignore` criado; `git rm --cached` dos 12 brutos rastreados.
+2. Recompilar depois do título novo e do `\clearpage` e conferir a Discussão contínua.
+3. Versionamento: PR #1 (V2/V3) mergeado pelo usuário em 2026-11-19; `main` local = `origin/main`.
 4. Depois de qualquer edição: `py -3.14 scripts/21_valida_latex.py <caminho absoluto do .tex>`.
 5. (Histórico) `docs/rpII_predicao_acidentes*.tex` = artigo diário de setembro, não é mais o entregável.
 
@@ -751,6 +756,13 @@ briefing: `openpyxl` (usado por `01_ingestao.py`), `xgboost` e `lightgbm` (usado
   sem eles; não é preciso rodá-los de novo). Se o PATH do terminal não achar `py`/`git`, abrir um terminal novo.
 
 ## Controle de versão (atualizado 2026-11-19)
+**Atualização (2026-11-19, mais tarde):** o remoto estava VAZIO (público). Com autorização do usuário, `main` foi
+recriado como 1 commit limpo (conteúdo de setembro sem `data/bronze/` e `uploads/`), a V2/V3 entrou pelo PR #1
+(branch `v3-janelas-horario`), **mergeado pelo usuário**. Os 6 commits originais ficam só na branch local
+`historico-setembro` (nunca enviada; contém os brutos). Silver em nível de evento (`*_eventos_sp.csv.gz`) no
+`.gitignore`. Identidade do git configurada só neste repositório (nome do usuário + e-mail noreply do GitHub).
+`gh` está instalado e autenticado (conta Gibaoo). O texto abaixo descreve o estado ANTES disso.
+
 `origin` = `https://github.com/Gibaoo/RpII_predi-o_acidentes.git`. Há **6 commits**, o último em
 2026-09-05 ("Artigo"); `git branch -vv` mostra `origin/main: gone` (sem fetch neste SSD — estado do remoto
 não conferido). **Nada da V2/V3 está versionado** (scripts 30–35, `reports/janelas/`, `data/gold/fato_hora_sp.csv`,
