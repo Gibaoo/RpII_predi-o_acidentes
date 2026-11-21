@@ -1,0 +1,323 @@
+dominio,item,antes,depois,mudou,fonte_nova
+crimes,Tab. 2 Crimes violentos capital PRÉ (%),"+4,7","+2,9",True,vereditos.csv
+crimes,Tab. 2 Crimes violentos capital PRÉ (marca),†,*,True,vereditos.csv
+crimes,p_BH Crimes violentos capital PRÉ,"0,041","0,205",True,vereditos.csv
+crimes,Tab. 2 Crimes violentos capital DURANTE (%),"-2,1","-1,6",True,vereditos.csv
+crimes,Tab. 2 Crimes violentos capital DURANTE (marca),(sem),(sem),False,vereditos.csv
+crimes,Tab. 2 Crimes violentos capital PÓS (%),"+2,7","+2,7",False,vereditos.csv
+crimes,Tab. 2 Crimes violentos capital PÓS (marca),*,(sem),True,vereditos.csv
+crimes,p_BH Crimes violentos capital PÓS,"0,223","0,205",True,vereditos.csv
+crimes,Tab. 2 Crimes violentos fora da capital PRÉ (%),"-1,5","-3,1",True,vereditos.csv
+crimes,Tab. 2 Crimes violentos fora da capital PRÉ (marca),(sem),*,True,vereditos.csv
+crimes,p_BH Crimes violentos fora da capital PRÉ,"0,519","0,157",True,vereditos.csv
+crimes,Tab. 2 Crimes violentos fora da capital DURANTE (%),"-2,5","-2,2",True,vereditos.csv
+crimes,Tab. 2 Crimes violentos fora da capital DURANTE (marca),(sem),(sem),False,vereditos.csv
+crimes,Tab. 2 Crimes violentos fora da capital PÓS (%),"-0,2","+0,2",True,vereditos.csv
+crimes,Tab. 2 Crimes violentos fora da capital PÓS (marca),(sem),(sem),False,vereditos.csv
+crimes,Tab. 2 Lesão corporal dolosa capital PRÉ (%),"+2,5","+1,7",True,vereditos.csv
+crimes,Tab. 2 Lesão corporal dolosa capital PRÉ (marca),(sem),(sem),False,vereditos.csv
+crimes,p_BH Lesão corporal dolosa capital PRÉ,"0,520","0,563",True,vereditos.csv
+crimes,Tab. 2 Lesão corporal dolosa capital DURANTE (%),"-3,1","-2,6",True,vereditos.csv
+crimes,Tab. 2 Lesão corporal dolosa capital DURANTE (marca),(sem),(sem),False,vereditos.csv
+crimes,Tab. 2 Lesão corporal dolosa capital PÓS (%),"+3,4","+3,3",True,vereditos.csv
+crimes,Tab. 2 Lesão corporal dolosa capital PÓS (marca),(sem),(sem),False,vereditos.csv
+crimes,Tab. 2 Lesão corporal dolosa fora da capital PRÉ (%),"-3,9","-3,9",False,vereditos.csv
+crimes,Tab. 2 Lesão corporal dolosa fora da capital PRÉ (marca),(sem),(sem),False,vereditos.csv
+crimes,Tab. 2 Lesão corporal dolosa fora da capital DURANTE (%),"-2,3","-2,4",True,vereditos.csv
+crimes,Tab. 2 Lesão corporal dolosa fora da capital DURANTE (marca),(sem),(sem),False,vereditos.csv
+crimes,Tab. 2 Lesão corporal dolosa fora da capital PÓS (%),"-1,8","-1,7",True,vereditos.csv
+crimes,Tab. 2 Lesão corporal dolosa fora da capital PÓS (marca),(sem),(sem),False,vereditos.csv
+crimes,Tab. 2 Roubos capital PRÉ (%),"+5,3","+3,0",True,vereditos.csv
+crimes,Tab. 2 Roubos capital PRÉ (marca),†,*,True,vereditos.csv
+crimes,p_BH Roubos capital PRÉ,"0,041","0,205",True,vereditos.csv
+crimes,Tab. 2 Roubos capital DURANTE (%),"-1,8","-1,2",True,vereditos.csv
+crimes,Tab. 2 Roubos capital DURANTE (marca),(sem),(sem),False,vereditos.csv
+crimes,Tab. 2 Roubos capital PÓS (%),"+2,6","+2,6",False,vereditos.csv
+crimes,Tab. 2 Roubos capital PÓS (marca),(sem),(sem),False,vereditos.csv
+crimes,Tab. 2 Roubos fora da capital PRÉ (%),"-1,1","-3,2",True,vereditos.csv
+crimes,Tab. 2 Roubos fora da capital PRÉ (marca),(sem),*,True,vereditos.csv
+crimes,p_BH Roubos fora da capital PRÉ,"0,606","0,205",True,vereditos.csv
+crimes,Tab. 2 Roubos fora da capital DURANTE (%),"-2,8","-2,3",True,vereditos.csv
+crimes,Tab. 2 Roubos fora da capital DURANTE (marca),(sem),(sem),False,vereditos.csv
+crimes,Tab. 2 Roubos fora da capital PÓS (%),"+0,0","+0,4",True,vereditos.csv
+crimes,Tab. 2 Roubos fora da capital PÓS (marca),(sem),(sem),False,vereditos.csv
+crimes,Tab. 2 Furtos capital PRÉ (%),"+4,1","+3,1",True,vereditos.csv
+crimes,Tab. 2 Furtos capital PRÉ (marca),*,(sem),True,vereditos.csv
+crimes,p_BH Furtos capital PRÉ,"0,147","0,231",True,vereditos.csv
+crimes,Tab. 2 Furtos capital DURANTE (%),"+1,4","+1,9",True,vereditos.csv
+crimes,Tab. 2 Furtos capital DURANTE (marca),(sem),(sem),False,vereditos.csv
+crimes,Tab. 2 Furtos capital PÓS (%),"+4,1","+4,9",True,vereditos.csv
+crimes,Tab. 2 Furtos capital PÓS (marca),*,*,False,vereditos.csv
+crimes,p_BH Furtos capital PÓS,"0,195","0,157",True,vereditos.csv
+crimes,Tab. 2 Furtos fora da capital PRÉ (%),"+2,4","+1,1",True,vereditos.csv
+crimes,Tab. 2 Furtos fora da capital PRÉ (marca),(sem),(sem),False,vereditos.csv
+crimes,Tab. 2 Furtos fora da capital DURANTE (%),"+1,1","+1,4",True,vereditos.csv
+crimes,Tab. 2 Furtos fora da capital DURANTE (marca),(sem),(sem),False,vereditos.csv
+crimes,Tab. 2 Furtos fora da capital PÓS (%),"+0,4","+1,3",True,vereditos.csv
+crimes,Tab. 2 Furtos fora da capital PÓS (marca),(sem),(sem),False,vereditos.csv
+crimes,pareado Crimes violentos pre DiD_IRR (%),"+1,2","+1,3",True,controles_pareados.csv
+crimes,pareado Crimes violentos pre IC95_lo (%),"-3,1","-2,6",True,controles_pareados.csv
+crimes,pareado Crimes violentos pre IC95_hi (%),"+5,0","+5,4",True,controles_pareados.csv
+crimes,pareado Crimes violentos durante DiD_IRR (%),"-6,8","-6,8",False,controles_pareados.csv
+crimes,pareado Crimes violentos durante IC95_lo (%),"-10,4","-10,8",True,controles_pareados.csv
+crimes,pareado Crimes violentos durante IC95_hi (%),"-2,7","-2,6",True,controles_pareados.csv
+crimes,pareado Crimes violentos pos DiD_IRR (%),"+1,2","+1,3",True,controles_pareados.csv
+crimes,pareado Crimes violentos pos IC95_lo (%),"-3,1","-3,0",True,controles_pareados.csv
+crimes,pareado Crimes violentos pos IC95_hi (%),"+5,5","+5,5",False,controles_pareados.csv
+crimes,pareado Roubos pre DiD_IRR (%),"+1,3","+1,5",True,controles_pareados.csv
+crimes,pareado Roubos pre IC95_lo (%),"-3,3","-3,1",True,controles_pareados.csv
+crimes,pareado Roubos pre IC95_hi (%),"+6,0","+6,1",True,controles_pareados.csv
+crimes,pareado Roubos durante DiD_IRR (%),"-6,6","-6,5",True,controles_pareados.csv
+crimes,pareado Roubos durante IC95_lo (%),"-10,9","-10,6",True,controles_pareados.csv
+crimes,pareado Roubos durante IC95_hi (%),"-2,1","-1,6",True,controles_pareados.csv
+crimes,pareado Roubos pos DiD_IRR (%),"+1,5","+1,5",False,controles_pareados.csv
+crimes,pareado Roubos pos IC95_lo (%),"-3,4","-3,3",True,controles_pareados.csv
+crimes,pareado Roubos pos IC95_hi (%),"+6,4","+6,2",True,controles_pareados.csv
+crimes,placebo p Crimes violentos capital pre,"0,000","0,002",True,placebo_permutacao.csv
+crimes,placebo p Crimes violentos capital durante,"0,428","0,766",True,placebo_permutacao.csv
+crimes,placebo p Crimes violentos capital pos,"0,036","0,044",True,placebo_permutacao.csv
+crimes,pré-tendência p (capital),"0,007","0,045",True,event_study.csv
+crimes,pré-tendência p (fora_da_capital),"0,084","0,273",True,event_study.csv
+crimes,event study Crimes violentos capital k=-3 (%),"+3,9","+3,3",True,event_study.csv
+crimes,event study Crimes violentos capital k=-2 (%),"+4,4","+1,9",True,event_study.csv
+crimes,event study Crimes violentos capital k=-1 (%),"+5,5","+4,1",True,event_study.csv
+crimes,event study Crimes violentos capital k=0 (%),"-0,9","-1,0",True,event_study.csv
+crimes,event study Crimes violentos capital k=1 (%),"-2,9","-1,9",True,event_study.csv
+crimes,event study Crimes violentos capital k=2 (%),"+1,4","+1,2",True,event_study.csv
+crimes,event study Crimes violentos capital k=3 (%),"+4,5","+4,7",True,event_study.csv
+crimes,tercil C_pre__T1 Crimes violentos (%),"+0,6","+0,8",True,dose_resposta_publico.csv
+crimes,tercil C_pre__T2 Crimes violentos (%),"+2,3","+2,3",False,dose_resposta_publico.csv
+crimes,tercil C_pre__T3 Crimes violentos (%),"+6,2","+6,3",True,dose_resposta_publico.csv
+crimes,tercil C_pos__T3 Crimes violentos (%),"+5,0","+5,0",False,dose_resposta_publico.csv
+crimes,entorno 3 estádios Crimes violentos durante (%),+15,+23,True,entorno_modelo_principal.csv
+crimes,entorno 3 estádios Crimes violentos durante p_BH,"0,055","0,007",True,entorno_modelo_principal.csv
+crimes,entorno 3 estádios Crimes violentos pos (%),+31,+36,True,entorno_modelo_principal.csv
+crimes,entorno 3 estádios Crimes violentos pos p_BH,"0,000","0,000",False,entorno_modelo_principal.csv
+crimes,entorno 3 estádios Crimes violentos pre (%),+5,-1,True,entorno_modelo_principal.csv
+crimes,entorno 3 estádios Crimes violentos pre p_BH,"0,479","0,947",True,entorno_modelo_principal.csv
+crimes,entorno 3 estádios Furtos durante (%),+66,+58,True,entorno_modelo_principal.csv
+crimes,entorno 3 estádios Furtos durante p_BH,"0,000","0,000",False,entorno_modelo_principal.csv
+crimes,entorno 3 estádios Furtos pos (%),+85,+87,True,entorno_modelo_principal.csv
+crimes,entorno 3 estádios Furtos pos p_BH,"0,000","0,000",False,entorno_modelo_principal.csv
+crimes,entorno 3 estádios Furtos pre (%),+32,+30,True,entorno_modelo_principal.csv
+crimes,entorno 3 estádios Furtos pre p_BH,"0,000","0,000",False,entorno_modelo_principal.csv
+crimes,entorno 3 estádios Lesão corporal dolosa durante (%),+104,+138,True,entorno_modelo_principal.csv
+crimes,entorno 3 estádios Lesão corporal dolosa durante p_BH,"0,000","0,000",False,entorno_modelo_principal.csv
+crimes,entorno 3 estádios Lesão corporal dolosa pos (%),-26,-29,True,entorno_modelo_principal.csv
+crimes,entorno 3 estádios Lesão corporal dolosa pos p_BH,"0,237","0,171",True,entorno_modelo_principal.csv
+crimes,entorno 3 estádios Lesão corporal dolosa pre (%),+10,+2,True,entorno_modelo_principal.csv
+crimes,entorno 3 estádios Lesão corporal dolosa pre p_BH,"0,672","0,947",True,entorno_modelo_principal.csv
+crimes,entorno 3 estádios Roubos durante (%),+8,+15,True,entorno_modelo_principal.csv
+crimes,entorno 3 estádios Roubos durante p_BH,"0,324","0,105",True,entorno_modelo_principal.csv
+crimes,entorno 3 estádios Roubos pos (%),+39,+43,True,entorno_modelo_principal.csv
+crimes,entorno 3 estádios Roubos pos p_BH,"0,000","0,000",False,entorno_modelo_principal.csv
+crimes,entorno 3 estádios Roubos pre (%),+6,-0,True,entorno_modelo_principal.csv
+crimes,entorno 3 estádios Roubos pre p_BH,"0,479","0,947",True,entorno_modelo_principal.csv
+crimes,"Tab. 5a prevalência média (1 h, %)","8,1","9,0",True,pico_com_hm/pico_validacao_folds.csv
+crimes,"Tab. 5a prevalência mín (1 h, %)","3,6","4,2",True,pico_com_hm/pico_validacao_folds.csv
+crimes,"Tab. 5a prevalência máx (1 h, %)","19,9","21,4",True,pico_com_hm/pico_validacao_folds.csv
+crimes,Tab. 5b RR capital pre,"1,31","1,16",True,pico_com_hm/pico_por_janela.csv
+crimes,Tab. 5b p Fisher capital pre,"0,041","0,286",True,pico_com_hm/pico_por_janela.csv
+crimes,Tab. 5b RR capital durante,"1,15","1,11",True,pico_com_hm/pico_por_janela.csv
+crimes,Tab. 5b p Fisher capital durante,"0,325","0,459",True,pico_com_hm/pico_por_janela.csv
+crimes,Tab. 5b RR capital pos,"1,20","1,30",True,pico_com_hm/pico_por_janela.csv
+crimes,Tab. 5b p Fisher capital pos,"0,190","0,049",True,pico_com_hm/pico_por_janela.csv
+crimes,Tab. 5b RR fora_da_capital pre,"0,87","0,76",True,pico_com_hm/pico_por_janela.csv
+crimes,Tab. 5b p Fisher fora_da_capital pre,"0,421","0,106",True,pico_com_hm/pico_por_janela.csv
+crimes,Tab. 5b RR fora_da_capital durante,"0,99","0,94",True,pico_com_hm/pico_por_janela.csv
+crimes,Tab. 5b p Fisher fora_da_capital durante,"1,000","0,712",True,pico_com_hm/pico_por_janela.csv
+crimes,Tab. 5b RR fora_da_capital pos,"1,02","1,07",True,pico_com_hm/pico_por_janela.csv
+crimes,Tab. 5b p Fisher fora_da_capital pos,"0,874","0,634",True,pico_com_hm/pico_por_janela.csv
+crimes,Tab. 7 Neo Quimica Arena pre Crimes violentos rel (%),-8,-11,True,entorno_tabela_risco.csv
+crimes,Tab. 7 Neo Quimica Arena pre Crimes violentos abs,"-0,12","-0,16",True,entorno_tabela_risco.csv
+crimes,Tab. 7 Neo Quimica Arena durante Crimes violentos rel (%),+6,+14,True,entorno_tabela_risco.csv
+crimes,Tab. 7 Neo Quimica Arena durante Crimes violentos abs,"+0,11","+0,25",True,entorno_tabela_risco.csv
+crimes,Tab. 7 Neo Quimica Arena pos Crimes violentos rel (%),+31,+31,False,entorno_tabela_risco.csv
+crimes,Tab. 7 Neo Quimica Arena pos Crimes violentos abs,"+0,25","+0,25",False,entorno_tabela_risco.csv
+crimes,Tab. 7 Allianz Parque pre Crimes violentos rel (%),+4,-1,True,entorno_tabela_risco.csv
+crimes,Tab. 7 Allianz Parque pre Crimes violentos abs,"+0,11","-0,04",True,entorno_tabela_risco.csv
+crimes,Tab. 7 Allianz Parque durante Crimes violentos rel (%),+4,+7,True,entorno_tabela_risco.csv
+crimes,Tab. 7 Allianz Parque durante Crimes violentos abs,"+0,08","+0,13",True,entorno_tabela_risco.csv
+crimes,Tab. 7 Allianz Parque pos Crimes violentos rel (%),+21,+24,True,entorno_tabela_risco.csv
+crimes,Tab. 7 Allianz Parque pos Crimes violentos abs,"+0,26","+0,29",True,entorno_tabela_risco.csv
+crimes,Tab. 7 Morumbi pre Crimes violentos rel (%),+26,+15,True,entorno_tabela_risco.csv
+crimes,Tab. 7 Morumbi pre Crimes violentos abs,"+0,44","+0,25",True,entorno_tabela_risco.csv
+crimes,Tab. 7 Morumbi durante Crimes violentos rel (%),+58,+65,True,entorno_tabela_risco.csv
+crimes,Tab. 7 Morumbi durante Crimes violentos abs,"+0,67","+0,74",True,entorno_tabela_risco.csv
+crimes,Tab. 7 Morumbi pos Crimes violentos rel (%),+64,+65,True,entorno_tabela_risco.csv
+crimes,Tab. 7 Morumbi pos Crimes violentos abs,"+0,42","+0,42",False,entorno_tabela_risco.csv
+crimes,Tab. 7 Neo Quimica Arena pre Roubos rel (%),-8,-11,True,entorno_tabela_risco.csv
+crimes,Tab. 7 Neo Quimica Arena pre Roubos abs,"-0,10","-0,14",True,entorno_tabela_risco.csv
+crimes,Tab. 7 Neo Quimica Arena durante Roubos rel (%),-3,+4,True,entorno_tabela_risco.csv
+crimes,Tab. 7 Neo Quimica Arena durante Roubos abs,"-0,05","+0,06",True,entorno_tabela_risco.csv
+crimes,Tab. 7 Neo Quimica Arena pos Roubos rel (%),+43,+42,True,entorno_tabela_risco.csv
+crimes,Tab. 7 Neo Quimica Arena pos Roubos abs,"+0,25","+0,25",False,entorno_tabela_risco.csv
+crimes,Tab. 7 Allianz Parque pre Roubos rel (%),+5,-1,True,entorno_tabela_risco.csv
+crimes,Tab. 7 Allianz Parque pre Roubos abs,"+0,15","-0,02",True,entorno_tabela_risco.csv
+crimes,Tab. 7 Allianz Parque durante Roubos rel (%),-0,+1,True,entorno_tabela_risco.csv
+crimes,Tab. 7 Allianz Parque durante Roubos abs,"-0,00","+0,01",True,entorno_tabela_risco.csv
+crimes,Tab. 7 Allianz Parque pos Roubos rel (%),+26,+29,True,entorno_tabela_risco.csv
+crimes,Tab. 7 Allianz Parque pos Roubos abs,"+0,31","+0,35",True,entorno_tabela_risco.csv
+crimes,Tab. 7 Morumbi pre Roubos rel (%),+23,+12,True,entorno_tabela_risco.csv
+crimes,Tab. 7 Morumbi pre Roubos abs,"+0,38","+0,21",True,entorno_tabela_risco.csv
+crimes,Tab. 7 Morumbi durante Roubos rel (%),+49,+55,True,entorno_tabela_risco.csv
+crimes,Tab. 7 Morumbi durante Roubos abs,"+0,52","+0,59",True,entorno_tabela_risco.csv
+crimes,Tab. 7 Morumbi pos Roubos rel (%),+71,+73,True,entorno_tabela_risco.csv
+crimes,Tab. 7 Morumbi pos Roubos abs,"+0,44","+0,45",True,entorno_tabela_risco.csv
+crimes,Tab. 7 Neo Quimica Arena pre Furtos rel (%),+55,+47,True,entorno_tabela_risco.csv
+crimes,Tab. 7 Neo Quimica Arena pre Furtos abs,"+0,43","+0,37",True,entorno_tabela_risco.csv
+crimes,Tab. 7 Neo Quimica Arena durante Furtos rel (%),+94,+92,True,entorno_tabela_risco.csv
+crimes,Tab. 7 Neo Quimica Arena durante Furtos abs,"+0,66","+0,64",True,entorno_tabela_risco.csv
+crimes,Tab. 7 Neo Quimica Arena pos Furtos rel (%),+108,+106,True,entorno_tabela_risco.csv
+crimes,Tab. 7 Neo Quimica Arena pos Furtos abs,"+0,71","+0,69",True,entorno_tabela_risco.csv
+crimes,Tab. 7 Allianz Parque pre Furtos rel (%),+14,+7,True,entorno_tabela_risco.csv
+crimes,Tab. 7 Allianz Parque pre Furtos abs,"+0,36","+0,19",True,entorno_tabela_risco.csv
+crimes,Tab. 7 Allianz Parque durante Furtos rel (%),+28,+28,False,entorno_tabela_risco.csv
+crimes,Tab. 7 Allianz Parque durante Furtos abs,"+0,52","+0,52",False,entorno_tabela_risco.csv
+crimes,Tab. 7 Allianz Parque pos Furtos rel (%),+45,+46,True,entorno_tabela_risco.csv
+crimes,Tab. 7 Allianz Parque pos Furtos abs,"+0,39","+0,40",True,entorno_tabela_risco.csv
+crimes,Tab. 7 Morumbi pre Furtos rel (%),+55,+69,True,entorno_tabela_risco.csv
+crimes,Tab. 7 Morumbi pre Furtos abs,"+0,35","+0,44",True,entorno_tabela_risco.csv
+crimes,Tab. 7 Morumbi durante Furtos rel (%),+95,+99,True,entorno_tabela_risco.csv
+crimes,Tab. 7 Morumbi durante Furtos abs,"+0,32","+0,33",True,entorno_tabela_risco.csv
+crimes,Tab. 7 Morumbi pos Furtos rel (%),+187,+193,True,entorno_tabela_risco.csv
+crimes,Tab. 7 Morumbi pos Furtos abs,"+0,35","+0,36",True,entorno_tabela_risco.csv
+sinistros,Tab. 2 Sinistros com vítima capital PRÉ (%),"+1,5","+1,0",True,vereditos.csv
+sinistros,Tab. 2 Sinistros com vítima capital PRÉ (marca),(sem),(sem),False,vereditos.csv
+sinistros,p_BH Sinistros com vítima capital PRÉ,"0,723","0,883",True,vereditos.csv
+sinistros,Tab. 2 Sinistros com vítima capital DURANTE (%),"+2,9","+3,6",True,vereditos.csv
+sinistros,Tab. 2 Sinistros com vítima capital DURANTE (marca),(sem),(sem),False,vereditos.csv
+sinistros,Tab. 2 Sinistros com vítima capital PÓS (%),"+3,9","+3,8",True,vereditos.csv
+sinistros,Tab. 2 Sinistros com vítima capital PÓS (marca),(sem),(sem),False,vereditos.csv
+sinistros,Tab. 2 Sinistros com vítima fora da capital PRÉ (%),"+2,6","+2,0",True,vereditos.csv
+sinistros,Tab. 2 Sinistros com vítima fora da capital PRÉ (marca),(sem),(sem),False,vereditos.csv
+sinistros,Tab. 2 Sinistros com vítima fora da capital DURANTE (%),"+0,6","+0,2",True,vereditos.csv
+sinistros,Tab. 2 Sinistros com vítima fora da capital DURANTE (marca),(sem),(sem),False,vereditos.csv
+sinistros,Tab. 2 Sinistros com vítima fora da capital PÓS (%),"+4,3","+3,4",True,vereditos.csv
+sinistros,Tab. 2 Sinistros com vítima fora da capital PÓS (marca),(sem),(sem),False,vereditos.csv
+sinistros,Tab. 2 Sinistros totais capital PRÉ (%),"+4,0","+3,6",True,vereditos.csv
+sinistros,Tab. 2 Sinistros totais capital PRÉ (marca),(sem),(sem),False,vereditos.csv
+sinistros,p_BH Sinistros totais capital PRÉ,"0,692","0,714",True,vereditos.csv
+sinistros,Tab. 2 Sinistros totais capital DURANTE (%),"+2,6","+3,4",True,vereditos.csv
+sinistros,Tab. 2 Sinistros totais capital DURANTE (marca),(sem),(sem),False,vereditos.csv
+sinistros,Tab. 2 Sinistros totais capital PÓS (%),"+2,8","+2,6",True,vereditos.csv
+sinistros,Tab. 2 Sinistros totais capital PÓS (marca),(sem),(sem),False,vereditos.csv
+sinistros,Tab. 2 Sinistros totais fora da capital PRÉ (%),"-0,1","-0,3",True,vereditos.csv
+sinistros,Tab. 2 Sinistros totais fora da capital PRÉ (marca),(sem),(sem),False,vereditos.csv
+sinistros,Tab. 2 Sinistros totais fora da capital DURANTE (%),"+1,9","+1,9",False,vereditos.csv
+sinistros,Tab. 2 Sinistros totais fora da capital DURANTE (marca),(sem),(sem),False,vereditos.csv
+sinistros,Tab. 2 Sinistros totais fora da capital PÓS (%),"+0,0","-0,6",True,vereditos.csv
+sinistros,Tab. 2 Sinistros totais fora da capital PÓS (marca),(sem),(sem),False,vereditos.csv
+sinistros,Tab. 2 Atropelamentos capital PRÉ (%),"+4,4","+4,8",True,vereditos.csv
+sinistros,Tab. 2 Atropelamentos capital PRÉ (marca),(sem),(sem),False,vereditos.csv
+sinistros,p_BH Atropelamentos capital PRÉ,"0,692","0,825",True,vereditos.csv
+sinistros,Tab. 2 Atropelamentos capital DURANTE (%),"-7,0","-3,5",True,vereditos.csv
+sinistros,Tab. 2 Atropelamentos capital DURANTE (marca),(sem),(sem),False,vereditos.csv
+sinistros,Tab. 2 Atropelamentos capital PÓS (%),"+8,4","+10,3",True,vereditos.csv
+sinistros,Tab. 2 Atropelamentos capital PÓS (marca),(sem),(sem),False,vereditos.csv
+sinistros,Tab. 2 Atropelamentos fora da capital PRÉ (%),"-3,4","-3,0",True,vereditos.csv
+sinistros,Tab. 2 Atropelamentos fora da capital PRÉ (marca),(sem),(sem),False,vereditos.csv
+sinistros,Tab. 2 Atropelamentos fora da capital DURANTE (%),"-5,3","-2,4",True,vereditos.csv
+sinistros,Tab. 2 Atropelamentos fora da capital DURANTE (marca),(sem),(sem),False,vereditos.csv
+sinistros,Tab. 2 Atropelamentos fora da capital PÓS (%),"+9,6","+9,7",True,vereditos.csv
+sinistros,Tab. 2 Atropelamentos fora da capital PÓS (marca),(sem),(sem),False,vereditos.csv
+sinistros,pareado Sinistros com vítima pre DiD_IRR (%),"+2,3","+2,1",True,controles_pareados.csv
+sinistros,pareado Sinistros com vítima pre IC95_lo (%),"-4,8","-5,1",True,controles_pareados.csv
+sinistros,pareado Sinistros com vítima pre IC95_hi (%),"+10,6","+10,1",True,controles_pareados.csv
+sinistros,pareado Sinistros com vítima durante DiD_IRR (%),"+4,2","+4,9",True,controles_pareados.csv
+sinistros,pareado Sinistros com vítima durante IC95_lo (%),"-3,0","-3,3",True,controles_pareados.csv
+sinistros,pareado Sinistros com vítima durante IC95_hi (%),"+12,9","+13,0",True,controles_pareados.csv
+sinistros,pareado Sinistros com vítima pos DiD_IRR (%),"-2,4","-2,0",True,controles_pareados.csv
+sinistros,pareado Sinistros com vítima pos IC95_lo (%),"-12,4","-12,1",True,controles_pareados.csv
+sinistros,pareado Sinistros com vítima pos IC95_hi (%),"+6,7","+8,9",True,controles_pareados.csv
+sinistros,placebo p Sinistros com vítima capital pre,"0,436","0,552",True,placebo_permutacao.csv
+sinistros,placebo p Sinistros com vítima capital durante,"0,272","0,112",True,placebo_permutacao.csv
+sinistros,placebo p Sinistros com vítima capital pos,"0,024","0,024",False,placebo_permutacao.csv
+sinistros,pré-tendência p (capital),"0,890","0,975",True,event_study.csv
+sinistros,pré-tendência p (fora_da_capital),"0,210","0,227",True,event_study.csv
+sinistros,event study Sinistros com vítima capital k=-3 (%),"+1,4","-0,1",True,event_study.csv
+sinistros,event study Sinistros com vítima capital k=-2 (%),"+2,4","+1,7",True,event_study.csv
+sinistros,event study Sinistros com vítima capital k=-1 (%),"-0,3","-0,7",True,event_study.csv
+sinistros,event study Sinistros com vítima capital k=0 (%),"+6,0","+6,9",True,event_study.csv
+sinistros,event study Sinistros com vítima capital k=1 (%),"-0,7","-0,1",True,event_study.csv
+sinistros,event study Sinistros com vítima capital k=2 (%),"+6,4","+5,7",True,event_study.csv
+sinistros,event study Sinistros com vítima capital k=3 (%),"+1,8","+2,9",True,event_study.csv
+sinistros,tercil C_pre__T1 Sinistros com vítima (%),"+0,4","+0,4",False,dose_resposta_publico.csv
+sinistros,tercil C_pre__T2 Sinistros com vítima (%),"-0,8","-0,9",True,dose_resposta_publico.csv
+sinistros,tercil C_pre__T3 Sinistros com vítima (%),"+4,6","+4,5",True,dose_resposta_publico.csv
+sinistros,tercil C_pos__T3 Sinistros com vítima (%),"+2,6","+2,6",False,dose_resposta_publico.csv
+sinistros,entorno 3 estádios Sinistros com vítima durante (%),+18,+16,True,entorno_modelo_principal.csv
+sinistros,entorno 3 estádios Sinistros com vítima durante p_BH,"0,418","0,709",True,entorno_modelo_principal.csv
+sinistros,entorno 3 estádios Sinistros com vítima pos (%),+6,+2,True,entorno_modelo_principal.csv
+sinistros,entorno 3 estádios Sinistros com vítima pos p_BH,"0,777","0,926",True,entorno_modelo_principal.csv
+sinistros,entorno 3 estádios Sinistros com vítima pre (%),+46,+47,True,entorno_modelo_principal.csv
+sinistros,entorno 3 estádios Sinistros com vítima pre p_BH,"0,004","0,008",True,entorno_modelo_principal.csv
+sinistros,entorno 3 estádios Sinistros totais durante (%),+5,+1,True,entorno_modelo_principal.csv
+sinistros,entorno 3 estádios Sinistros totais durante p_BH,"0,777","0,926",True,entorno_modelo_principal.csv
+sinistros,entorno 3 estádios Sinistros totais pos (%),-4,-4,False,entorno_modelo_principal.csv
+sinistros,entorno 3 estádios Sinistros totais pos p_BH,"0,777","0,926",True,entorno_modelo_principal.csv
+sinistros,entorno 3 estádios Sinistros totais pre (%),+38,+35,True,entorno_modelo_principal.csv
+sinistros,entorno 3 estádios Sinistros totais pre p_BH,"0,004","0,008",True,entorno_modelo_principal.csv
+sinistros,entorno 3 estádios Atropelamentos durante (%),-21,-34,True,entorno_modelo_principal.csv
+sinistros,entorno 3 estádios Atropelamentos durante p_BH,"0,771","0,709",True,entorno_modelo_principal.csv
+sinistros,entorno 3 estádios Atropelamentos pos (%),-100,-5,True,entorno_modelo_principal.csv
+sinistros,entorno 3 estádios Atropelamentos pos p_BH,"0,000","0,926",True,entorno_modelo_principal.csv
+sinistros,entorno 3 estádios Atropelamentos pre (%),+60,+87,True,entorno_modelo_principal.csv
+sinistros,entorno 3 estádios Atropelamentos pre p_BH,"0,163","0,038",True,entorno_modelo_principal.csv
+sinistros,"Tab. 5a prevalência média (1 h, %)","12,9","13,8",True,pico_com_hm/pico_validacao_folds.csv
+sinistros,"Tab. 5a prevalência mín (1 h, %)","7,5","7,9",True,pico_com_hm/pico_validacao_folds.csv
+sinistros,"Tab. 5a prevalência máx (1 h, %)","21,1","23,4",True,pico_com_hm/pico_validacao_folds.csv
+sinistros,Tab. 5b RR capital pre,"0,98","0,96",True,pico_com_hm/pico_por_janela.csv
+sinistros,Tab. 5b p Fisher capital pre,"1,000","0,869",True,pico_com_hm/pico_por_janela.csv
+sinistros,Tab. 5b RR capital durante,"1,06","1,03",True,pico_com_hm/pico_por_janela.csv
+sinistros,Tab. 5b p Fisher capital durante,"0,682","0,806",True,pico_com_hm/pico_por_janela.csv
+sinistros,Tab. 5b RR capital pos,"1,22","1,19",True,pico_com_hm/pico_por_janela.csv
+sinistros,Tab. 5b p Fisher capital pos,"0,141","0,191",True,pico_com_hm/pico_por_janela.csv
+sinistros,Tab. 5b RR fora_da_capital pre,"1,12","1,01",True,pico_com_hm/pico_por_janela.csv
+sinistros,Tab. 5b p Fisher fora_da_capital pre,"0,378","0,936",True,pico_com_hm/pico_por_janela.csv
+sinistros,Tab. 5b RR fora_da_capital durante,"0,99","0,97",True,pico_com_hm/pico_por_janela.csv
+sinistros,Tab. 5b p Fisher fora_da_capital durante,"1,000","0,883",True,pico_com_hm/pico_por_janela.csv
+sinistros,Tab. 5b RR fora_da_capital pos,"1,13","1,13",False,pico_com_hm/pico_por_janela.csv
+sinistros,Tab. 5b p Fisher fora_da_capital pos,"0,344","0,385",True,pico_com_hm/pico_por_janela.csv
+sinistros,Tab. 7 Neo Quimica Arena pre Sinistros com vítima rel (%),+69,+58,True,entorno_tabela_risco.csv
+sinistros,Tab. 7 Neo Quimica Arena pre Sinistros com vítima abs,"+0,24","+0,20",True,entorno_tabela_risco.csv
+sinistros,Tab. 7 Neo Quimica Arena durante Sinistros com vítima rel (%),+38,+28,True,entorno_tabela_risco.csv
+sinistros,Tab. 7 Neo Quimica Arena durante Sinistros com vítima abs,"+0,05","+0,03",True,entorno_tabela_risco.csv
+sinistros,Tab. 7 Neo Quimica Arena pos Sinistros com vítima rel (%),+8,+10,True,entorno_tabela_risco.csv
+sinistros,Tab. 7 Neo Quimica Arena pos Sinistros com vítima abs,"+0,01","+0,02",True,entorno_tabela_risco.csv
+sinistros,Tab. 7 Allianz Parque pre Sinistros com vítima rel (%),+38,+44,True,entorno_tabela_risco.csv
+sinistros,Tab. 7 Allianz Parque pre Sinistros com vítima abs,"+0,08","+0,09",True,entorno_tabela_risco.csv
+sinistros,Tab. 7 Allianz Parque durante Sinistros com vítima rel (%),+5,-1,True,entorno_tabela_risco.csv
+sinistros,Tab. 7 Allianz Parque durante Sinistros com vítima abs,"+0,01","-0,00",True,entorno_tabela_risco.csv
+sinistros,Tab. 7 Allianz Parque pos Sinistros com vítima rel (%),+2,-5,True,entorno_tabela_risco.csv
+sinistros,Tab. 7 Allianz Parque pos Sinistros com vítima abs,"+0,00","-0,00",True,entorno_tabela_risco.csv
+sinistros,Tab. 7 Morumbi pre Sinistros com vítima rel (%),+27,+39,True,entorno_tabela_risco.csv
+sinistros,Tab. 7 Morumbi pre Sinistros com vítima abs,"+0,08","+0,12",True,entorno_tabela_risco.csv
+sinistros,Tab. 7 Morumbi durante Sinistros com vítima rel (%),+9,+21,True,entorno_tabela_risco.csv
+sinistros,Tab. 7 Morumbi durante Sinistros com vítima abs,"+0,01","+0,03",True,entorno_tabela_risco.csv
+sinistros,Tab. 7 Morumbi pos Sinistros com vítima rel (%),+8,+1,True,entorno_tabela_risco.csv
+sinistros,Tab. 7 Morumbi pos Sinistros com vítima abs,"+0,01","+0,00",True,entorno_tabela_risco.csv
+crimes,Tab. 4 Crimes violentos durante todos (%),+15,+23,True,entorno_canal.csv
+crimes,Tab. 4 Crimes violentos pos todos (%),+31,+36,True,entorno_canal.csv
+crimes,Tab. 4 Furtos durante todos (%),+66,+58,True,entorno_canal.csv
+crimes,Tab. 4 Furtos pos todos (%),+85,+87,True,entorno_canal.csv
+crimes,Tab. 4 Roubos durante todos (%),+8,+15,True,entorno_canal.csv
+crimes,Tab. 4 Roubos pos todos (%),+39,+43,True,entorno_canal.csv
+crimes,Tab. 4 Crimes violentos durante sem conduta nula (%),+7,+14,True,entorno_canal.csv
+crimes,Tab. 4 Crimes violentos pos sem conduta nula (%),+40,+44,True,entorno_canal.csv
+crimes,Tab. 4 Furtos durante sem conduta nula (%),+58,+52,True,entorno_canal.csv
+crimes,Tab. 4 Furtos pos sem conduta nula (%),+82,+85,True,entorno_canal.csv
+crimes,Tab. 4 Roubos durante sem conduta nula (%),+7,+14,True,entorno_canal.csv
+crimes,Tab. 4 Roubos pos sem conduta nula (%),+40,+44,True,entorno_canal.csv
+crimes,Tab. 4 Crimes violentos durante só BO online (%),+14,+22,True,entorno_canal.csv
+crimes,Tab. 4 Crimes violentos pos só BO online (%),+44,+53,True,entorno_canal.csv
+crimes,Tab. 4 Furtos durante só BO online (%),+61,+67,True,entorno_canal.csv
+crimes,Tab. 4 Furtos pos só BO online (%),+81,+81,False,entorno_canal.csv
+crimes,Tab. 4 Roubos durante só BO online (%),+8,+16,True,entorno_canal.csv
+crimes,Tab. 4 Roubos pos só BO online (%),+49,+56,True,entorno_canal.csv
+crimes,Tab. 4 Crimes violentos durante só presencial (%),+14,+24,True,entorno_canal.csv
+crimes,Tab. 4 Crimes violentos pos só presencial (%),-0,-2,True,entorno_canal.csv
+crimes,Tab. 4 Furtos durante só presencial (%),+47,+37,True,entorno_canal.csv
+crimes,Tab. 4 Furtos pos só presencial (%),+105,+97,True,entorno_canal.csv
+crimes,Tab. 4 Roubos durante só presencial (%),+6,+10,True,entorno_canal.csv
+crimes,Tab. 4 Roubos pos só presencial (%),+11,+7,True,entorno_canal.csv

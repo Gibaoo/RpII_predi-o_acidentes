@@ -1,0 +1,5 @@
+desfecho,linhas_BO_x_natureza,BO_unicos,excesso_pct,horas_com_diferenca,max_diferenca_hora
+crimes_violentos,344832,344192,0.18594272963927683,624,3
+lesao_corporal_dolosa,59795,59790,0.008362602441880362,5,1
+roubos_total,280201,280197,0.0014275670331853618,4,1
+furtos_total,265199,265198,0.00037707675020204334,1,1
