@@ -2172,3 +2172,71 @@ Modelo principal da Fase 2 inalterado; só robustezes. Crimes e sinistros separa
   partiam a seção 5).
 - Título trocado (decisão do usuário): "Crimes e Sinistros de Trânsito nas Horas em torno dos Jogos de
   Futebol na Cidade de São Paulo: Efeito por Janela e Ganho Preditivo".
+
+# V3b: novos trabalhos correlatos (2026-11-19)
+Só `entrega3/main.tex` e `referencias.bib`. Textos lidos na íntegra antes de escrever (Masiero: PDF de acesso
+aberto da UNIGE; Recife: PDF da RBERU); Wood conferido no Crossref e na página da OUP (resumo).
+- **Masiero (2022)**, JSE 23(8):1076–1095: 93 distritos policiais, 2006–2014, roubos e furtos por hora, 430
+  jogos de Copa do Mundo/Confederações/Libertadores (73 em SP). Roubos −7,5% durante os jogos (incapacitação
+  voluntária), antecipação para antes do jogo; **nos 3 distritos dos estádios roubos +28,3% e furtos +150%**,
+  sem *deslocamento* espacial dos vizinhos. Atenção: o prompt dizia "sem efeito espacial no nível de distrito";
+  o artigo encontra concentração local — o texto da Discussão segue o artigo. Entrou na 2.1, Tabela 1,
+  lacuna da introdução, Síntese e Discussão.
+- **Santos e Silveira Neto (2023)**, RBERU 17(2):237–261: painel horário 2011–2015, 743 jogos (341 casa, 402
+  fora), binomial negativa com indicadores −7..+7 h; roubos e furtos na hora anterior, furtos durante, violência
+  doméstica na 1ª hora depois; nulo para homicídio/lesão/entorpecentes; dose de público (+11,4% roubos e +30,3%
+  furtos por 10 mil); conclusão: jogos fora de Recife não afetam (as figuras mostram reduções pontuais depois
+  desses jogos). Entrou na 2.2, Tabela 1, Síntese e Discussão.
+- **Wood, McInnes e Norton (2011)**, JCR 38(4):611–621, doi 10.1086/660164 (título registrado: "...Game-Day
+  *Traffic* Fatalities"; o DOI 10.1086/659379 que circula é de outro artigo). 271 jogos decisivos/clássicos
+  2001–2008, mais mortes no trânsito em jogos mais disputados, só onde há torcedores do vencedor. Entrou na 2.2
+  com Redelmeier e na Tabela 1.
+- Lacuna da introdução e Síntese reescritas: o efeito horário em SP já foi medido (Masiero); novo aqui = disco de
+  3 km por estádio (vs distrito), jogos fora da capital como categoria com calendário doméstico, sinistros,
+  ganho preditivo. Discussão: PRÉ vs Masiero/Recife (metade do PRÉ é hora×mês, controle que nenhum dos dois usa),
+  disco vs distrito (unidade de área), TV nula vs queda de roubos de Masiero.
+- `.bib`: `Ivandi{\'c}` corrigido; + `masiero2022sports`, `santos2023jogos`, `wood2011bad`. Card e Dahl enxugado.
+- Validação: 21 ok (429 chaves, 7 tabelas), 20 citações todas no `.bib`, sem travessão nem "americano".
+  Não compilado.
+
+# V4: revisão pelo parecer (2026-11-20)
+O artigo **`../entrega_parcial/rp_ii/main.tex`** (PDF `RP_II (1).pdf`) foi escrito por um colega fora deste
+ambiente, a partir da entrega3 e sem o caminho diário, e **passou a ser a versão oficial do artigo**. Um parecer
+externo revisou essa versão; o roteiro com os pontos aceitos está em `docs/prompt_v4_parecer.md`. A `entrega3/`,
+a `entrega2/` e os `.tex` de `docs/` não foram tocados.
+
+### Fase 1 (análises novas) — aprovada pelo usuário
+- **Conferências:** o grão da contagem de crime era BO × natureza (+0,19% em crimes violentos; usuário decidiu
+  deduplicar). Os 137 jogos da base original = 130 na capital + 7 mandos em Barueri/Vila Belmiro. Crimes violentos
+  inclui roubos e lesão corporal dolosa. Tabelas do `rp_ii` eram transcrições à mão dos `tab_*.tex` (linhas de
+  dados idênticas); `thebibliography` sem `.bib`; sem origem em CSV: "10 boletins da DRADE" e a coluna "Abs. corr."
+  da Tabela 7. Janela: fim = BR-Football; início exclui 2020–2021 por COVID (resposta do usuário).
+- **`scripts/36_revisao_parecer.py`** (novo; lê `fato_hora_sp.csv` e o silver de eventos, recalcula as contagens
+  por BO único; cache do `DESCR_CONDUTA` em `data/silver/crime_conduta_eventos_sp.csv.gz`, fora do git) →
+  `reports/janelas/revisao/`:
+  - 1.1 modelo da cidade com EF hora × mês: nenhuma janela sobrevive ao BH (crimes PRÉ +2,9%, p_BH 0,205;
+    sinistros nulos); DURANTE GLM −1,6% × pareado −6,8%.
+  - 1.2 entorno por diferença em diferenças (GLM binomial disco × resto da cidade, IRLS-FWL conferido contra o
+    statsmodels): furtos D+P +71%, roubos PÓS +43%, crimes violentos PÓS +36% ("efeito robusto"; roubos/violentos
+    só no BO online); sinistros com vítima PRÉ +47% robusto; raio 1/2/3/5 km monotônico; fator empírico dos furtos
+    sem hora 5,0 (substitui 2,12). Regra de parada (furtos no entorno) não acionada.
+  - 1.3 5 jogos do Brasil na Copa de 2022 excluídos (30 h; Wikipédia, permalinks no script). O bloco preditivo
+    não foi refeito: o teste é 2023 e não é afetado.
+  - 1.4 pico com hora × mês no esperado: respostas ao objetivo (ii) não mudam após BH; definição mantida.
+  - Correções durante a fase: pareado do entorno dos sinistros com correção de continuidade (+0,5; somas zero no
+    bootstrap) e coeficiente por estádio sem nenhum evento na janela marcado como ausente (era IRR 0).
+- Pacotes instalados no Python 3.14: `statsmodels`, `scipy`.
+
+### Fase 2 (artigo) — aprovada pelo usuário
+- `35_figuras_artigo_v2.py`: modo padrão `ARTIGO=rp_ii` com funções `*_v4` (tabelas 2–7, incluindo a Tabela 3
+  nova de robustez, e as 2 figuras) gravadas no `rp_ii` e entrando por `\input`; `numeros_artigo.csv` com chaves
+  `v4.*`; o arquivo antigo preservado como `numeros_artigo_entrega3.csv` (`ARTIGO=entrega3` regenera a 3ª entrega).
+- `main.tex`: título "Variação por Janela"; resumo e discussão só com os resultados novos; linguagem de
+  associação; Masiero (2022) citado e lacuna reescrita; Ristea et al. (2020) corrigido; Metodologia reescrita
+  (definições, funil, ponto médio, exclusões, hora × mês, diferença em diferenças, hiperparâmetros, motivo da
+  janela, disponibilidade do código com os autores); parágrafo do GLM diário/fuso apagado; limitações 6 → 8.
+- `21_valida_latex.py` aceita `\bibitem[rótulo]{chave}`. Validação: 0 problemas. Não compilado (sem LaTeX local).
+- Relatório da fase: `reports/janelas/revisao/fase2_artigo.md`.
+
+### Fase 3 (documentação)
+- `CLAUDE.md`: seção "V4: revisão pelo parecer", próximos passos. `.gitignore`: + cache de conduta. Nada commitado.

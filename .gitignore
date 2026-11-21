@@ -4,6 +4,8 @@ uploads/
 # Silver em nível de evento (1 linha por BO/sinistro, com lat/lon) -- microdado, regenerável por scripts/30
 data/silver/crime_eventos_sp.csv.gz
 data/silver/acidentes_eventos_sp.csv.gz
+# cache do DESCR_CONDUTA por BO (bronze), regenerável por scripts/36
+data/silver/crime_conduta_eventos_sp.csv.gz
 
 # Python
 scripts/__pycache__/

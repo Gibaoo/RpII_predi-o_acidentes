@@ -193,7 +193,8 @@ commitar; não editar os `.tex` até o usuário aprovar os resultados).
   Validar com `21_valida_latex.py` (o aviso de `\cite` sem `\bibitem` é falso positivo: usa BibTeX).
 
 ## V3: fechamento da 3ª entrega (2026-11-19)
-- **Entregável atual = `../entrega_parcial/entrega3/main.tex`** (artigo da V2, por janelas de horário),
+- **(Superado na V4, 2026-11-20: o entregável passou a ser `../entrega_parcial/rp_ii/main.tex`, ver seção V4.)**
+  Entregável da V3 = `../entrega_parcial/entrega3/main.tex` (artigo da V2, por janelas de horário),
   aprovado pelo usuário em 2026-11-19 junto com as Fases 2, 2b e 3. O artigo diário de setembro
   (`docs/rpII_predicao_acidentes*.tex`) e a `entrega2/` ficam como histórico — não editar.
 - Ajustes da V3 no `main.tex`: objetivo geral e 4 objetivos específicos reescritos para a V2 (hora, 4 times,
@@ -213,9 +214,57 @@ commitar; não editar os `.tex` até o usuário aprovar os resultados).
 - **Título novo (decidido pelo usuário, 2026-11-19)**: "Crimes e Sinistros de Trânsito nas Horas em torno dos
   Jogos de Futebol na Cidade de São Paulo: Efeito por Janela e Ganho Preditivo" (substitui "Previsão de Picos
   de Crimes Violentos e de Sinistros de Trânsito em Dias de Jogos...").
+- **V3b (2026-11-19), correlatos novos** (lidos na íntegra; não redescobrir): Masiero (2022, JSE; SP, 93
+  distritos, 2006–2014, 430 jogos internacionais; roubos −7,5% durante, antecipação pré-jogo, **distritos dos
+  estádios roubos +28% e furtos +150%**, sem deslocamento espacial — NÃO é "sem efeito espacial"); Santos e
+  Silveira Neto (2023, RBERU; Recife, painel horário, ±7 h, público como dose, jogos fora sem efeito pela
+  conclusão); Wood et al. (2011, JCR 38(4):611–621, doi 10.1086/660164). Lacuna/Síntese: novidade = disco de
+  3 km, jogos fora com calendário doméstico, sinistros, ganho preditivo. Não compilado após a V3b.
 - **1ª compilação real (usuário, 2026-11-19)**: 14 páginas, todas as seções no limite (título+resumo ~0,7;
   introdução ~1,4; correlatos ~3,0; metodologia ~1,5; resultados ~5,4; discussão ~0,75), sem referência
   quebrada. As Tabelas 6–7 caíam no meio da Discussão → `\clearpage` antes da seção 5. Recompilar para conferir.
+
+## V4: revisão pelo parecer (2026-11-20) — ENTREGÁVEL ATUAL
+- **Artigo oficial = `../entrega_parcial/rp_ii/main.tex`** (escrito por um colega fora deste ambiente, a partir
+  da entrega3, sem o caminho diário; revisado aqui pelo parecer externo). `entrega3/` e `entrega2/` ficam como
+  histórico. Roteiro: `docs/prompt_v4_parecer.md`. Fases 1, 2 e 3 aprovadas pelo usuário em 2026-11-20.
+  Princípio: mostrar o resultado final, não o caminho (robustez = linha de tabela ou frase).
+- **Script novo `scripts/36_revisao_parecer.py`** (não reroda 30–34) → `reports/janelas/revisao/{crimes,sinistros}/`
+  + `resumo_revisao.md`, `antes_depois.csv`, `funil_registros.csv`, `medias_horarias.csv`, `copa2022_exclusao.csv`,
+  `fase2_artigo.md`. ~45 min completo; `ETAPAS=cidade,entorno,pico,resumo` (ou `sem_hm`, `drade`), `DOMS=`,
+  `N_PLACEBO=`. Mudanças aplicadas em tudo que ele roda (decididas, não redecidir):
+  - **BO único**: contagem de crime por `bo_key` dentro de cada desfecho (o `fato_hora` conta BO × natureza;
+    +0,19% em crimes violentos). O `fato_hora_sp.csv` NÃO foi alterado: o 36 recalcula as contagens.
+  - **Copa de 2022**: horas PRÉ/DURANTE/PÓS dos 5 jogos do Brasil (30 h) fora da amostra, mesma regra das finais
+    da Copinha/Brasileirão Feminino (horários conferidos na Wikipédia, permalinks no script). O bloco preditivo não
+    foi refeito (teste = 2023, não afetado).
+  - **Cidade: EF hora × mês no modelo principal** (sem ele vira robustez). Resultado: nenhuma janela sobrevive ao
+    BH em crimes nem sinistros; PRÉ crimes violentos +2,9% (p 0,043, p_BH 0,205, pareado +1,3% ns); DURANTE GLM
+    −1,6% ns × pareado −6,8% (discordam); fora da capital PRÉ −3,1% (não robusto). Clássico PRÉ +11,5% (p_BH 0,030).
+  - **Entorno como diferença em diferenças**: GLM binomial da fração das ocorrências no disco (contra o resto da
+    cidade, coordenada válida, sem pontos de acúmulo), por estádio e empilhado com EF por estádio, implementado por
+    IRLS com Frisch-Waugh (`logit_fwl`, conferido contra o statsmodels até a 12ª casa). Régua completa (BH,
+    placebo 1.000, quase-binomial, cluster por dia, pareado ±4 semanas). Furtos DURANTE+PÓS +71% (resultado
+    principal), PRÉ +30%; roubos PÓS +43%, crimes violentos PÓS +36% (todos "efeito robusto"), mas roubos/violentos
+    só no BO online; raio monotônico (furtos D+P +358% em 1 km → +23% em 5 km); subtipos veículo +124%,
+    transeunte +112%. **Sinistros com vítima PRÉ +47% no entorno passou a "efeito robusto"** (antes exploratório).
+    Lesão DURANTE +138% contradita pelo pareado.
+  - **Furtos sem hora**: fração sem hora no disco maior em dia de jogo (OR 1,33); excesso diário de todos os furtos
+    7,1/jogo vs 1,4 só com hora → fator empírico 5,0 substitui o 2,12 da Tabela 7.
+  - **Pico**: definição mantida (esperado sem hora × mês; decisão do usuário); com hora × mês as respostas não mudam.
+    Com os dados da V4 nenhuma janela tem pico mais frequente após BH nos dois domínios.
+  - DRADE: 7 BOs únicos nos discos (o "10" antigo era BO × natureza com hora, sem CSV).
+  - Janela 2022–2023: fim = BR-Football (até 07/12/2023); início exclui 2020–2021 por COVID (decisão do usuário).
+- **Script 35**: modo padrão `ARTIGO=rp_ii` (funções `*_v4`, lê `revisao/`), grava `tab_*.tex`/`fig_*.png` no
+  `rp_ii` (entram por `\input`) e `numeros_artigo.csv` (chaves `v4.*`, `jogos.*`, `inmet.*`, `cfg.*`);
+  `ARTIGO=entrega3` regenera a 3ª entrega → `numeros_artigo_entrega3.csv`. Tabela 1 (literatura) é texto inline.
+- **Artigo**: título "...: Variação por Janela e Ganho Preditivo"; linguagem de associação ("variação",
+  "foram X% maiores"); Masiero (2022) citado (só o que o resumo afirma) e lacuna reescrita; Ristea et al. (2020)
+  corrigido (United Center, basquete/hóquei, logística L2); Tabela 3 nova de robustez; Metodologia com definições,
+  funil, ponto médio fechado à esquerda, exclusões, hiperparâmetros (nota de rodapé), "código e dados agregados
+  disponíveis com os autores" (sem link, decisão do usuário). `rp_ii` usa `thebibliography` (sem `.bib`); o
+  `21_valida_latex.py` passou a aceitar `\bibitem[rótulo]{chave}`. Validado: 0 problemas. **Não compilado.**
+- Pacotes: `statsmodels` e `scipy` instalados no 3.14 em 2026-11-20 (ver Ambiente).
 
 ## Status do trabalho DIÁRIO antigo (histórico; o atual é a V2/V3 acima): Etapas 1–20, 23 e 24 concluídas e revisadas, incl. auditoria pooled/fold_macro do ROC-AUC e PR-AUC e auditoria de colinearidade com calendário no SHAP (checkpoint 2026-09-04). Todas as pendências abertas fechadas nesse mesmo checkpoint: auditoria completa do grupo futebol (0,0% líquido nos 3 modelos), robustez do SHAP a hiperparâmetro raso vs produção (confirmada), e discrepância PSM/IPTW da Etapa 20 (resolvida — era violação de positividade). §21/22 satisfeitos por `README.md`. **§25 (relatório final) compilado de verdade pelo usuário e dentro do alvo de páginas do SBC** (`docs/rpII_predicao_acidentes.tex`, 10 páginas c/ referências); referências bibliográficas completas; também existe uma versão estendida sem limite de páginas (`docs/rpII_predicao_acidentes_relatorio_completo.tex`). Falta só revisão final dos coautores. Roteiro completo (§1–25) coberto pela primeira vez neste checkpoint.
 ## Nota: numeração das "Etapas" deste projeto = numeração das Seções do próprio `docs/briefing_original.md` (Etapa 6 = §6 EDA, ..., Etapa 14 = §14 Modelos ML). Daqui pra frente: §15 séries temporais/validação, §16 métricas, §17 otimização, §18 interpretabilidade/SHAP, §19 cenários, §20 causalidade, §21+ código/pipeline/resultados/visualizações/relatório final.
@@ -695,14 +744,18 @@ falha do pipeline. Preparar a Discussão do artigo em torno disso desde já.
   documentação formal do que já existia (briefing §21/22 não pedem código
   novo, só organização/diagrama).
 
-## Próximos passos (atualizado 2026-11-19)
-1. Usuário: compilar `../entrega_parcial/entrega3/main.tex` (`.sty` e `.bst` já estão lá) (pdflatex → bibtex → pdflatex ×2); conferir limites de página da 2ª entrega (título+resumo 1;
-   introdução 2; correlatos 4; metodologia 2; resultados 6; discussão+conclusão 1). Se estourar, enxugar
-   texto (nunca fonte/margem).
-2. Recompilar depois do título novo e do `\clearpage` e conferir a Discussão contínua.
-3. Versionamento: PR #1 (V2/V3) mergeado pelo usuário em 2026-11-19; `main` local = `origin/main`.
-4. Depois de qualquer edição: `py -3.14 scripts/21_valida_latex.py <caminho absoluto do .tex>`.
-5. (Histórico) `docs/rpII_predicao_acidentes*.tex` = artigo diário de setembro, não é mais o entregável.
+## Próximos passos (atualizado 2026-11-20, V4)
+1. Usuário: compilar `../entrega_parcial/rp_ii/main.tex` (pdflatex ×2; sem bibtex, usa `thebibliography`) e
+   conferir os limites (título+resumo 1; introdução 2; correlatos 4; metodologia 2; resultados 6;
+   discussão+conclusão 1). Estimativa: Metodologia ~1,9–2,0 e Resultados ~5,6–5,9 (no limite). Se estourar,
+   enxugar texto (nunca fonte/margem).
+2. Conferir com atenção a coluna "Abs. corr." da Tabela 7 (fator empírico 5,0, vindo de um único modelo diário
+   dos 3 estádios juntos).
+3. Versionamento: V4 ainda não commitada (comandos passados ao usuário no fim da Fase 3); o `rp_ii` fica FORA do
+   repositório (como a entrega3).
+4. Depois de qualquer edição: `py -3.14 scripts/21_valida_latex.py <caminho absoluto do .tex>`; tabelas e
+   números só via `py -3.14 scripts/35_figuras_artigo_v2.py`.
+5. (Histórico) `entrega3/main.tex` e `docs/rpII_predicao_acidentes*.tex` não são mais o entregável.
 
 ## Pendências que bloqueiam partes do roteiro
 Valem para o trabalho DIÁRIO antigo (Etapas 7–24, `fato_dia_sp.csv`); **as duas foram
@@ -752,8 +805,9 @@ briefing: `openpyxl` (usado por `01_ingestao.py`), `xgboost` e `lightgbm` (usado
 - O SSD novo veio sem Python e sem Git. Instalados em 2026-11-19 (com autorização do usuário) via winget:
   Python 3.14.10 (escopo de usuário, com o launcher `py`) e Git 2.56.0. Pacotes instalados no 3.14:
   `numpy`, `pandas` (3.1), `matplotlib` (+ dependências) — só o que o 35 importa; o 21 usa só a stdlib.
-  **Não instalados**: statsmodels, scikit-learn, xgboost, prophet, shap, openpyxl (scripts 01–34 não rodam
-  sem eles; não é preciso rodá-los de novo). Se o PATH do terminal não achar `py`/`git`, abrir um terminal novo.
+  **Não instalados**: scikit-learn, xgboost, prophet, shap, openpyxl (scripts 01–34 não rodam
+  sem eles; não é preciso rodá-los de novo). **Instalados em 2026-11-20 para o `36_revisao_parecer.py` (V4):
+  `statsmodels` e `scipy`** (o 33 também importa só esses dois, então funções dele podem ser reaproveitadas). Se o PATH do terminal não achar `py`/`git`, abrir um terminal novo.
 
 ## Controle de versão (atualizado 2026-11-19)
 **Atualização (2026-11-19, mais tarde):** o remoto estava VAZIO (público). Com autorização do usuário, `main` foi

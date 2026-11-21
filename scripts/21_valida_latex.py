@@ -90,7 +90,8 @@ def checa_cites_refs(s):
     cites = set()
     for m in re.finditer(r"\\cite\{([^}]*)\}", s):
         cites.update(x.strip() for x in m.group(1).split(","))
-    bibitems = set(re.findall(r"\\bibitem\{([^}]*)\}", s))
+    # aceita tambem \bibitem[rotulo]{chave} (thebibliography no estilo SBC, como no rp_ii)
+    bibitems = set(re.findall(r"\\bibitem(?:\[[^\]]*\])?\{([^}]*)\}", s))
     labels = set(re.findall(r"\\label\{([^}]*)\}", s))
     refs = set(re.findall(r"\\ref\{([^}]*)\}", s))
 

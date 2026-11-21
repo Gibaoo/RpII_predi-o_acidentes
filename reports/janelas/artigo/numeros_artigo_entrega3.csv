@@ -1,0 +1,941 @@
+chave,valor,valor_bruto,fonte
+crimes.crimes_violentos.C_pre.var_pct,"+4,7",4.722364114135536,crimes/tabelas/vereditos.csv
+crimes.crimes_violentos.C_pre.p_BH,"0,041",0.0411331789318455,crimes/tabelas/vereditos.csv
+crimes.crimes_violentos.C_pre.IC_lo,"+1,6",1.5922110296221925,crimes/tabelas/vereditos.csv
+crimes.crimes_violentos.C_pre.IC_hi,"+7,9",7.9489602057769115,crimes/tabelas/vereditos.csv
+crimes.crimes_violentos.C_durante.var_pct,"$-$2,1",-2.0601253355219007,crimes/tabelas/vereditos.csv
+crimes.crimes_violentos.C_durante.p_BH,"0,412",0.4121503128769883,crimes/tabelas/vereditos.csv
+crimes.crimes_violentos.C_durante.IC_lo,"$-$5,1",-5.0711529708344365,crimes/tabelas/vereditos.csv
+crimes.crimes_violentos.C_durante.IC_hi,"+1,0",1.0464084362744375,crimes/tabelas/vereditos.csv
+crimes.crimes_violentos.C_pos.var_pct,"+2,7",2.674119613991355,crimes/tabelas/vereditos.csv
+crimes.crimes_violentos.C_pos.p_BH,"0,223",0.2227201415553976,crimes/tabelas/vereditos.csv
+crimes.crimes_violentos.C_pos.IC_lo,"+0,0",0.026447141931940088,crimes/tabelas/vereditos.csv
+crimes.crimes_violentos.C_pos.IC_hi,"+5,4",5.39187524625091,crimes/tabelas/vereditos.csv
+crimes.crimes_violentos.F_pre.var_pct,"$-$1,5",-1.5032785725947906,crimes/tabelas/vereditos.csv
+crimes.crimes_violentos.F_pre.p_BH,"0,519",0.5193365359066088,crimes/tabelas/vereditos.csv
+crimes.crimes_violentos.F_pre.IC_lo,"$-$4,2",-4.163384710034679,crimes/tabelas/vereditos.csv
+crimes.crimes_violentos.F_pre.IC_hi,"+1,2",1.2306632761860836,crimes/tabelas/vereditos.csv
+crimes.crimes_violentos.F_durante.var_pct,"$-$2,5",-2.5399629844826466,crimes/tabelas/vereditos.csv
+crimes.crimes_violentos.F_durante.p_BH,"0,374",0.3744060479132171,crimes/tabelas/vereditos.csv
+crimes.crimes_violentos.F_durante.IC_lo,"$-$5,7",-5.710811664784565,crimes/tabelas/vereditos.csv
+crimes.crimes_violentos.F_durante.IC_hi,"+0,7",0.7375180842287055,crimes/tabelas/vereditos.csv
+crimes.crimes_violentos.F_pos.var_pct,"$-$0,2",-0.1550153561981959,crimes/tabelas/vereditos.csv
+crimes.crimes_violentos.F_pos.p_BH,"0,939",0.939057252507189,crimes/tabelas/vereditos.csv
+crimes.crimes_violentos.F_pos.IC_lo,"$-$2,7",-2.6803217470038,crimes/tabelas/vereditos.csv
+crimes.crimes_violentos.F_pos.IC_hi,"+2,4",2.4358191218547542,crimes/tabelas/vereditos.csv
+crimes.lesao_corporal_dolosa.C_pre.var_pct,"+2,5",2.469570615256522,crimes/tabelas/vereditos.csv
+crimes.lesao_corporal_dolosa.C_pre.p_BH,"0,520",0.5203082887291469,crimes/tabelas/vereditos.csv
+crimes.lesao_corporal_dolosa.C_pre.IC_lo,"$-$2,6",-2.5830949621937216,crimes/tabelas/vereditos.csv
+crimes.lesao_corporal_dolosa.C_pre.IC_hi,"+7,8",7.784299839952036,crimes/tabelas/vereditos.csv
+crimes.lesao_corporal_dolosa.C_durante.var_pct,"$-$3,1",-3.0880137525509,crimes/tabelas/vereditos.csv
+crimes.lesao_corporal_dolosa.C_durante.p_BH,"0,519",0.5193365359066088,crimes/tabelas/vereditos.csv
+crimes.lesao_corporal_dolosa.C_durante.IC_lo,"$-$8,2",-8.23983275387662,crimes/tabelas/vereditos.csv
+crimes.lesao_corporal_dolosa.C_durante.IC_hi,"+2,4",2.3530510056099407,crimes/tabelas/vereditos.csv
+crimes.lesao_corporal_dolosa.C_pos.var_pct,"+3,4",3.448667910433434,crimes/tabelas/vereditos.csv
+crimes.lesao_corporal_dolosa.C_pos.p_BH,"0,404",0.4039987415983495,crimes/tabelas/vereditos.csv
+crimes.lesao_corporal_dolosa.C_pos.IC_lo,"$-$1,3",-1.3157010753790832,crimes/tabelas/vereditos.csv
+crimes.lesao_corporal_dolosa.C_pos.IC_hi,"+8,4",8.443055370109832,crimes/tabelas/vereditos.csv
+crimes.lesao_corporal_dolosa.F_pre.var_pct,"$-$3,9",-3.924139075512001,crimes/tabelas/vereditos.csv
+crimes.lesao_corporal_dolosa.F_pre.p_BH,"0,412",0.4121503128769883,crimes/tabelas/vereditos.csv
+crimes.lesao_corporal_dolosa.F_pre.IC_lo,"$-$9,4",-9.394071813466843,crimes/tabelas/vereditos.csv
+crimes.lesao_corporal_dolosa.F_pre.IC_hi,"+1,9",1.8760166926197641,crimes/tabelas/vereditos.csv
+crimes.lesao_corporal_dolosa.F_durante.var_pct,"$-$2,3",-2.328963229083969,crimes/tabelas/vereditos.csv
+crimes.lesao_corporal_dolosa.F_durante.p_BH,"0,528",0.5283095017088615,crimes/tabelas/vereditos.csv
+crimes.lesao_corporal_dolosa.F_durante.IC_lo,"$-$7,5",-7.504199460504002,crimes/tabelas/vereditos.csv
+crimes.lesao_corporal_dolosa.F_durante.IC_hi,"+3,1",3.135832851483644,crimes/tabelas/vereditos.csv
+crimes.lesao_corporal_dolosa.F_pos.var_pct,"$-$1,8",-1.8336535895630224,crimes/tabelas/vereditos.csv
+crimes.lesao_corporal_dolosa.F_pos.p_BH,"0,571",0.5714198689040861,crimes/tabelas/vereditos.csv
+crimes.lesao_corporal_dolosa.F_pos.IC_lo,"$-$6,6",-6.633952666890542,crimes/tabelas/vereditos.csv
+crimes.lesao_corporal_dolosa.F_pos.IC_hi,"+3,2",3.2134468881662936,crimes/tabelas/vereditos.csv
+crimes.roubos_total.C_pre.var_pct,"+5,3",5.282481027086639,crimes/tabelas/vereditos.csv
+crimes.roubos_total.C_pre.p_BH,"0,041",0.0411331789318455,crimes/tabelas/vereditos.csv
+crimes.roubos_total.C_pre.IC_lo,"+1,8",1.7708505192022495,crimes/tabelas/vereditos.csv
+crimes.roubos_total.C_pre.IC_hi,"+8,9",8.915281288009291,crimes/tabelas/vereditos.csv
+crimes.roubos_total.C_durante.var_pct,"$-$1,8",-1.7524528964936392,crimes/tabelas/vereditos.csv
+crimes.roubos_total.C_durante.p_BH,"0,520",0.5203082887291469,crimes/tabelas/vereditos.csv
+crimes.roubos_total.C_durante.IC_lo,"$-$5,0",-5.031248907932639,crimes/tabelas/vereditos.csv
+crimes.roubos_total.C_durante.IC_hi,"+1,6",1.6395435430967664,crimes/tabelas/vereditos.csv
+crimes.roubos_total.C_pos.var_pct,"+2,6",2.55586873346636,crimes/tabelas/vereditos.csv
+crimes.roubos_total.C_pos.p_BH,"0,359",0.359205391434411,crimes/tabelas/vereditos.csv
+crimes.roubos_total.C_pos.IC_lo,"$-$0,4",-0.39125956754856306,crimes/tabelas/vereditos.csv
+crimes.roubos_total.C_pos.IC_hi,"+5,6",5.5901938526012,crimes/tabelas/vereditos.csv
+crimes.roubos_total.F_pre.var_pct,"$-$1,1",-1.0638389223627698,crimes/tabelas/vereditos.csv
+crimes.roubos_total.F_pre.p_BH,"0,606",0.6062784755195779,crimes/tabelas/vereditos.csv
+crimes.roubos_total.F_pre.IC_lo,"$-$4,2",-4.233102978356018,crimes/tabelas/vereditos.csv
+crimes.roubos_total.F_pre.IC_hi,"+2,2",2.210307248108312,crimes/tabelas/vereditos.csv
+crimes.roubos_total.F_durante.var_pct,"$-$2,8",-2.802502337436752,crimes/tabelas/vereditos.csv
+crimes.roubos_total.F_durante.p_BH,"0,374",0.3744060479132171,crimes/tabelas/vereditos.csv
+crimes.roubos_total.F_durante.IC_lo,"$-$6,3",-6.260676338995275,crimes/tabelas/vereditos.csv
+crimes.roubos_total.F_durante.IC_hi,"+0,8",0.7832485118949073,crimes/tabelas/vereditos.csv
+crimes.roubos_total.F_pos.var_pct,"+0,0",0.0079947191915064,crimes/tabelas/vereditos.csv
+crimes.roubos_total.F_pos.p_BH,"0,996",0.9957895204505044,crimes/tabelas/vereditos.csv
+crimes.roubos_total.F_pos.IC_lo,"$-$2,9",-2.9177979744171023,crimes/tabelas/vereditos.csv
+crimes.roubos_total.F_pos.IC_hi,"+3,0",3.0219628219623207,crimes/tabelas/vereditos.csv
+crimes.furtos_total.C_pre.var_pct,"+4,1",4.148584938304656,crimes/tabelas/vereditos.csv
+crimes.furtos_total.C_pre.p_BH,"0,147",0.1471528872265439,crimes/tabelas/vereditos.csv
+crimes.furtos_total.C_pre.IC_lo,"+0,6",0.6142278458725059,crimes/tabelas/vereditos.csv
+crimes.furtos_total.C_pre.IC_hi,"+7,8",7.807096241570277,crimes/tabelas/vereditos.csv
+crimes.furtos_total.C_durante.var_pct,"+1,4",1.4426682272328684,crimes/tabelas/vereditos.csv
+crimes.furtos_total.C_durante.p_BH,"0,528",0.5283095017088615,crimes/tabelas/vereditos.csv
+crimes.furtos_total.C_durante.IC_lo,"$-$1,8",-1.811077005544115,crimes/tabelas/vereditos.csv
+crimes.furtos_total.C_durante.IC_hi,"+4,8",4.804234767311644,crimes/tabelas/vereditos.csv
+crimes.furtos_total.C_pos.var_pct,"+4,1",4.111799327184884,crimes/tabelas/vereditos.csv
+crimes.furtos_total.C_pos.p_BH,"0,195",0.1948216759220337,crimes/tabelas/vereditos.csv
+crimes.furtos_total.C_pos.IC_lo,"+0,3",0.28835897997769866,crimes/tabelas/vereditos.csv
+crimes.furtos_total.C_pos.IC_hi,"+8,1",8.081006304112016,crimes/tabelas/vereditos.csv
+crimes.furtos_total.F_pre.var_pct,"+2,4",2.3750487191326557,crimes/tabelas/vereditos.csv
+crimes.furtos_total.F_pre.p_BH,"0,374",0.3744060479132171,crimes/tabelas/vereditos.csv
+crimes.furtos_total.F_pre.IC_lo,"$-$0,7",-0.7179926422703597,crimes/tabelas/vereditos.csv
+crimes.furtos_total.F_pre.IC_hi,"+5,6",5.564450993433789,crimes/tabelas/vereditos.csv
+crimes.furtos_total.F_durante.var_pct,"+1,1",1.0975142999758436,crimes/tabelas/vereditos.csv
+crimes.furtos_total.F_durante.p_BH,"0,609",0.6086692137022474,crimes/tabelas/vereditos.csv
+crimes.furtos_total.F_durante.IC_lo,"$-$2,4",-2.400223108141275,crimes/tabelas/vereditos.csv
+crimes.furtos_total.F_durante.IC_hi,"+4,7",4.7206020661137105,crimes/tabelas/vereditos.csv
+crimes.furtos_total.F_pos.var_pct,"+0,4",0.4129429860322053,crimes/tabelas/vereditos.csv
+crimes.furtos_total.F_pos.p_BH,"0,894",0.8943617598992054,crimes/tabelas/vereditos.csv
+crimes.furtos_total.F_pos.IC_lo,"$-$3,3",-3.3047604996883417,crimes/tabelas/vereditos.csv
+crimes.furtos_total.F_pos.IC_hi,"+4,3",4.273583386529167,crimes/tabelas/vereditos.csv
+sinistros.acidentes_com_vitima.C_pre.var_pct,"+1,5",1.4823063335733575,sinistros/tabelas/vereditos.csv
+sinistros.acidentes_com_vitima.C_pre.p_BH,"0,723",0.7227059029373981,sinistros/tabelas/vereditos.csv
+sinistros.acidentes_com_vitima.C_pre.IC_lo,"$-$3,7",-3.7385880796733995,sinistros/tabelas/vereditos.csv
+sinistros.acidentes_com_vitima.C_pre.IC_hi,"+7,0",6.986364456249539,sinistros/tabelas/vereditos.csv
+sinistros.acidentes_com_vitima.C_durante.var_pct,"+2,9",2.91256543083358,sinistros/tabelas/vereditos.csv
+sinistros.acidentes_com_vitima.C_durante.p_BH,"0,692",0.691933730760793,sinistros/tabelas/vereditos.csv
+sinistros.acidentes_com_vitima.C_durante.IC_lo,"$-$3,4",-3.4273072017665163,sinistros/tabelas/vereditos.csv
+sinistros.acidentes_com_vitima.C_durante.IC_hi,"+9,7",9.66864251867825,sinistros/tabelas/vereditos.csv
+sinistros.acidentes_com_vitima.C_pos.var_pct,"+3,9",3.8818264995554186,sinistros/tabelas/vereditos.csv
+sinistros.acidentes_com_vitima.C_pos.p_BH,"0,692",0.691933730760793,sinistros/tabelas/vereditos.csv
+sinistros.acidentes_com_vitima.C_pos.IC_lo,"$-$1,9",-1.8906418118128432,sinistros/tabelas/vereditos.csv
+sinistros.acidentes_com_vitima.C_pos.IC_hi,"+10,0",9.993929999871032,sinistros/tabelas/vereditos.csv
+sinistros.acidentes_com_vitima.F_pre.var_pct,"+2,6",2.634316856174146,sinistros/tabelas/vereditos.csv
+sinistros.acidentes_com_vitima.F_pre.p_BH,"0,692",0.691933730760793,sinistros/tabelas/vereditos.csv
+sinistros.acidentes_com_vitima.F_pre.IC_lo,"$-$2,7",-2.7407382796444835,sinistros/tabelas/vereditos.csv
+sinistros.acidentes_com_vitima.F_pre.IC_hi,"+8,3",8.306425631944926,sinistros/tabelas/vereditos.csv
+sinistros.acidentes_com_vitima.F_durante.var_pct,"+0,6",0.6441122252532239,sinistros/tabelas/vereditos.csv
+sinistros.acidentes_com_vitima.F_durante.p_BH,"0,910",0.9096263273778372,sinistros/tabelas/vereditos.csv
+sinistros.acidentes_com_vitima.F_durante.IC_lo,"$-$4,9",-4.861302022115277,sinistros/tabelas/vereditos.csv
+sinistros.acidentes_com_vitima.F_durante.IC_hi,"+6,5",6.468109622058704,sinistros/tabelas/vereditos.csv
+sinistros.acidentes_com_vitima.F_pos.var_pct,"+4,3",4.325578916007,sinistros/tabelas/vereditos.csv
+sinistros.acidentes_com_vitima.F_pos.p_BH,"0,692",0.691933730760793,sinistros/tabelas/vereditos.csv
+sinistros.acidentes_com_vitima.F_pos.IC_lo,"$-$1,3",-1.3009775146927582,sinistros/tabelas/vereditos.csv
+sinistros.acidentes_com_vitima.F_pos.IC_hi,"+10,3",10.272889660890193,sinistros/tabelas/vereditos.csv
+sinistros.acidentes_total.C_pre.var_pct,"+4,0",3.985676819305195,sinistros/tabelas/vereditos.csv
+sinistros.acidentes_total.C_pre.p_BH,"0,692",0.691933730760793,sinistros/tabelas/vereditos.csv
+sinistros.acidentes_total.C_pre.IC_lo,"$-$0,9",-0.9465971101346615,sinistros/tabelas/vereditos.csv
+sinistros.acidentes_total.C_pre.IC_hi,"+9,2",9.16354883427557,sinistros/tabelas/vereditos.csv
+sinistros.acidentes_total.C_durante.var_pct,"+2,6",2.5611437207534227,sinistros/tabelas/vereditos.csv
+sinistros.acidentes_total.C_durante.p_BH,"0,692",0.691933730760793,sinistros/tabelas/vereditos.csv
+sinistros.acidentes_total.C_durante.IC_lo,"$-$3,4",-3.4110465894814035,sinistros/tabelas/vereditos.csv
+sinistros.acidentes_total.C_durante.IC_hi,"+8,9",8.902600451653031,sinistros/tabelas/vereditos.csv
+sinistros.acidentes_total.C_pos.var_pct,"+2,8",2.8447666260182918,sinistros/tabelas/vereditos.csv
+sinistros.acidentes_total.C_pos.p_BH,"0,692",0.691933730760793,sinistros/tabelas/vereditos.csv
+sinistros.acidentes_total.C_pos.IC_lo,"$-$2,8",-2.8118483505008784,sinistros/tabelas/vereditos.csv
+sinistros.acidentes_total.C_pos.IC_hi,"+8,8",8.830611991731164,sinistros/tabelas/vereditos.csv
+sinistros.acidentes_total.F_pre.var_pct,"$-$0,1",-0.0547208815898092,sinistros/tabelas/vereditos.csv
+sinistros.acidentes_total.F_pre.p_BH,"0,986",0.985572642919123,sinistros/tabelas/vereditos.csv
+sinistros.acidentes_total.F_pre.IC_lo,"$-$5,1",-5.080439525884939,sinistros/tabelas/vereditos.csv
+sinistros.acidentes_total.F_pre.IC_hi,"+5,2",5.237095158915905,sinistros/tabelas/vereditos.csv
+sinistros.acidentes_total.F_durante.var_pct,"+1,9",1.864369430857793,sinistros/tabelas/vereditos.csv
+sinistros.acidentes_total.F_durante.p_BH,"0,692",0.691933730760793,sinistros/tabelas/vereditos.csv
+sinistros.acidentes_total.F_durante.IC_lo,"$-$3,4",-3.390278997181917,sinistros/tabelas/vereditos.csv
+sinistros.acidentes_total.F_durante.IC_hi,"+7,4",7.40482067268986,sinistros/tabelas/vereditos.csv
+sinistros.acidentes_total.F_pos.var_pct,"+0,0",0.0464376309881275,sinistros/tabelas/vereditos.csv
+sinistros.acidentes_total.F_pos.p_BH,"0,986",0.985572642919123,sinistros/tabelas/vereditos.csv
+sinistros.acidentes_total.F_pos.IC_lo,"$-$4,9",-4.8634028556877595,sinistros/tabelas/vereditos.csv
+sinistros.acidentes_total.F_pos.IC_hi,"+5,2",5.209666764390919,sinistros/tabelas/vereditos.csv
+sinistros.atropelamentos.C_pre.var_pct,"+4,4",4.353581198394774,sinistros/tabelas/vereditos.csv
+sinistros.atropelamentos.C_pre.p_BH,"0,692",0.691933730760793,sinistros/tabelas/vereditos.csv
+sinistros.atropelamentos.C_pre.IC_lo,"$-$6,4",-6.385628066133197,sinistros/tabelas/vereditos.csv
+sinistros.atropelamentos.C_pre.IC_hi,"+16,3",16.324765994508805,sinistros/tabelas/vereditos.csv
+sinistros.atropelamentos.C_durante.var_pct,"$-$7,0",-6.997834894821075,sinistros/tabelas/vereditos.csv
+sinistros.atropelamentos.C_durante.p_BH,"0,692",0.691933730760793,sinistros/tabelas/vereditos.csv
+sinistros.atropelamentos.C_durante.IC_lo,"$-$18,4",-18.389747545940548,sinistros/tabelas/vereditos.csv
+sinistros.atropelamentos.C_durante.IC_hi,"+6,0",5.984266120484505,sinistros/tabelas/vereditos.csv
+sinistros.atropelamentos.C_pos.var_pct,"+8,4",8.369782796803316,sinistros/tabelas/vereditos.csv
+sinistros.atropelamentos.C_pos.p_BH,"0,692",0.691933730760793,sinistros/tabelas/vereditos.csv
+sinistros.atropelamentos.C_pos.IC_lo,"$-$5,8",-5.7621172938994825,sinistros/tabelas/vereditos.csv
+sinistros.atropelamentos.C_pos.IC_hi,"+24,6",24.62090070563605,sinistros/tabelas/vereditos.csv
+sinistros.atropelamentos.F_pre.var_pct,"$-$3,4",-3.396336192270355,sinistros/tabelas/vereditos.csv
+sinistros.atropelamentos.F_pre.p_BH,"0,723",0.7227059029373981,sinistros/tabelas/vereditos.csv
+sinistros.atropelamentos.F_pre.IC_lo,"$-$14,0",-14.039138899948167,sinistros/tabelas/vereditos.csv
+sinistros.atropelamentos.F_pre.IC_hi,"+8,6",8.564150494197719,sinistros/tabelas/vereditos.csv
+sinistros.atropelamentos.F_durante.var_pct,"$-$5,3",-5.307203812806205,sinistros/tabelas/vereditos.csv
+sinistros.atropelamentos.F_durante.p_BH,"0,692",0.691933730760793,sinistros/tabelas/vereditos.csv
+sinistros.atropelamentos.F_durante.IC_lo,"$-$16,2",-16.233065325895502,sinistros/tabelas/vereditos.csv
+sinistros.atropelamentos.F_durante.IC_hi,"+7,0",7.043736107027154,sinistros/tabelas/vereditos.csv
+sinistros.atropelamentos.F_pos.var_pct,"+9,6",9.598617424025546,sinistros/tabelas/vereditos.csv
+sinistros.atropelamentos.F_pos.p_BH,"0,692",0.691933730760793,sinistros/tabelas/vereditos.csv
+sinistros.atropelamentos.F_pos.IC_lo,"$-$5,6",-5.598328126369523,sinistros/tabelas/vereditos.csv
+sinistros.atropelamentos.F_pos.IC_hi,"+27,2",27.241993736481994,sinistros/tabelas/vereditos.csv
+pre.crimes_violentos.principal,"+4,7",4.7223641141355355,crimes/tabelas/fase2b_pre_checagens.csv
+pre.crimes_violentos.principal.p,"0,003",0.002880285226737254,crimes/tabelas/fase2b_pre_checagens.csv
+pre.roubos_total.principal,"+5,3",5.2824810270866385,crimes/tabelas/fase2b_pre_checagens.csv
+pre.roubos_total.principal.p,"0,003",0.0029380842094175364,crimes/tabelas/fase2b_pre_checagens.csv
+pre.crimes_violentos.+ EF hora×mês,"+2,7",2.7242003266728654,crimes/tabelas/fase2b_pre_checagens.csv
+pre.crimes_violentos.+ EF hora×mês.p,"0,053",0.053330379851562346,crimes/tabelas/fase2b_pre_checagens.csv
+pre.roubos_total.+ EF hora×mês,"+2,9",2.8743651458219555,crimes/tabelas/fase2b_pre_checagens.csv
+pre.roubos_total.+ EF hora×mês.p,"0,060",0.06044883614328483,crimes/tabelas/fase2b_pre_checagens.csv
+pre.crimes_violentos.+ EF hora×trimestre,"+3,6",3.5642946125601815,crimes/tabelas/fase2b_pre_checagens.csv
+pre.crimes_violentos.+ EF hora×trimestre.p,"0,017",0.017162321100851235,crimes/tabelas/fase2b_pre_checagens.csv
+pre.roubos_total.+ EF hora×trimestre,"+3,8",3.8221318353256706,crimes/tabelas/fase2b_pre_checagens.csv
+pre.roubos_total.+ EF hora×trimestre.p,"0,020",0.020226743814721712,crimes/tabelas/fase2b_pre_checagens.csv
+pre.crimes_violentos.só jogos do pareado,"+4,1",4.137770162830368,crimes/tabelas/fase2b_pre_checagens.csv
+pre.crimes_violentos.só jogos do pareado.p,"0,026",0.025573866967222813,crimes/tabelas/fase2b_pre_checagens.csv
+pre.roubos_total.só jogos do pareado,"+4,5",4.504191563460136,crimes/tabelas/fase2b_pre_checagens.csv
+pre.roubos_total.só jogos do pareado.p,"0,030",0.030012665001546836,crimes/tabelas/fase2b_pre_checagens.csv
+pre.crimes_violentos.só jogos do pareado + EF hora×mês,"+2,0",1.9726294901353025,crimes/tabelas/fase2b_pre_checagens.csv
+pre.crimes_violentos.só jogos do pareado + EF hora×mês.p,"0,252",0.2518606506167438,crimes/tabelas/fase2b_pre_checagens.csv
+pre.roubos_total.só jogos do pareado + EF hora×mês,"+1,9",1.8668988509675355,crimes/tabelas/fase2b_pre_checagens.csv
+pre.roubos_total.só jogos do pareado + EF hora×mês.p,"0,305",0.3048524261891211,crimes/tabelas/fase2b_pre_checagens.csv
+pre.crimes_violentos.PRÉ estendido + EF hora×mês,"+2,9",2.9281561925043498,crimes/tabelas/fase2b_pre_checagens.csv
+pre.crimes_violentos.PRÉ estendido + EF hora×mês.p,"0,017",0.01701333120492948,crimes/tabelas/fase2b_pre_checagens.csv
+pre.roubos_total.PRÉ estendido + EF hora×mês,"+2,8",2.8250498022045045,crimes/tabelas/fase2b_pre_checagens.csv
+pre.roubos_total.PRÉ estendido + EF hora×mês.p,"0,035",0.03530338806743807,crimes/tabelas/fase2b_pre_checagens.csv
+pre.crimes_violentos.pareado,"+1,2",1.2291506984234202,crimes/tabelas/controles_pareados.csv
+pre.roubos_total.pareado,"+1,3",1.3067288592885307,crimes/tabelas/controles_pareados.csv
+pre.n_jogos_pareado,112,112.0,crimes/tabelas/fase2b_pre_checagens.csv
+canal.furtos_total.durante.original,+66,65.66646328253213,crimes/tabelas/fase3_canal_modelos.csv
+canal.furtos_total.durante.original.p,"0,000",1.677930409415141e-16,crimes/tabelas/fase3_canal_modelos.csv
+canal.furtos_total.durante.só presencial (sem Delegacia Eletrônica),+47,46.7830819864695,crimes/tabelas/fase3_canal_modelos.csv
+canal.furtos_total.durante.só presencial (sem Delegacia Eletrônica).p,"0,001",0.0014196140233787445,crimes/tabelas/fase3_canal_modelos.csv
+canal.furtos_total.durante.só BO online (Delegacia Eletrônica),+61,61.22928095543572,crimes/tabelas/fase3_canal_modelos.csv
+canal.furtos_total.durante.só BO online (Delegacia Eletrônica).p,"0,000",2.4617482049133085e-12,crimes/tabelas/fase3_canal_modelos.csv
+canal.furtos_total.durante.sem conduta nula,+58,58.19471295461851,crimes/tabelas/fase3_canal_modelos.csv
+canal.furtos_total.durante.sem conduta nula.p,"0,000",2.2749218060117903e-14,crimes/tabelas/fase3_canal_modelos.csv
+canal.furtos_total.pos.original,+85,84.72439357454317,crimes/tabelas/fase3_canal_modelos.csv
+canal.furtos_total.pos.original.p,"0,000",4.837037231932997e-17,crimes/tabelas/fase3_canal_modelos.csv
+canal.furtos_total.pos.só presencial (sem Delegacia Eletrônica),+105,105.03468739972264,crimes/tabelas/fase3_canal_modelos.csv
+canal.furtos_total.pos.só presencial (sem Delegacia Eletrônica).p,"0,000",1.4181924999399364e-10,crimes/tabelas/fase3_canal_modelos.csv
+canal.furtos_total.pos.só BO online (Delegacia Eletrônica),+81,80.59743511346753,crimes/tabelas/fase3_canal_modelos.csv
+canal.furtos_total.pos.só BO online (Delegacia Eletrônica).p,"0,000",2.3901976839256754e-11,crimes/tabelas/fase3_canal_modelos.csv
+canal.furtos_total.pos.sem conduta nula,+82,81.696029390214,crimes/tabelas/fase3_canal_modelos.csv
+canal.furtos_total.pos.sem conduta nula.p,"0,000",5.01483902121544e-16,crimes/tabelas/fase3_canal_modelos.csv
+canal.roubos_total.durante.original,+8,8.208304403391132,crimes/tabelas/fase3_canal_modelos.csv
+canal.roubos_total.durante.original.p,"0,270",0.26977116165103354,crimes/tabelas/fase3_canal_modelos.csv
+canal.roubos_total.durante.só presencial (sem Delegacia Eletrônica),+6,6.208443663936292,crimes/tabelas/fase3_canal_modelos.csv
+canal.roubos_total.durante.só presencial (sem Delegacia Eletrônica).p,"0,612",0.6116584996894565,crimes/tabelas/fase3_canal_modelos.csv
+canal.roubos_total.durante.só BO online (Delegacia Eletrônica),+8,8.331138916399826,crimes/tabelas/fase3_canal_modelos.csv
+canal.roubos_total.durante.só BO online (Delegacia Eletrônica).p,"0,315",0.3152724703633173,crimes/tabelas/fase3_canal_modelos.csv
+canal.roubos_total.durante.sem conduta nula,+7,7.278355584307006,crimes/tabelas/fase3_canal_modelos.csv
+canal.roubos_total.durante.sem conduta nula.p,"0,348",0.34809254736842987,crimes/tabelas/fase3_canal_modelos.csv
+canal.roubos_total.pos.original,+39,38.61668993743328,crimes/tabelas/fase3_canal_modelos.csv
+canal.roubos_total.pos.original.p,"0,000",5.587983527254473e-06,crimes/tabelas/fase3_canal_modelos.csv
+canal.roubos_total.pos.só presencial (sem Delegacia Eletrônica),+11,10.762286992502922,crimes/tabelas/fase3_canal_modelos.csv
+canal.roubos_total.pos.só presencial (sem Delegacia Eletrônica).p,"0,425",0.42513050073193825,crimes/tabelas/fase3_canal_modelos.csv
+canal.roubos_total.pos.só BO online (Delegacia Eletrônica),+49,48.50465752512607,crimes/tabelas/fase3_canal_modelos.csv
+canal.roubos_total.pos.só BO online (Delegacia Eletrônica).p,"0,000",1.7265027796023176e-06,crimes/tabelas/fase3_canal_modelos.csv
+canal.roubos_total.pos.sem conduta nula,+40,40.11299201167338,crimes/tabelas/fase3_canal_modelos.csv
+canal.roubos_total.pos.sem conduta nula.p,"0,000",3.5868496952123538e-06,crimes/tabelas/fase3_canal_modelos.csv
+canal.crimes_violentos.durante.original,+15,14.990642120450758,crimes/tabelas/fase3_canal_modelos.csv
+canal.crimes_violentos.durante.original.p,"0,035",0.03466745021242081,crimes/tabelas/fase3_canal_modelos.csv
+canal.crimes_violentos.durante.só presencial (sem Delegacia Eletrônica),+14,14.401339634156262,crimes/tabelas/fase3_canal_modelos.csv
+canal.crimes_violentos.durante.só presencial (sem Delegacia Eletrônica).p,"0,174",0.1737772714928123,crimes/tabelas/fase3_canal_modelos.csv
+canal.crimes_violentos.durante.só BO online (Delegacia Eletrônica),+14,14.234859648809817,crimes/tabelas/fase3_canal_modelos.csv
+canal.crimes_violentos.durante.só BO online (Delegacia Eletrônica).p,"0,074",0.07352275531592947,crimes/tabelas/fase3_canal_modelos.csv
+canal.crimes_violentos.durante.sem conduta nula,+7,7.0139367039733225,crimes/tabelas/fase3_canal_modelos.csv
+canal.crimes_violentos.durante.sem conduta nula.p,"0,365",0.3647633364132108,crimes/tabelas/fase3_canal_modelos.csv
+canal.crimes_violentos.pos.original,+31,31.0235106097535,crimes/tabelas/fase3_canal_modelos.csv
+canal.crimes_violentos.pos.original.p,"0,000",0.00014431444158635712,crimes/tabelas/fase3_canal_modelos.csv
+canal.crimes_violentos.pos.só presencial (sem Delegacia Eletrônica),$-$0,-0.3760185291291851,crimes/tabelas/fase3_canal_modelos.csv
+canal.crimes_violentos.pos.só presencial (sem Delegacia Eletrônica).p,"0,976",0.9763249126501091,crimes/tabelas/fase3_canal_modelos.csv
+canal.crimes_violentos.pos.só BO online (Delegacia Eletrônica),+44,44.056037021663165,crimes/tabelas/fase3_canal_modelos.csv
+canal.crimes_violentos.pos.só BO online (Delegacia Eletrônica).p,"0,000",7.101688754991174e-06,crimes/tabelas/fase3_canal_modelos.csv
+canal.crimes_violentos.pos.sem conduta nula,+40,39.91142064538129,crimes/tabelas/fase3_canal_modelos.csv
+canal.crimes_violentos.pos.sem conduta nula.p,"0,000",3.955353507037414e-06,crimes/tabelas/fase3_canal_modelos.csv
+pred.cidade.crimes_violentos.XGBoost.deviance,"1,643",1.6427591262902992,crimes/tabelas/fase3_desempenho_cidade_crimes_violentos.csv
+pred.cidade.crimes_violentos.Prophet.deviance,"1,824",1.8243165923766171,crimes/tabelas/fase3_desempenho_cidade_crimes_violentos.csv
+pred.cidade.crimes_violentos.GLM.deviance,"1,845",1.8453283373777327,crimes/tabelas/fase3_desempenho_cidade_crimes_violentos.csv
+pred.cidade.crimes_violentos.baseline.MAE,"4,747",4.746768982229402,crimes/tabelas/fase3_desempenho_cidade_crimes_violentos.csv
+pred.cidade.crimes_violentos.XGBoost.MAE,"4,370",4.3698150381160445,crimes/tabelas/fase3_desempenho_cidade_crimes_violentos.csv
+pred.cidade.crimes_violentos.prauc_com,"0,144",0.1444008135188932,crimes/tabelas/fase3_pico_cidade_crimes_violentos.csv
+pred.cidade.crimes_violentos.prauc_sem,"0,147",0.1466007578237039,crimes/tabelas/fase3_pico_cidade_crimes_violentos.csv
+pred.cidade.crimes_violentos.prev,"0,075",0.07457551181255313,crimes/tabelas/fase3_pico_cidade_crimes_violentos.csv
+pred.cidade.crimes_violentos.XGBoost.todas as horas.ganho_dev_pct,"+0,4",0.37026484318781216,crimes/tabelas/fase3_ablacao_cidade_crimes_violentos.csv
+pred.cidade.crimes_violentos.XGBoost.horas PRÉ/DURANTE/PÓS na capital.ganho_dev_pct,"+3,9",3.8853994876733524,crimes/tabelas/fase3_ablacao_cidade_crimes_violentos.csv
+pred.cidade.crimes_violentos.GLM.horas PRÉ/DURANTE/PÓS na capital.ganho_dev_pct,"$-$0,3",-0.25425645458307816,crimes/tabelas/fase3_ablacao_cidade_crimes_violentos.csv
+pred.cidade.crimes_violentos.Prophet.horas PRÉ/DURANTE/PÓS na capital.ganho_dev_pct,"+1,9",1.8973178139144318,crimes/tabelas/fase3_ablacao_cidade_crimes_violentos.csv
+pred.entorno.crimes_violentos.XGBoost.deviance,"0,990",0.9897151698452702,crimes/tabelas/fase3_desempenho_entorno_crimes_violentos.csv
+pred.entorno.crimes_violentos.GLM.deviance,"1,019",1.0191125158800995,crimes/tabelas/fase3_desempenho_entorno_crimes_violentos.csv
+pred.entorno.crimes_violentos.baseline.MAE,"0,563",0.5629567659050696,crimes/tabelas/fase3_desempenho_entorno_crimes_violentos.csv
+pred.entorno.crimes_violentos.XGBoost.MAE,"0,548",0.5478450805163744,crimes/tabelas/fase3_desempenho_entorno_crimes_violentos.csv
+pred.entorno.crimes_violentos.prauc_com,"0,099",0.09901072421583389,crimes/tabelas/fase3_pico_entorno_crimes_violentos.csv
+pred.entorno.crimes_violentos.prauc_sem,"0,098",0.09753168174099545,crimes/tabelas/fase3_pico_entorno_crimes_violentos.csv
+pred.entorno.crimes_violentos.prev,"0,054",0.05416496074130058,crimes/tabelas/fase3_pico_entorno_crimes_violentos.csv
+pred.entorno.crimes_violentos.XGBoost.todas as horas.ganho_dev_pct,"+0,2",0.20099896959259317,crimes/tabelas/fase3_ablacao_entorno_crimes_violentos.csv
+pred.entorno.crimes_violentos.XGBoost.horas PRÉ/DURANTE/PÓS na capital.ganho_dev_pct,"+4,6",4.558210774611162,crimes/tabelas/fase3_ablacao_entorno_crimes_violentos.csv
+pred.entorno.crimes_violentos.GLM.horas PRÉ/DURANTE/PÓS na capital.ganho_dev_pct,"+2,4",2.386761709109225,crimes/tabelas/fase3_ablacao_entorno_crimes_violentos.csv
+pred.entorno.roubos_total.XGBoost.deviance,"0,939",0.9389496481170395,crimes/tabelas/fase3_desempenho_entorno_roubos_total.csv
+pred.entorno.roubos_total.GLM.deviance,"0,964",0.9644282449218495,crimes/tabelas/fase3_desempenho_entorno_roubos_total.csv
+pred.entorno.roubos_total.baseline.MAE,"0,511",0.5111450880836987,crimes/tabelas/fase3_desempenho_entorno_roubos_total.csv
+pred.entorno.roubos_total.XGBoost.MAE,"0,501",0.5009696860071574,crimes/tabelas/fase3_desempenho_entorno_roubos_total.csv
+pred.entorno.roubos_total.prauc_com,"0,111",0.11137289049380507,crimes/tabelas/fase3_pico_entorno_roubos_total.csv
+pred.entorno.roubos_total.prauc_sem,"0,105",0.10527716507158696,crimes/tabelas/fase3_pico_entorno_roubos_total.csv
+pred.entorno.roubos_total.prev,"0,052",0.052327542092797115,crimes/tabelas/fase3_pico_entorno_roubos_total.csv
+pred.entorno.roubos_total.XGBoost.todas as horas.ganho_dev_pct,"+0,2",0.1727736187986078,crimes/tabelas/fase3_ablacao_entorno_roubos_total.csv
+pred.entorno.roubos_total.XGBoost.horas PRÉ/DURANTE/PÓS na capital.ganho_dev_pct,"+3,8",3.8039550352992353,crimes/tabelas/fase3_ablacao_entorno_roubos_total.csv
+pred.entorno.roubos_total.GLM.horas PRÉ/DURANTE/PÓS na capital.ganho_dev_pct,"+2,8",2.7929940609394635,crimes/tabelas/fase3_ablacao_entorno_roubos_total.csv
+pred.entorno.furtos_total.XGBoost.deviance,"0,934",0.9335691000489692,crimes/tabelas/fase3_desempenho_entorno_furtos_total.csv
+pred.entorno.furtos_total.GLM.deviance,"0,985",0.9846661009567695,crimes/tabelas/fase3_desempenho_entorno_furtos_total.csv
+pred.entorno.furtos_total.baseline.MAE,"0,556",0.5556581275482729,crimes/tabelas/fase3_desempenho_entorno_furtos_total.csv
+pred.entorno.furtos_total.XGBoost.MAE,"0,532",0.5320007769842738,crimes/tabelas/fase3_desempenho_entorno_furtos_total.csv
+pred.entorno.furtos_total.prauc_com,"0,125",0.1249466772143734,crimes/tabelas/fase3_pico_entorno_furtos_total.csv
+pred.entorno.furtos_total.prauc_sem,"0,121",0.12071555953275546,crimes/tabelas/fase3_pico_entorno_furtos_total.csv
+pred.entorno.furtos_total.prev,"0,052",0.0524880718250356,crimes/tabelas/fase3_pico_entorno_furtos_total.csv
+pred.entorno.furtos_total.XGBoost.todas as horas.ganho_dev_pct,"+0,9",0.8729763898378031,crimes/tabelas/fase3_ablacao_entorno_furtos_total.csv
+pred.entorno.furtos_total.XGBoost.horas PRÉ/DURANTE/PÓS na capital.ganho_dev_pct,"+13,9",13.942579387621716,crimes/tabelas/fase3_ablacao_entorno_furtos_total.csv
+pred.entorno.furtos_total.GLM.horas PRÉ/DURANTE/PÓS na capital.ganho_dev_pct,"+8,7",8.727764437217608,crimes/tabelas/fase3_ablacao_entorno_furtos_total.csv
+pred.cidade.acidentes_com_vitima.XGBoost.deviance,"1,260",1.2600258289807256,sinistros/tabelas/fase3_desempenho_cidade_acidentes_com_vitima.csv
+pred.cidade.acidentes_com_vitima.Prophet.deviance,"1,349",1.349376269941403,sinistros/tabelas/fase3_desempenho_cidade_acidentes_com_vitima.csv
+pred.cidade.acidentes_com_vitima.GLM.deviance,"1,227",1.2273799550313846,sinistros/tabelas/fase3_desempenho_cidade_acidentes_com_vitima.csv
+pred.cidade.acidentes_com_vitima.baseline.MAE,"1,675",1.6753741417881665,sinistros/tabelas/fase3_desempenho_cidade_acidentes_com_vitima.csv
+pred.cidade.acidentes_com_vitima.XGBoost.MAE,"1,537",1.537077286564981,sinistros/tabelas/fase3_desempenho_cidade_acidentes_com_vitima.csv
+pred.cidade.acidentes_com_vitima.prauc_com,"0,167",0.16745970802601562,sinistros/tabelas/fase3_pico_cidade_acidentes_com_vitima.csv
+pred.cidade.acidentes_com_vitima.prauc_sem,"0,167",0.16711766074015674,sinistros/tabelas/fase3_pico_cidade_acidentes_com_vitima.csv
+pred.cidade.acidentes_com_vitima.prev,"0,119",0.11919732132380935,sinistros/tabelas/fase3_pico_cidade_acidentes_com_vitima.csv
+pred.cidade.acidentes_com_vitima.XGBoost.todas as horas.ganho_dev_pct,"+0,2",0.23834672959590653,sinistros/tabelas/fase3_ablacao_cidade_acidentes_com_vitima.csv
+pred.cidade.acidentes_com_vitima.XGBoost.horas PRÉ/DURANTE/PÓS na capital.ganho_dev_pct,"+1,0",1.0456239062702457,sinistros/tabelas/fase3_ablacao_cidade_acidentes_com_vitima.csv
+pred.cidade.acidentes_com_vitima.GLM.horas PRÉ/DURANTE/PÓS na capital.ganho_dev_pct,"+0,3",0.28413792634806245,sinistros/tabelas/fase3_ablacao_cidade_acidentes_com_vitima.csv
+pred.cidade.acidentes_com_vitima.Prophet.horas PRÉ/DURANTE/PÓS na capital.ganho_dev_pct,"+1,0",1.0020217697624991,sinistros/tabelas/fase3_ablacao_cidade_acidentes_com_vitima.csv
+pred.entorno.acidentes_com_vitima.XGBoost.deviance,"0,488",0.4879540562070256,sinistros/tabelas/fase3_desempenho_entorno_acidentes_com_vitima.csv
+pred.entorno.acidentes_com_vitima.GLM.deviance,"0,533",0.5333766608808016,sinistros/tabelas/fase3_desempenho_entorno_acidentes_com_vitima.csv
+pred.entorno.acidentes_com_vitima.baseline.MAE,"0,192",0.19161266682095193,sinistros/tabelas/fase3_desempenho_entorno_acidentes_com_vitima.csv
+pred.entorno.acidentes_com_vitima.XGBoost.MAE,"0,188",0.18773048346829005,sinistros/tabelas/fase3_desempenho_entorno_acidentes_com_vitima.csv
+pred.entorno.acidentes_com_vitima.prauc_com,"0,109",0.10946396728288227,sinistros/tabelas/fase3_pico_entorno_acidentes_com_vitima.csv
+pred.entorno.acidentes_com_vitima.prauc_sem,"0,105",0.10520472535273745,sinistros/tabelas/fase3_pico_entorno_acidentes_com_vitima.csv
+pred.entorno.acidentes_com_vitima.prev,"0,040",0.03988233646853869,sinistros/tabelas/fase3_pico_entorno_acidentes_com_vitima.csv
+pred.entorno.acidentes_com_vitima.XGBoost.todas as horas.ganho_dev_pct,"$-$0,0",-0.049474702860952804,sinistros/tabelas/fase3_ablacao_entorno_acidentes_com_vitima.csv
+pred.entorno.acidentes_com_vitima.XGBoost.horas PRÉ/DURANTE/PÓS na capital.ganho_dev_pct,"$-$1,8",-1.751947415594278,sinistros/tabelas/fase3_ablacao_entorno_acidentes_com_vitima.csv
+pred.entorno.acidentes_com_vitima.GLM.horas PRÉ/DURANTE/PÓS na capital.ganho_dev_pct,"$-$4,5",-4.539100119108233,sinistros/tabelas/fase3_ablacao_entorno_acidentes_com_vitima.csv
+furtos.pct_sem_hora,"52,8",52.800000000000004,data/silver/qualidade_hora.csv
+furtos.fator_correcao,"2,12",2.1186440677966103,data/silver/qualidade_hora.csv
+risco.Neo Quimica Arena.pre.crimes_violentos.excesso,"$-$0,12",-0.11947049591056655,crimes/tabelas/fase3_tabela_risco_estadio_janela.csv
+risco.Neo Quimica Arena.pre.crimes_violentos.rel,$-$8,-8.37350732399723,crimes/tabelas/fase3_tabela_risco_estadio_janela.csv
+risco.Neo Quimica Arena.pre.crimes_violentos.base,"1,43",1.4267676767676767,crimes/tabelas/fase3_tabela_risco_estadio_janela.csv
+risco.Neo Quimica Arena.pre.roubos_total.excesso,"$-$0,10",-0.10399215658029697,crimes/tabelas/fase3_tabela_risco_estadio_janela.csv
+risco.Neo Quimica Arena.pre.roubos_total.rel,$-$8,-7.9653566742355135,crimes/tabelas/fase3_tabela_risco_estadio_janela.csv
+risco.Neo Quimica Arena.pre.roubos_total.base,"1,31",1.3055555555555554,crimes/tabelas/fase3_tabela_risco_estadio_janela.csv
+risco.Neo Quimica Arena.pre.furtos_total.excesso,"+0,43",0.4298157153129295,crimes/tabelas/fase3_tabela_risco_estadio_janela.csv
+risco.Neo Quimica Arena.pre.furtos_total.rel,+55,55.08317904981232,crimes/tabelas/fase3_tabela_risco_estadio_janela.csv
+risco.Neo Quimica Arena.pre.furtos_total.base,"0,78",0.7803030303030303,crimes/tabelas/fase3_tabela_risco_estadio_janela.csv
+risco.Neo Quimica Arena.durante.crimes_violentos.excesso,"+0,11",0.1134276742491837,crimes/tabelas/fase3_tabela_risco_estadio_janela.csv
+risco.Neo Quimica Arena.durante.crimes_violentos.rel,+6,6.453643534867348,crimes/tabelas/fase3_tabela_risco_estadio_janela.csv
+risco.Neo Quimica Arena.durante.crimes_violentos.base,"1,76",1.7575757575757576,crimes/tabelas/fase3_tabela_risco_estadio_janela.csv
+risco.Neo Quimica Arena.durante.roubos_total.excesso,"$-$0,05",-0.04560939309373109,crimes/tabelas/fase3_tabela_risco_estadio_janela.csv
+risco.Neo Quimica Arena.durante.roubos_total.rel,$-$3,-2.8944422540252424,crimes/tabelas/fase3_tabela_risco_estadio_janela.csv
+risco.Neo Quimica Arena.durante.roubos_total.base,"1,58",1.5757575757575757,crimes/tabelas/fase3_tabela_risco_estadio_janela.csv
+risco.Neo Quimica Arena.durante.furtos_total.excesso,"+0,66",0.6556089162713874,crimes/tabelas/fase3_tabela_risco_estadio_janela.csv
+risco.Neo Quimica Arena.durante.furtos_total.rel,+94,94.06562711719906,crimes/tabelas/fase3_tabela_risco_estadio_janela.csv
+risco.Neo Quimica Arena.durante.furtos_total.base,"0,70",0.696969696969697,crimes/tabelas/fase3_tabela_risco_estadio_janela.csv
+risco.Neo Quimica Arena.pos.crimes_violentos.excesso,"+0,25",0.251743209803154,crimes/tabelas/fase3_tabela_risco_estadio_janela.csv
+risco.Neo Quimica Arena.pos.crimes_violentos.rel,+31,31.40650044251543,crimes/tabelas/fase3_tabela_risco_estadio_janela.csv
+risco.Neo Quimica Arena.pos.crimes_violentos.base,"0,80",0.801564027370479,crimes/tabelas/fase3_tabela_risco_estadio_janela.csv
+risco.Neo Quimica Arena.pos.roubos_total.excesso,"+0,25",0.25184816549107136,crimes/tabelas/fase3_tabela_risco_estadio_janela.csv
+risco.Neo Quimica Arena.pos.roubos_total.rel,+43,43.01179854713957,crimes/tabelas/fase3_tabela_risco_estadio_janela.csv
+risco.Neo Quimica Arena.pos.roubos_total.base,"0,59",0.5855327468230694,crimes/tabelas/fase3_tabela_risco_estadio_janela.csv
+risco.Neo Quimica Arena.pos.furtos_total.excesso,"+0,71",0.7051334755413619,crimes/tabelas/fase3_tabela_risco_estadio_janela.csv
+risco.Neo Quimica Arena.pos.furtos_total.rel,+108,107.82534312089882,crimes/tabelas/fase3_tabela_risco_estadio_janela.csv
+risco.Neo Quimica Arena.pos.furtos_total.base,"0,65",0.653958944281525,crimes/tabelas/fase3_tabela_risco_estadio_janela.csv
+risco.Allianz Parque.pre.crimes_violentos.excesso,"+0,11",0.11245525777702484,crimes/tabelas/fase3_tabela_risco_estadio_janela.csv
+risco.Allianz Parque.pre.crimes_violentos.rel,+4,3.8723723547566813,crimes/tabelas/fase3_tabela_risco_estadio_janela.csv
+risco.Allianz Parque.pre.crimes_violentos.base,"2,90",2.904040404040404,crimes/tabelas/fase3_tabela_risco_estadio_janela.csv
+risco.Allianz Parque.pre.roubos_total.excesso,"+0,15",0.1466294382872511,crimes/tabelas/fase3_tabela_risco_estadio_janela.csv
+risco.Allianz Parque.pre.roubos_total.rel,+5,5.254774439977505,crimes/tabelas/fase3_tabela_risco_estadio_janela.csv
+risco.Allianz Parque.pre.roubos_total.base,"2,79",2.7904040404040407,crimes/tabelas/fase3_tabela_risco_estadio_janela.csv
+risco.Allianz Parque.pre.furtos_total.excesso,"+0,36",0.36225361967980874,crimes/tabelas/fase3_tabela_risco_estadio_janela.csv
+risco.Allianz Parque.pre.furtos_total.rel,+14,14.009026698555104,crimes/tabelas/fase3_tabela_risco_estadio_janela.csv
+risco.Allianz Parque.pre.furtos_total.base,"2,59",2.5858585858585856,crimes/tabelas/fase3_tabela_risco_estadio_janela.csv
+risco.Allianz Parque.durante.crimes_violentos.excesso,"+0,08",0.08022737189624769,crimes/tabelas/fase3_tabela_risco_estadio_janela.csv
+risco.Allianz Parque.durante.crimes_violentos.rel,+4,4.136723863400271,crimes/tabelas/fase3_tabela_risco_estadio_janela.csv
+risco.Allianz Parque.durante.crimes_violentos.base,"1,94",1.9393939393939394,crimes/tabelas/fase3_tabela_risco_estadio_janela.csv
+risco.Allianz Parque.durante.roubos_total.excesso,"$-$0,00",-0.0043202342299256445,crimes/tabelas/fase3_tabela_risco_estadio_janela.csv
+risco.Allianz Parque.durante.roubos_total.rel,$-$0,-0.23371758948778076,crimes/tabelas/fase3_tabela_risco_estadio_janela.csv
+risco.Allianz Parque.durante.roubos_total.base,"1,85",1.8484848484848486,crimes/tabelas/fase3_tabela_risco_estadio_janela.csv
+risco.Allianz Parque.durante.furtos_total.excesso,"+0,52",0.5170104515217407,crimes/tabelas/fase3_tabela_risco_estadio_janela.csv
+risco.Allianz Parque.durante.furtos_total.rel,+28,27.969417869208925,crimes/tabelas/fase3_tabela_risco_estadio_janela.csv
+risco.Allianz Parque.durante.furtos_total.base,"1,85",1.8484848484848486,crimes/tabelas/fase3_tabela_risco_estadio_janela.csv
+risco.Allianz Parque.pos.crimes_violentos.excesso,"+0,26",0.25757762941464396,crimes/tabelas/fase3_tabela_risco_estadio_janela.csv
+risco.Allianz Parque.pos.crimes_violentos.rel,+21,21.37079601712739,crimes/tabelas/fase3_tabela_risco_estadio_janela.csv
+risco.Allianz Parque.pos.crimes_violentos.base,"1,21",1.2052785923753666,crimes/tabelas/fase3_tabela_risco_estadio_janela.csv
+risco.Allianz Parque.pos.roubos_total.excesso,"+0,31",0.31395193131275895,crimes/tabelas/fase3_tabela_risco_estadio_janela.csv
+risco.Allianz Parque.pos.roubos_total.rel,+26,26.048079945900437,crimes/tabelas/fase3_tabela_risco_estadio_janela.csv
+risco.Allianz Parque.pos.roubos_total.base,"1,21",1.2052785923753666,crimes/tabelas/fase3_tabela_risco_estadio_janela.csv
+risco.Allianz Parque.pos.furtos_total.excesso,"+0,39",0.39293556789247525,crimes/tabelas/fase3_tabela_risco_estadio_janela.csv
+risco.Allianz Parque.pos.furtos_total.rel,+45,44.86306762879488,crimes/tabelas/fase3_tabela_risco_estadio_janela.csv
+risco.Allianz Parque.pos.furtos_total.base,"0,88",0.8758553274682307,crimes/tabelas/fase3_tabela_risco_estadio_janela.csv
+risco.Morumbi.pre.crimes_violentos.excesso,"+0,44",0.4432992768506159,crimes/tabelas/fase3_tabela_risco_estadio_janela.csv
+risco.Morumbi.pre.crimes_violentos.rel,+26,25.73995801068092,crimes/tabelas/fase3_tabela_risco_estadio_janela.csv
+risco.Morumbi.pre.crimes_violentos.base,"1,72",1.7222222222222223,crimes/tabelas/fase3_tabela_risco_estadio_janela.csv
+risco.Morumbi.pre.roubos_total.excesso,"+0,38",0.381708749794519,crimes/tabelas/fase3_tabela_risco_estadio_janela.csv
+risco.Morumbi.pre.roubos_total.rel,+23,22.937278439852737,crimes/tabelas/fase3_tabela_risco_estadio_janela.csv
+risco.Morumbi.pre.roubos_total.base,"1,66",1.6641414141414141,crimes/tabelas/fase3_tabela_risco_estadio_janela.csv
+risco.Morumbi.pre.furtos_total.excesso,"+0,35",0.3511059711046664,crimes/tabelas/fase3_tabela_risco_estadio_janela.csv
+risco.Morumbi.pre.furtos_total.rel,+55,55.39361137746928,crimes/tabelas/fase3_tabela_risco_estadio_janela.csv
+risco.Morumbi.pre.furtos_total.base,"0,63",0.6338383838383839,crimes/tabelas/fase3_tabela_risco_estadio_janela.csv
+risco.Morumbi.durante.crimes_violentos.excesso,"+0,67",0.6684537692167621,crimes/tabelas/fase3_tabela_risco_estadio_janela.csv
+risco.Morumbi.durante.crimes_violentos.rel,+58,58.04993258987672,crimes/tabelas/fase3_tabela_risco_estadio_janela.csv
+risco.Morumbi.durante.crimes_violentos.base,"1,15",1.1515151515151514,crimes/tabelas/fase3_tabela_risco_estadio_janela.csv
+risco.Morumbi.durante.roubos_total.excesso,"+0,52",0.5178741377452686,crimes/tabelas/fase3_tabela_risco_estadio_janela.csv
+risco.Morumbi.durante.roubos_total.rel,+49,48.828132987411045,crimes/tabelas/fase3_tabela_risco_estadio_janela.csv
+risco.Morumbi.durante.roubos_total.base,"1,06",1.0606060606060606,crimes/tabelas/fase3_tabela_risco_estadio_janela.csv
+risco.Morumbi.durante.furtos_total.excesso,"+0,32",0.3173579069887468,crimes/tabelas/fase3_tabela_risco_estadio_janela.csv
+risco.Morumbi.durante.furtos_total.rel,+95,95.20737209662403,crimes/tabelas/fase3_tabela_risco_estadio_janela.csv
+risco.Morumbi.durante.furtos_total.base,"0,33",0.33333333333333337,crimes/tabelas/fase3_tabela_risco_estadio_janela.csv
+risco.Morumbi.pos.crimes_violentos.excesso,"+0,42",0.415942214107535,crimes/tabelas/fase3_tabela_risco_estadio_janela.csv
+risco.Morumbi.pos.crimes_violentos.rel,+64,63.98629850105388,crimes/tabelas/fase3_tabela_risco_estadio_janela.csv
+risco.Morumbi.pos.crimes_violentos.base,"0,65",0.6500488758553274,crimes/tabelas/fase3_tabela_risco_estadio_janela.csv
+risco.Morumbi.pos.roubos_total.excesso,"+0,44",0.4421684234963972,crimes/tabelas/fase3_tabela_risco_estadio_janela.csv
+risco.Morumbi.pos.roubos_total.rel,+71,71.34673457993917,crimes/tabelas/fase3_tabela_risco_estadio_janela.csv
+risco.Morumbi.pos.roubos_total.base,"0,62",0.6197458455522972,crimes/tabelas/fase3_tabela_risco_estadio_janela.csv
+risco.Morumbi.pos.furtos_total.excesso,"+0,35",0.35115928961245757,crimes/tabelas/fase3_tabela_risco_estadio_janela.csv
+risco.Morumbi.pos.furtos_total.rel,+187,187.10205899663754,crimes/tabelas/fase3_tabela_risco_estadio_janela.csv
+risco.Morumbi.pos.furtos_total.base,"0,19",0.187683284457478,crimes/tabelas/fase3_tabela_risco_estadio_janela.csv
+jogos.capital,216,216.0,data/silver/jogos_sp_horario.csv
+jogos.capital_base_original,130,130.0,data/silver/jogos_sp_horario.csv
+jogos.capital_novos,86,86.0,data/silver/jogos_sp_horario.csv
+jogos.fora,301,301.0,data/silver/jogos_fora_capital_horario.csv
+jogos.base_original_total,137,137.0,data/silver/jogos_sp_horario.csv
+fuso.mudam_data,52,52.0,data/silver/jogos_sp_horario.csv
+fuso.noturno_errado,108,108.0,data/silver/jogos_sp_horario.csv
+jogos.mando_fora_capital,7,7.0,data/silver/jogos_sp_horario.csv
+horas.total,17520,17520.0,data/gold/fato_hora_sp.csv
+horas.capital.pre,432,432.0,data/gold/fato_hora_sp.csv
+horas.fora.pre,453,453.0,data/gold/fato_hora_sp.csv
+horas.capital.durante,432,432.0,data/gold/fato_hora_sp.csv
+horas.fora.durante,541,541.0,data/gold/fato_hora_sp.csv
+horas.capital.pos,432,432.0,data/gold/fato_hora_sp.csv
+horas.fora.pos,466,466.0,data/gold/fato_hora_sp.csv
+horas.sem_jogo,11520,11520.0,data/gold/fato_hora_sp.csv
+media_hora.crimes_violentos,"19,7",19.710858585858585,data/gold/fato_hora_sp.csv
+media_hora.furtos_total,"15,2",15.162075298438936,data/gold/fato_hora_sp.csv
+media_hora.acidentes_com_vitima,"3,4",3.3664367816091954,data/gold/fato_hora_sp.csv
+qualidade.crime_todos.pct_sem_hora,"33,9",33.88,data/silver/qualidade_hora.csv
+qualidade.roubos_total.pct_sem_hora,"8,1",8.14,data/silver/qualidade_hora.csv
+qualidade.lesao_corporal_dolosa.pct_sem_hora,"8,6",8.6,data/silver/qualidade_hora.csv
+qualidade.acidentes_total.pct_sem_hora,"0,1",0.1,data/silver/qualidade_hora.csv
+qualidade.crime.minuto00,"32,9",32.9,data/silver/qualidade_hora.csv
+es.crimes.pretend.capital.p,"0,007",0.006755572865746261,crimes/tabelas/event_study.csv
+es.crimes.capital.k-3,"+3,9",3.926138901927323,crimes/tabelas/event_study.csv
+es.crimes.capital.k-2,"+4,4",4.414306747922225,crimes/tabelas/event_study.csv
+es.crimes.capital.k-1,"+5,5",5.49872961902953,crimes/tabelas/event_study.csv
+es.crimes.capital.k0,"$-$0,9",-0.9427626652586674,crimes/tabelas/event_study.csv
+es.crimes.capital.k1,"$-$2,9",-2.942008676084462,crimes/tabelas/event_study.csv
+es.crimes.capital.k2,"+1,4",1.3821106508868475,crimes/tabelas/event_study.csv
+es.crimes.capital.k3,"+4,5",4.451577151028929,crimes/tabelas/event_study.csv
+es.crimes.tardias.pBH_min,"0,25",0.24921767827545108,crimes/tabelas/fase2b_event_study_bh.csv
+es.crimes.tardias.pBH_max,"0,35",0.34737199013087583,crimes/tabelas/fase2b_event_study_bh.csv
+es.sinistros.pretend.capital.p,"0,890",0.8903967632453458,sinistros/tabelas/event_study.csv
+pareado.crimes.durante,"$-$6,8",-6.829669301132313,crimes/tabelas/controles_pareados.csv
+pareado.crimes.durante.lo,"$-$10,4",-10.38176090702898,crimes/tabelas/controles_pareados.csv
+pareado.crimes.durante.hi,"$-$2,7",-2.6504683183754874,crimes/tabelas/controles_pareados.csv
+entorno.furtos_total.pre,+32,31.79352642598623,crimes/tabelas/fase2b_espaco_bh.csv
+entorno.furtos_total.pre.pBH,"0,000",0.0002034466255392061,crimes/tabelas/fase2b_espaco_bh.csv
+entorno.furtos_total.durante,+66,65.66646328253213,crimes/tabelas/fase2b_espaco_bh.csv
+entorno.furtos_total.durante.pBH,"0,000",1.0067582456490845e-15,crimes/tabelas/fase2b_espaco_bh.csv
+entorno.furtos_total.pos,+85,84.7243935745432,crimes/tabelas/fase2b_espaco_bh.csv
+entorno.furtos_total.pos.pBH,"0,000",3.869629785546397e-16,crimes/tabelas/fase2b_espaco_bh.csv
+entorno.roubos_total.pre,+6,5.686882578057606,crimes/tabelas/fase2b_espaco_bh.csv
+entorno.roubos_total.pre.pBH,"0,479",0.47897756302639877,crimes/tabelas/fase2b_espaco_bh.csv
+entorno.roubos_total.durante,+8,8.208304403391109,crimes/tabelas/fase2b_espaco_bh.csv
+entorno.roubos_total.durante.pBH,"0,324",0.32372539398124023,crimes/tabelas/fase2b_espaco_bh.csv
+entorno.roubos_total.pos,+39,38.61668993743328,crimes/tabelas/fase2b_espaco_bh.csv
+entorno.roubos_total.pos.pBH,"0,000",1.9158800664872478e-05,crimes/tabelas/fase2b_espaco_bh.csv
+entorno.crimes_violentos.pre,+5,5.29223545061257,crimes/tabelas/fase2b_espaco_bh.csv
+entorno.crimes_violentos.pre.pBH,"0,479",0.47897756302639877,crimes/tabelas/fase2b_espaco_bh.csv
+entorno.crimes_violentos.durante,+15,14.990642120450758,crimes/tabelas/fase2b_espaco_bh.csv
+entorno.crimes_violentos.durante.pBH,"0,055",0.05546792033987328,crimes/tabelas/fase2b_espaco_bh.csv
+entorno.crimes_violentos.pos,+31,31.0235106097535,crimes/tabelas/fase2b_espaco_bh.csv
+entorno.crimes_violentos.pos.pBH,"0,000",0.00034635465980712,crimes/tabelas/fase2b_espaco_bh.csv
+entorno.lesao_corporal_dolosa.pre,+10,10.240315580791592,crimes/tabelas/fase2b_espaco_bh.csv
+entorno.lesao_corporal_dolosa.pre.pBH,"0,672",0.6719384618712204,crimes/tabelas/fase2b_espaco_bh.csv
+entorno.lesao_corporal_dolosa.durante,+104,104.40377982889007,crimes/tabelas/fase2b_espaco_bh.csv
+entorno.lesao_corporal_dolosa.durante.pBH,"0,000",2.4386680499601764e-05,crimes/tabelas/fase2b_espaco_bh.csv
+entorno.lesao_corporal_dolosa.pos,$-$26,-25.765336035018784,crimes/tabelas/fase2b_espaco_bh.csv
+entorno.lesao_corporal_dolosa.pos.pBH,"0,237",0.23689759106931435,crimes/tabelas/fase2b_espaco_bh.csv
+entorno.n_sobrevive_BH,28,28.0,crimes/tabelas/fase2b_espaco_bh.csv
+entorno.n_familia,72,72.0,crimes/tabelas/fase2b_espaco_bh.csv
+entorno.sinistros.pre,+46,46.27896499622195,sinistros/tabelas/fase2b_espaco_bh.csv
+entorno.sinistros.pre.pBH,"0,004",0.0037317656316129,sinistros/tabelas/fase2b_espaco_bh.csv
+conduta.furto.VEICULO.OE,"2,3",2.2717630970799,crimes/tabelas/fase2b_conduta_entorno.csv
+conduta.furto.VEICULO.parcela,48,48.37156126337332,crimes/tabelas/fase2b_conduta_entorno.csv
+conduta.furto.TRANSEUNTE.OE,"2,7",2.6758596316382,crimes/tabelas/fase2b_conduta_entorno.csv
+conduta.furto.TRANSEUNTE.parcela,19,18.513178751105514,crimes/tabelas/fase2b_conduta_entorno.csv
+canal.drade.n_janelas,0,0.0,crimes/tabelas/fase3_canal_diagnostico.csv
+pico.crimes.prev_media,"8,1",8.148742399037761,crimes/tabelas/pico_validacao_folds.csv
+pico.crimes.prev_min,"3,6",3.6290322580645165,crimes/tabelas/pico_validacao_folds.csv
+pico.crimes.prev_max,"19,9",19.940476190476193,crimes/tabelas/pico_validacao_folds.csv
+pico.sinistros.prev_media,"12,9",12.87950782483879,sinistros/tabelas/pico_validacao_folds.csv
+pico.sinistros.prev_min,"7,5",7.526881720430108,sinistros/tabelas/pico_validacao_folds.csv
+pico.sinistros.prev_max,"21,1",21.120689655172413,sinistros/tabelas/pico_validacao_folds.csv
+dose.crimes_violentos.C_pre__T3,"+6,2",6.169960419763099,crimes/tabelas/fase2b_dose_ef_hora_mes.csv
+dose.crimes_violentos.C_pre__T3.p,"0,011",0.01067790503870366,crimes/tabelas/fase2b_dose_ef_hora_mes.csv
+dose.crimes_violentos.C_pos__T3,"+5,0",4.967732075498432,crimes/tabelas/fase2b_dose_ef_hora_mes.csv
+dose.crimes_violentos.C_pos__T3.p,"0,024",0.023565376114139072,crimes/tabelas/fase2b_dose_ef_hora_mes.csv
+dose.crimes_violentos.C_pre__T1,"+0,6",0.5952185899786633,crimes/tabelas/fase2b_dose_ef_hora_mes.csv
+dose.crimes_violentos.C_pre__T1.p,"0,805",0.8045999936845796,crimes/tabelas/fase2b_dose_ef_hora_mes.csv
+dose.crimes_violentos.C_pos__T1,"+0,4",0.38241365007920525,crimes/tabelas/fase2b_dose_ef_hora_mes.csv
+dose.crimes_violentos.C_pos__T1.p,"0,869",0.8688089796724872,crimes/tabelas/fase2b_dose_ef_hora_mes.csv
+placebo.crimes.pre.p,"0,000",0.0,crimes/tabelas/placebo_permutacao.csv
+diario.completo.furtos_total,"+4,0",3.997921337258137,fase1/tabelas/glm_diario_datas_corrigidas.csv
+diario.completo.furtos_total.pBH,"0,024",0.024321171058521242,fase1/tabelas/glm_diario_datas_corrigidas.csv
+diario.completo.crimes_totais,"+2,9",2.850344357372747,fase1/tabelas/glm_diario_datas_corrigidas.csv
+diario.completo.crimes_totais.pBH,"0,024",0.024321171058521242,fase1/tabelas/glm_diario_datas_corrigidas.csv
+risco.sinistros.max_excesso,"+0,24",0.24007662482737122,sinistros/tabelas/fase3_tabela_risco_estadio_janela.csv
+pico_tab.crimes.hora.P90.prev_media,"8,1",8.148742399037761,crimes/tabelas/pico_validacao_folds.csv
+pico_tab.crimes.hora.P90.prev_min,"3,6",3.6290322580645165,crimes/tabelas/pico_validacao_folds.csv
+pico_tab.crimes.hora.P90.prev_max,"19,9",19.940476190476193,crimes/tabelas/pico_validacao_folds.csv
+pico_tab.crimes.hora.P95.prev_media,"4,4",4.442838805110614,crimes/tabelas/pico_validacao_folds.csv
+pico_tab.crimes.hora.P95.prev_min,"1,4",1.4367816091954022,crimes/tabelas/pico_validacao_folds.csv
+pico_tab.crimes.hora.P95.prev_max,"14,0",13.988095238095239,crimes/tabelas/pico_validacao_folds.csv
+pico_tab.crimes.hora.cauda.prev_media,"8,2",8.184463118192172,crimes/tabelas/pico_validacao_folds.csv
+pico_tab.crimes.hora.cauda.prev_min,"3,6",3.6290322580645165,crimes/tabelas/pico_validacao_folds.csv
+pico_tab.crimes.hora.cauda.prev_max,"19,9",19.940476190476193,crimes/tabelas/pico_validacao_folds.csv
+pico_tab.crimes.hora.P90.desvio_medio_pp,"3,8",3.773833979183778,crimes/tabelas/pico_validacao_folds.csv
+pico_tab.crimes.hora.P90.n_folds_acima_10,3,3.0,crimes/tabelas/pico_validacao_folds.csv
+pico_tab.crimes.hora.P90.fold_2023-01,"11,1",11.11111111111111,crimes/tabelas/pico_validacao_folds.csv
+pico_tab.crimes.hora.P90.fold_2023-02,"19,9",19.940476190476193,crimes/tabelas/pico_validacao_folds.csv
+pico_tab.crimes.hora.P90.fold_2023-03,"10,5",10.483870967741936,crimes/tabelas/pico_validacao_folds.csv
+pico_tab.crimes.hora.P90.fold_2023-04,"5,8",5.833333333333333,crimes/tabelas/pico_validacao_folds.csv
+pico_tab.crimes.hora.P90.fold_2023-05,"7,0",6.989247311827956,crimes/tabelas/pico_validacao_folds.csv
+pico_tab.crimes.hora.P90.fold_2023-06,"10,0",10.0,crimes/tabelas/pico_validacao_folds.csv
+pico_tab.crimes.hora.P90.fold_2023-07,"8,2",8.198924731182796,crimes/tabelas/pico_validacao_folds.csv
+pico_tab.crimes.hora.P90.fold_2023-08,"6,2",6.182795698924731,crimes/tabelas/pico_validacao_folds.csv
+pico_tab.crimes.hora.P90.fold_2023-09,"6,6",6.582633053221289,crimes/tabelas/pico_validacao_folds.csv
+pico_tab.crimes.hora.P90.fold_2023-10,"3,6",3.6290322580645165,crimes/tabelas/pico_validacao_folds.csv
+pico_tab.crimes.hora.P90.fold_2023-11,"4,8",4.810495626822157,crimes/tabelas/pico_validacao_folds.csv
+pico_tab.crimes.hora.P90.fold_2023-12,"4,0",4.022988505747127,crimes/tabelas/pico_validacao_folds.csv
+pico_tab.crimes.hora.kappa_P90_P95,"0,64",0.6431211498973306,crimes/tabelas/pico_concordancia_definicoes.csv
+pico_tab.crimes.hora.jaccard_P90_P95,"0,50",0.5002875215641173,crimes/tabelas/pico_concordancia_definicoes.csv
+pico_tab.crimes.hora.kappa_P90_cauda,"0,98",0.9840265797712605,crimes/tabelas/pico_concordancia_definicoes.csv
+pico_tab.crimes.hora.jaccard_P90_cauda,"0,97",0.971655328798186,crimes/tabelas/pico_concordancia_definicoes.csv
+pico_tab.crimes.hora.P90_pearson.capital.pre.RR,"1,31",1.3129005110942342,crimes/tabelas/pico_por_janela.csv
+pico_tab.crimes.hora.P90_pearson.capital.pre.IC_lo,"1,02",1.0220378161146284,crimes/tabelas/pico_por_janela.csv
+pico_tab.crimes.hora.P90_pearson.capital.pre.IC_hi,"1,69",1.686540091622379,crimes/tabelas/pico_por_janela.csv
+pico_tab.crimes.hora.P90_pearson.capital.pre.freq_pct,"13,0",13.023255813953488,crimes/tabelas/pico_por_janela.csv
+pico_tab.crimes.hora.P90_pearson.capital.pre.freq_controle_pct,"9,9",9.919453685869376,crimes/tabelas/pico_por_janela.csv
+pico_tab.crimes.hora.P90_pearson.capital.pre.p_fisher,"0,041",0.04061077294868587,crimes/tabelas/pico_por_janela.csv
+pico_tab.crimes.hora.P90_pearson.capital.pre.p_BH_6janelas,"0,244",0.24366463769211522,crimes/tabelas/pico_por_janela.csv (BH calculado no 35 sobre as 6 janelas)
+pico_tab.crimes.hora.P90_pearson.capital.durante.RR,"1,15",1.148787947207455,crimes/tabelas/pico_por_janela.csv
+pico_tab.crimes.hora.P90_pearson.capital.durante.IC_lo,"0,88",0.8775787247278711,crimes/tabelas/pico_por_janela.csv
+pico_tab.crimes.hora.P90_pearson.capital.durante.IC_hi,"1,50",1.50381237655727,crimes/tabelas/pico_por_janela.csv
+pico_tab.crimes.hora.P90_pearson.capital.durante.freq_pct,"11,4",11.395348837209303,crimes/tabelas/pico_por_janela.csv
+pico_tab.crimes.hora.P90_pearson.capital.durante.freq_controle_pct,"9,9",9.919453685869376,crimes/tabelas/pico_por_janela.csv
+pico_tab.crimes.hora.P90_pearson.capital.durante.p_fisher,"0,325",0.32470580783403513,crimes/tabelas/pico_por_janela.csv
+pico_tab.crimes.hora.P90_pearson.capital.durante.p_BH_6janelas,"0,631",0.6312346200171917,crimes/tabelas/pico_por_janela.csv (BH calculado no 35 sobre as 6 janelas)
+pico_tab.crimes.hora.P90_pearson.capital.pos.RR,"1,20",1.1956772511751061,crimes/tabelas/pico_por_janela.csv
+pico_tab.crimes.hora.P90_pearson.capital.pos.IC_lo,"0,92",0.918684026940735,crimes/tabelas/pico_por_janela.csv
+pico_tab.crimes.hora.P90_pearson.capital.pos.IC_hi,"1,56",1.556186944643466,crimes/tabelas/pico_por_janela.csv
+pico_tab.crimes.hora.P90_pearson.capital.pos.freq_pct,"11,9",11.86046511627907,crimes/tabelas/pico_por_janela.csv
+pico_tab.crimes.hora.P90_pearson.capital.pos.freq_controle_pct,"9,9",9.919453685869376,crimes/tabelas/pico_por_janela.csv
+pico_tab.crimes.hora.P90_pearson.capital.pos.p_fisher,"0,190",0.18975629189654336,crimes/tabelas/pico_por_janela.csv
+pico_tab.crimes.hora.P90_pearson.capital.pos.p_BH_6janelas,"0,569",0.56926887568963,crimes/tabelas/pico_por_janela.csv (BH calculado no 35 sobre as 6 janelas)
+pico_tab.crimes.hora.P90_pearson.fora_da_capital.pre.RR,"0,87",0.871766771105888,crimes/tabelas/pico_por_janela.csv
+pico_tab.crimes.hora.P90_pearson.fora_da_capital.pre.IC_lo,"0,64",0.6425850061433915,crimes/tabelas/pico_por_janela.csv
+pico_tab.crimes.hora.P90_pearson.fora_da_capital.pre.IC_hi,"1,18",1.1826875758672748,crimes/tabelas/pico_por_janela.csv
+pico_tab.crimes.hora.P90_pearson.fora_da_capital.pre.freq_pct,"8,6",8.647450110864744,crimes/tabelas/pico_por_janela.csv
+pico_tab.crimes.hora.P90_pearson.fora_da_capital.pre.freq_controle_pct,"9,9",9.919453685869376,crimes/tabelas/pico_por_janela.csv
+pico_tab.crimes.hora.P90_pearson.fora_da_capital.pre.p_fisher,"0,421",0.42082308001146107,crimes/tabelas/pico_por_janela.csv
+pico_tab.crimes.hora.P90_pearson.fora_da_capital.pre.p_BH_6janelas,"0,631",0.6312346200171917,crimes/tabelas/pico_por_janela.csv (BH calculado no 35 sobre as 6 janelas)
+pico_tab.crimes.hora.P90_pearson.fora_da_capital.durante.RR,"0,99",0.9876222157326907,crimes/tabelas/pico_por_janela.csv
+pico_tab.crimes.hora.P90_pearson.fora_da_capital.durante.IC_lo,"0,76",0.7602875556713876,crimes/tabelas/pico_por_janela.csv
+pico_tab.crimes.hora.P90_pearson.fora_da_capital.durante.IC_hi,"1,28",1.2829325348451934,crimes/tabelas/pico_por_janela.csv
+pico_tab.crimes.hora.P90_pearson.fora_da_capital.durante.freq_pct,"9,8",9.796672828096119,crimes/tabelas/pico_por_janela.csv
+pico_tab.crimes.hora.P90_pearson.fora_da_capital.durante.freq_controle_pct,"9,9",9.919453685869376,crimes/tabelas/pico_por_janela.csv
+pico_tab.crimes.hora.P90_pearson.fora_da_capital.durante.p_fisher,"1,000",1.0,crimes/tabelas/pico_por_janela.csv
+pico_tab.crimes.hora.P90_pearson.fora_da_capital.durante.p_BH_6janelas,"1,000",1.0,crimes/tabelas/pico_por_janela.csv (BH calculado no 35 sobre as 6 janelas)
+pico_tab.crimes.hora.P90_pearson.fora_da_capital.pos.RR,"1,02",1.0189600356841195,crimes/tabelas/pico_por_janela.csv
+pico_tab.crimes.hora.P90_pearson.fora_da_capital.pos.IC_lo,"0,77",0.7727063582471825,crimes/tabelas/pico_por_janela.csv
+pico_tab.crimes.hora.P90_pearson.fora_da_capital.pos.IC_hi,"1,34",1.3436922619306895,crimes/tabelas/pico_por_janela.csv
+pico_tab.crimes.hora.P90_pearson.fora_da_capital.pos.freq_pct,"10,1",10.10752688172043,crimes/tabelas/pico_por_janela.csv
+pico_tab.crimes.hora.P90_pearson.fora_da_capital.pos.freq_controle_pct,"9,9",9.919453685869376,crimes/tabelas/pico_por_janela.csv
+pico_tab.crimes.hora.P90_pearson.fora_da_capital.pos.p_fisher,"0,874",0.8743079300026702,crimes/tabelas/pico_por_janela.csv
+pico_tab.crimes.hora.P90_pearson.fora_da_capital.pos.p_BH_6janelas,"1,000",1.0,crimes/tabelas/pico_por_janela.csv (BH calculado no 35 sobre as 6 janelas)
+pico_tab.crimes.hora.P95_pearson.capital.pre.RR,"1,56",1.559736820326078,crimes/tabelas/pico_por_janela.csv
+pico_tab.crimes.hora.P95_pearson.capital.pre.IC_lo,"1,11",1.1128359636711378,crimes/tabelas/pico_por_janela.csv
+pico_tab.crimes.hora.P95_pearson.capital.pre.IC_hi,"2,19",2.186107412143118,crimes/tabelas/pico_por_janela.csv
+pico_tab.crimes.hora.P95_pearson.capital.pre.freq_pct,"7,7",7.674418604651163,crimes/tabelas/pico_por_janela.csv
+pico_tab.crimes.hora.P95_pearson.capital.pre.freq_controle_pct,"4,9",4.920329189283838,crimes/tabelas/pico_por_janela.csv
+pico_tab.crimes.hora.P95_pearson.capital.pre.p_fisher,"0,017",0.017339869562250018,crimes/tabelas/pico_por_janela.csv
+pico_tab.crimes.hora.P95_pearson.capital.pre.p_BH_6janelas,"0,104",0.10403921737350011,crimes/tabelas/pico_por_janela.csv (BH calculado no 35 sobre as 6 janelas)
+pico_tab.crimes.hora.P95_pearson.capital.durante.RR,"1,32",1.3234130596706115,crimes/tabelas/pico_por_janela.csv
+pico_tab.crimes.hora.P95_pearson.capital.durante.IC_lo,"0,92",0.9167780403213751,crimes/tabelas/pico_por_janela.csv
+pico_tab.crimes.hora.P95_pearson.capital.durante.IC_hi,"1,91",1.9104102077889773,crimes/tabelas/pico_por_janela.csv
+pico_tab.crimes.hora.P95_pearson.capital.durante.freq_pct,"6,5",6.511627906976744,crimes/tabelas/pico_por_janela.csv
+pico_tab.crimes.hora.P95_pearson.capital.durante.freq_controle_pct,"4,9",4.920329189283838,crimes/tabelas/pico_por_janela.csv
+pico_tab.crimes.hora.P95_pearson.capital.durante.p_fisher,"0,141",0.14115232270834024,crimes/tabelas/pico_por_janela.csv
+pico_tab.crimes.hora.P95_pearson.capital.durante.p_BH_6janelas,"0,423",0.42345696812502076,crimes/tabelas/pico_por_janela.csv (BH calculado no 35 sobre as 6 janelas)
+pico_tab.crimes.hora.P95_pearson.capital.pos.RR,"1,09",1.0870892990151453,crimes/tabelas/pico_por_janela.csv
+pico_tab.crimes.hora.P95_pearson.capital.pos.IC_lo,"0,72",0.7245569717386445,crimes/tabelas/pico_por_janela.csv
+pico_tab.crimes.hora.P95_pearson.capital.pos.IC_hi,"1,63",1.6310147995643254,crimes/tabelas/pico_por_janela.csv
+pico_tab.crimes.hora.P95_pearson.capital.pos.freq_pct,"5,3",5.348837209302325,crimes/tabelas/pico_por_janela.csv
+pico_tab.crimes.hora.P95_pearson.capital.pos.freq_controle_pct,"4,9",4.920329189283838,crimes/tabelas/pico_por_janela.csv
+pico_tab.crimes.hora.P95_pearson.capital.pos.p_fisher,"0,650",0.650145500718578,crimes/tabelas/pico_por_janela.csv
+pico_tab.crimes.hora.P95_pearson.capital.pos.p_BH_6janelas,"0,919",0.9189272413210774,crimes/tabelas/pico_por_janela.csv (BH calculado no 35 sobre as 6 janelas)
+pico_tab.crimes.hora.P95_pearson.fora_da_capital.pre.RR,"0,90",0.9012790872004482,crimes/tabelas/pico_por_janela.csv
+pico_tab.crimes.hora.P95_pearson.fora_da_capital.pre.IC_lo,"0,58",0.5828062305462459,crimes/tabelas/pico_por_janela.csv
+pico_tab.crimes.hora.P95_pearson.fora_da_capital.pre.IC_hi,"1,39",1.393780557670988,crimes/tabelas/pico_por_janela.csv
+pico_tab.crimes.hora.P95_pearson.fora_da_capital.pre.freq_pct,"4,4",4.434589800443459,crimes/tabelas/pico_por_janela.csv
+pico_tab.crimes.hora.P95_pearson.fora_da_capital.pre.freq_controle_pct,"4,9",4.920329189283838,crimes/tabelas/pico_por_janela.csv
+pico_tab.crimes.hora.P95_pearson.fora_da_capital.pre.p_fisher,"0,739",0.7386092002957934,crimes/tabelas/pico_por_janela.csv
+pico_tab.crimes.hora.P95_pearson.fora_da_capital.pre.p_BH_6janelas,"0,919",0.9189272413210774,crimes/tabelas/pico_por_janela.csv (BH calculado no 35 sobre as 6 janelas)
+pico_tab.crimes.hora.P95_pearson.fora_da_capital.durante.RR,"1,01",1.0143138119075654,crimes/tabelas/pico_por_janela.csv
+pico_tab.crimes.hora.P95_pearson.fora_da_capital.durante.IC_lo,"0,70",0.696149076805051,crimes/tabelas/pico_por_janela.csv
+pico_tab.crimes.hora.P95_pearson.fora_da_capital.durante.IC_hi,"1,48",1.4778910772219116,crimes/tabelas/pico_por_janela.csv
+pico_tab.crimes.hora.P95_pearson.fora_da_capital.durante.freq_pct,"5,0",4.990757855822551,crimes/tabelas/pico_por_janela.csv
+pico_tab.crimes.hora.P95_pearson.fora_da_capital.durante.freq_controle_pct,"4,9",4.920329189283838,crimes/tabelas/pico_por_janela.csv
+pico_tab.crimes.hora.P95_pearson.fora_da_capital.durante.p_fisher,"0,919",0.9189272413210774,crimes/tabelas/pico_por_janela.csv
+pico_tab.crimes.hora.P95_pearson.fora_da_capital.durante.p_BH_6janelas,"0,919",0.9189272413210774,crimes/tabelas/pico_por_janela.csv (BH calculado no 35 sobre as 6 janelas)
+pico_tab.crimes.hora.P95_pearson.fora_da_capital.pos.RR,"1,05",1.0489725634255538,crimes/tabelas/pico_por_janela.csv
+pico_tab.crimes.hora.P95_pearson.fora_da_capital.pos.IC_lo,"0,70",0.7046432028236842,crimes/tabelas/pico_por_janela.csv
+pico_tab.crimes.hora.P95_pearson.fora_da_capital.pos.IC_hi,"1,56",1.5615611339330626,crimes/tabelas/pico_por_janela.csv
+pico_tab.crimes.hora.P95_pearson.fora_da_capital.pos.freq_pct,"5,2",5.161290322580645,crimes/tabelas/pico_por_janela.csv
+pico_tab.crimes.hora.P95_pearson.fora_da_capital.pos.freq_controle_pct,"4,9",4.920329189283838,crimes/tabelas/pico_por_janela.csv
+pico_tab.crimes.hora.P95_pearson.fora_da_capital.pos.p_fisher,"0,827",0.8265951915837646,crimes/tabelas/pico_por_janela.csv
+pico_tab.crimes.hora.P95_pearson.fora_da_capital.pos.p_BH_6janelas,"0,919",0.9189272413210774,crimes/tabelas/pico_por_janela.csv (BH calculado no 35 sobre as 6 janelas)
+pico_tab.crimes.hora.P90_cauda_poisson.capital.pre.RR,"1,36",1.3633998765178021,crimes/tabelas/pico_por_janela.csv
+pico_tab.crimes.hora.P90_cauda_poisson.capital.pre.IC_lo,"1,07",1.066402621830319,crimes/tabelas/pico_por_janela.csv
+pico_tab.crimes.hora.P90_cauda_poisson.capital.pre.IC_hi,"1,74",1.743112015327107,crimes/tabelas/pico_por_janela.csv
+pico_tab.crimes.hora.P90_cauda_poisson.capital.pre.freq_pct,"13,5",13.488372093023257,crimes/tabelas/pico_por_janela.csv
+pico_tab.crimes.hora.P90_cauda_poisson.capital.pre.freq_controle_pct,"9,9",9.893188583435474,crimes/tabelas/pico_por_janela.csv
+pico_tab.crimes.hora.P90_cauda_poisson.capital.pre.p_fisher,"0,018",0.017588185534640116,crimes/tabelas/pico_por_janela.csv
+pico_tab.crimes.hora.P90_cauda_poisson.capital.pre.p_BH_6janelas,"0,106",0.1055291132078407,crimes/tabelas/pico_por_janela.csv (BH calculado no 35 sobre as 6 janelas)
+pico_tab.crimes.hora.P90_cauda_poisson.capital.durante.RR,"1,18",1.1753447211360362,crimes/tabelas/pico_por_janela.csv
+pico_tab.crimes.hora.P90_cauda_poisson.capital.durante.IC_lo,"0,90",0.9004827689982254,crimes/tabelas/pico_por_janela.csv
+pico_tab.crimes.hora.P90_cauda_poisson.capital.durante.IC_hi,"1,53",1.5341051056858914,crimes/tabelas/pico_por_janela.csv
+pico_tab.crimes.hora.P90_cauda_poisson.capital.durante.freq_pct,"11,6",11.627906976744185,crimes/tabelas/pico_por_janela.csv
+pico_tab.crimes.hora.P90_cauda_poisson.capital.durante.freq_controle_pct,"9,9",9.893188583435474,crimes/tabelas/pico_por_janela.csv
+pico_tab.crimes.hora.P90_cauda_poisson.capital.durante.p_fisher,"0,250",0.2500917782400692,crimes/tabelas/pico_por_janela.csv
+pico_tab.crimes.hora.P90_cauda_poisson.capital.durante.p_BH_6janelas,"0,500",0.5001835564801383,crimes/tabelas/pico_por_janela.csv (BH calculado no 35 sobre as 6 janelas)
+pico_tab.crimes.hora.P90_cauda_poisson.capital.pos.RR,"1,25",1.2458654044041986,crimes/tabelas/pico_por_janela.csv
+pico_tab.crimes.hora.P90_cauda_poisson.capital.pos.IC_lo,"0,96",0.9624594472714614,crimes/tabelas/pico_por_janela.csv
+pico_tab.crimes.hora.P90_cauda_poisson.capital.pos.IC_hi,"1,61",1.6127231233394972,crimes/tabelas/pico_por_janela.csv
+pico_tab.crimes.hora.P90_cauda_poisson.capital.pos.freq_pct,"12,3",12.325581395348838,crimes/tabelas/pico_por_janela.csv
+pico_tab.crimes.hora.P90_cauda_poisson.capital.pos.freq_controle_pct,"9,9",9.893188583435474,crimes/tabelas/pico_por_janela.csv
+pico_tab.crimes.hora.P90_cauda_poisson.capital.pos.p_fisher,"0,101",0.10117571615776899,crimes/tabelas/pico_por_janela.csv
+pico_tab.crimes.hora.P90_cauda_poisson.capital.pos.p_BH_6janelas,"0,304",0.303527148473307,crimes/tabelas/pico_por_janela.csv (BH calculado no 35 sobre as 6 janelas)
+pico_tab.crimes.hora.P90_cauda_poisson.fora_da_capital.pre.RR,"0,92",0.9189058728881738,crimes/tabelas/pico_por_janela.csv
+pico_tab.crimes.hora.P90_cauda_poisson.fora_da_capital.pre.IC_lo,"0,68",0.6827485289340139,crimes/tabelas/pico_por_janela.csv
+pico_tab.crimes.hora.P90_cauda_poisson.fora_da_capital.pre.IC_hi,"1,24",1.2367481839129453,crimes/tabelas/pico_por_janela.csv
+pico_tab.crimes.hora.P90_cauda_poisson.fora_da_capital.pre.freq_pct,"9,1",9.090909090909092,crimes/tabelas/pico_por_janela.csv
+pico_tab.crimes.hora.P90_cauda_poisson.fora_da_capital.pre.freq_controle_pct,"9,9",9.893188583435474,crimes/tabelas/pico_por_janela.csv
+pico_tab.crimes.hora.P90_cauda_poisson.fora_da_capital.pre.p_fisher,"0,629",0.6292796992542242,crimes/tabelas/pico_por_janela.csv
+pico_tab.crimes.hora.P90_cauda_poisson.fora_da_capital.pre.p_BH_6janelas,"0,902",0.9017033304428905,crimes/tabelas/pico_por_janela.csv (BH calculado no 35 sobre as 6 janelas)
+pico_tab.crimes.hora.P90_cauda_poisson.fora_da_capital.durante.RR,"1,01",1.008928074853189,crimes/tabelas/pico_por_janela.csv
+pico_tab.crimes.hora.P90_cauda_poisson.fora_da_capital.durante.IC_lo,"0,78",0.778680653272801,crimes/tabelas/pico_por_janela.csv
+pico_tab.crimes.hora.P90_cauda_poisson.fora_da_capital.durante.IC_hi,"1,31",1.3072571611334758,crimes/tabelas/pico_por_janela.csv
+pico_tab.crimes.hora.P90_cauda_poisson.fora_da_capital.durante.freq_pct,"10,0",9.981515711645102,crimes/tabelas/pico_por_janela.csv
+pico_tab.crimes.hora.P90_cauda_poisson.fora_da_capital.durante.freq_controle_pct,"9,9",9.893188583435474,crimes/tabelas/pico_por_janela.csv
+pico_tab.crimes.hora.P90_cauda_poisson.fora_da_capital.durante.p_fisher,"0,941",0.9412473536106618,crimes/tabelas/pico_por_janela.csv
+pico_tab.crimes.hora.P90_cauda_poisson.fora_da_capital.durante.p_BH_6janelas,"0,941",0.9412473536106618,crimes/tabelas/pico_por_janela.csv (BH calculado no 35 sobre as 6 janelas)
+pico_tab.crimes.hora.P90_cauda_poisson.fora_da_capital.pos.RR,"1,04",1.0434027976020555,crimes/tabelas/pico_por_janela.csv
+pico_tab.crimes.hora.P90_cauda_poisson.fora_da_capital.pos.IC_lo,"0,79",0.7936816604208885,crimes/tabelas/pico_por_janela.csv
+pico_tab.crimes.hora.P90_cauda_poisson.fora_da_capital.pos.IC_hi,"1,37",1.3716952933830737,crimes/tabelas/pico_por_janela.csv
+pico_tab.crimes.hora.P90_cauda_poisson.fora_da_capital.pos.freq_pct,"10,3",10.32258064516129,crimes/tabelas/pico_por_janela.csv
+pico_tab.crimes.hora.P90_cauda_poisson.fora_da_capital.pos.freq_controle_pct,"9,9",9.893188583435474,crimes/tabelas/pico_por_janela.csv
+pico_tab.crimes.hora.P90_cauda_poisson.fora_da_capital.pos.p_fisher,"0,751",0.7514194420357421,crimes/tabelas/pico_por_janela.csv
+pico_tab.crimes.hora.P90_cauda_poisson.fora_da_capital.pos.p_BH_6janelas,"0,902",0.9017033304428905,crimes/tabelas/pico_por_janela.csv (BH calculado no 35 sobre as 6 janelas)
+pico_tab.sinistros.hora.P90.prev_media,"12,9",12.87950782483879,sinistros/tabelas/pico_validacao_folds.csv
+pico_tab.sinistros.hora.P90.prev_min,"7,5",7.526881720430108,sinistros/tabelas/pico_validacao_folds.csv
+pico_tab.sinistros.hora.P90.prev_max,"21,1",21.120689655172413,sinistros/tabelas/pico_validacao_folds.csv
+pico_tab.sinistros.hora.P95.prev_media,"7,0",6.956817461480096,sinistros/tabelas/pico_validacao_folds.csv
+pico_tab.sinistros.hora.P95.prev_min,"3,2",3.225806451612903,sinistros/tabelas/pico_validacao_folds.csv
+pico_tab.sinistros.hora.P95.prev_max,"14,2",14.224137931034484,sinistros/tabelas/pico_validacao_folds.csv
+pico_tab.sinistros.hora.cauda.prev_media,"13,0",13.048484910274224,sinistros/tabelas/pico_validacao_folds.csv
+pico_tab.sinistros.hora.cauda.prev_min,"8,1",8.064516129032258,sinistros/tabelas/pico_validacao_folds.csv
+pico_tab.sinistros.hora.cauda.prev_max,"20,8",20.833333333333336,sinistros/tabelas/pico_validacao_folds.csv
+pico_tab.sinistros.hora.P90.desvio_medio_pp,"3,5",3.5040277941168227,sinistros/tabelas/pico_validacao_folds.csv
+pico_tab.sinistros.hora.P90.n_folds_acima_10,9,9.0,sinistros/tabelas/pico_validacao_folds.csv
+pico_tab.sinistros.hora.P90.fold_2023-01,"13,7",13.685636856368562,sinistros/tabelas/pico_validacao_folds.csv
+pico_tab.sinistros.hora.P90.fold_2023-02,"8,8",8.779761904761903,sinistros/tabelas/pico_validacao_folds.csv
+pico_tab.sinistros.hora.P90.fold_2023-03,"7,5",7.526881720430108,sinistros/tabelas/pico_validacao_folds.csv
+pico_tab.sinistros.hora.P90.fold_2023-04,"12,1",12.083333333333334,sinistros/tabelas/pico_validacao_folds.csv
+pico_tab.sinistros.hora.P90.fold_2023-05,"9,9",9.946236559139784,sinistros/tabelas/pico_validacao_folds.csv
+pico_tab.sinistros.hora.P90.fold_2023-06,"14,9",14.86111111111111,sinistros/tabelas/pico_validacao_folds.csv
+pico_tab.sinistros.hora.P90.fold_2023-07,"13,2",13.172043010752688,sinistros/tabelas/pico_validacao_folds.csv
+pico_tab.sinistros.hora.P90.fold_2023-08,"12,1",12.083333333333334,sinistros/tabelas/pico_validacao_folds.csv
+pico_tab.sinistros.hora.P90.fold_2023-09,"13,2",13.165266106442578,sinistros/tabelas/pico_validacao_folds.csv
+pico_tab.sinistros.hora.P90.fold_2023-10,"13,8",13.844086021505376,sinistros/tabelas/pico_validacao_folds.csv
+pico_tab.sinistros.hora.P90.fold_2023-11,"14,3",14.285714285714285,sinistros/tabelas/pico_validacao_folds.csv
+pico_tab.sinistros.hora.P90.fold_2023-12,"21,1",21.120689655172413,sinistros/tabelas/pico_validacao_folds.csv
+pico_tab.sinistros.hora.kappa_P90_P95,"0,64",0.6431155797692485,sinistros/tabelas/pico_concordancia_definicoes.csv
+pico_tab.sinistros.hora.jaccard_P90_P95,"0,50",0.5002878526194589,sinistros/tabelas/pico_concordancia_definicoes.csv
+pico_tab.sinistros.hora.kappa_P90_cauda,"0,96",0.9571408464395692,sinistros/tabelas/pico_concordancia_definicoes.csv
+pico_tab.sinistros.hora.jaccard_P90_cauda,"0,93",0.9257206208425721,sinistros/tabelas/pico_concordancia_definicoes.csv
+pico_tab.sinistros.hora.P90_pearson.capital.pre.RR,"0,98",0.9846888295240922,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.hora.P90_pearson.capital.pre.IC_lo,"0,73",0.7348403318811738,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.hora.P90_pearson.capital.pre.IC_hi,"1,32",1.3194867632092848,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.hora.P90_pearson.capital.pre.freq_pct,"9,7",9.722222222222223,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.hora.P90_pearson.capital.pre.freq_controle_pct,"9,9",9.873395463337436,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.hora.P90_pearson.capital.pre.p_fisher,"1,000",1.0,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.hora.P90_pearson.capital.pre.p_BH_6janelas,"1,000",1.0,sinistros/tabelas/pico_por_janela.csv (BH calculado no 35 sobre as 6 janelas)
+pico_tab.sinistros.hora.P90_pearson.capital.durante.RR,"1,06",1.0550237459186702,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.hora.P90_pearson.capital.durante.IC_lo,"0,80",0.795726734951497,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.hora.P90_pearson.capital.durante.IC_hi,"1,40",1.398815768732603,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.hora.P90_pearson.capital.durante.freq_pct,"10,4",10.416666666666668,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.hora.P90_pearson.capital.durante.freq_controle_pct,"9,9",9.873395463337436,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.hora.P90_pearson.capital.durante.p_fisher,"0,682",0.6817684050929353,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.hora.P90_pearson.capital.durante.p_BH_6janelas,"1,000",1.0,sinistros/tabelas/pico_por_janela.csv (BH calculado no 35 sobre as 6 janelas)
+pico_tab.sinistros.hora.P90_pearson.capital.pos.RR,"1,22",1.2191385508393522,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.hora.P90_pearson.capital.pos.IC_lo,"0,94",0.9391755879626904,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.hora.P90_pearson.capital.pos.IC_hi,"1,58",1.5825568990425252,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.hora.P90_pearson.capital.pos.freq_pct,"12,0",12.037037037037036,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.hora.P90_pearson.capital.pos.freq_controle_pct,"9,9",9.873395463337436,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.hora.P90_pearson.capital.pos.p_fisher,"0,141",0.1406225798337781,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.hora.P90_pearson.capital.pos.p_BH_6janelas,"0,755",0.7554598480563595,sinistros/tabelas/pico_por_janela.csv (BH calculado no 35 sobre as 6 janelas)
+pico_tab.sinistros.hora.P90_pearson.fora_da_capital.pre.RR,"1,12",1.1228634102903807,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.hora.P90_pearson.fora_da_capital.pre.IC_lo,"0,86",0.8595722785504657,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.hora.P90_pearson.fora_da_capital.pre.IC_hi,"1,47",1.4668018846479363,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.hora.P90_pearson.fora_da_capital.pre.freq_pct,"11,1",11.086474501108649,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.hora.P90_pearson.fora_da_capital.pre.freq_controle_pct,"9,9",9.873395463337436,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.hora.P90_pearson.fora_da_capital.pre.p_fisher,"0,378",0.37772992402817973,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.hora.P90_pearson.fora_da_capital.pre.p_BH_6janelas,"0,755",0.7554598480563595,sinistros/tabelas/pico_por_janela.csv (BH calculado no 35 sobre as 6 janelas)
+pico_tab.sinistros.hora.P90_pearson.fora_da_capital.durante.RR,"0,99",0.9922293566052115,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.hora.P90_pearson.fora_da_capital.durante.IC_lo,"0,76",0.7637922063421478,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.hora.P90_pearson.fora_da_capital.durante.IC_hi,"1,29",1.2889881409292194,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.hora.P90_pearson.fora_da_capital.durante.freq_pct,"9,8",9.796672828096119,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.hora.P90_pearson.fora_da_capital.durante.freq_controle_pct,"9,9",9.873395463337436,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.hora.P90_pearson.fora_da_capital.durante.p_fisher,"1,000",1.0,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.hora.P90_pearson.fora_da_capital.durante.p_BH_6janelas,"1,000",1.0,sinistros/tabelas/pico_por_janela.csv (BH calculado no 35 sobre as 6 janelas)
+pico_tab.sinistros.hora.P90_pearson.fora_da_capital.pos.RR,"1,13",1.1301885278167385,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.hora.P90_pearson.fora_da_capital.pos.IC_lo,"0,87",0.8695726884534614,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.hora.P90_pearson.fora_da_capital.pos.IC_hi,"1,47",1.4689124041835957,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.hora.P90_pearson.fora_da_capital.pos.freq_pct,"11,2",11.158798283261802,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.hora.P90_pearson.fora_da_capital.pos.freq_controle_pct,"9,9",9.873395463337436,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.hora.P90_pearson.fora_da_capital.pos.p_fisher,"0,344",0.34369151400819686,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.hora.P90_pearson.fora_da_capital.pos.p_BH_6janelas,"0,755",0.7554598480563595,sinistros/tabelas/pico_por_janela.csv (BH calculado no 35 sobre as 6 janelas)
+pico_tab.sinistros.hora.P95_pearson.capital.pre.RR,"0,88",0.8760864629953947,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.hora.P95_pearson.capital.pre.IC_lo,"0,56",0.5603722545400479,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.hora.P95_pearson.capital.pre.IC_hi,"1,37",1.3696743270663279,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.hora.P95_pearson.capital.pre.freq_pct,"4,4",4.398148148148148,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.hora.P95_pearson.capital.pre.freq_controle_pct,"5,0",5.020221557939159,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.hora.P95_pearson.capital.pre.p_fisher,"0,653",0.6526114860385591,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.hora.P95_pearson.capital.pre.p_BH_6janelas,"0,783",0.783133783246271,sinistros/tabelas/pico_por_janela.csv (BH calculado no 35 sobre as 6 janelas)
+pico_tab.sinistros.hora.P95_pearson.capital.durante.RR,"0,88",0.8760864629953947,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.hora.P95_pearson.capital.durante.IC_lo,"0,56",0.5603722545400479,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.hora.P95_pearson.capital.durante.IC_hi,"1,37",1.3696743270663279,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.hora.P95_pearson.capital.durante.freq_pct,"4,4",4.398148148148148,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.hora.P95_pearson.capital.durante.freq_controle_pct,"5,0",5.020221557939159,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.hora.P95_pearson.capital.durante.p_fisher,"0,653",0.6526114860385591,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.hora.P95_pearson.capital.durante.p_BH_6janelas,"0,783",0.783133783246271,sinistros/tabelas/pico_por_janela.csv (BH calculado no 35 sobre as 6 janelas)
+pico_tab.sinistros.hora.P95_pearson.capital.pos.RR,"1,11",1.106635532204709,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.hora.P95_pearson.capital.pos.IC_lo,"0,74",0.7440707376575036,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.hora.P95_pearson.capital.pos.IC_hi,"1,65",1.6458679788879202,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.hora.P95_pearson.capital.pos.freq_pct,"5,6",5.555555555555555,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.hora.P95_pearson.capital.pos.freq_controle_pct,"5,0",5.020221557939159,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.hora.P95_pearson.capital.pos.p_fisher,"0,576",0.5757888973815769,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.hora.P95_pearson.capital.pos.p_BH_6janelas,"0,783",0.783133783246271,sinistros/tabelas/pico_por_janela.csv (BH calculado no 35 sobre as 6 janelas)
+pico_tab.sinistros.hora.P95_pearson.fora_da_capital.pre.RR,"0,97",0.9716799794968178,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.hora.P95_pearson.fora_da_capital.pre.IC_lo,"0,64",0.6414344379241919,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.hora.P95_pearson.fora_da_capital.pre.IC_hi,"1,47",1.4719539936309476,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.hora.P95_pearson.fora_da_capital.pre.freq_pct,"4,9",4.878048780487805,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.hora.P95_pearson.fora_da_capital.pre.freq_controle_pct,"5,0",5.020221557939159,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.hora.P95_pearson.fora_da_capital.pre.p_fisher,"1,000",1.0,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.hora.P95_pearson.fora_da_capital.pre.p_BH_6janelas,"1,000",1.0,sinistros/tabelas/pico_por_janela.csv (BH calculado no 35 sobre as 6 janelas)
+pico_tab.sinistros.hora.P95_pearson.fora_da_capital.durante.RR,"0,85",0.8468523296353966,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.hora.P95_pearson.fora_da_capital.durante.IC_lo,"0,56",0.5632415964799593,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.hora.P95_pearson.fora_da_capital.durante.IC_hi,"1,27",1.2732704272746582,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.hora.P95_pearson.fora_da_capital.durante.freq_pct,"4,3",4.251386321626617,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.hora.P95_pearson.fora_da_capital.durante.freq_controle_pct,"5,0",5.020221557939159,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.hora.P95_pearson.fora_da_capital.durante.p_fisher,"0,479",0.479380470202277,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.hora.P95_pearson.fora_da_capital.durante.p_BH_6janelas,"0,783",0.783133783246271,sinistros/tabelas/pico_por_janela.csv (BH calculado no 35 sobre as 6 janelas)
+pico_tab.sinistros.hora.P95_pearson.fora_da_capital.pos.RR,"1,11",1.111385040926618,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.hora.P95_pearson.fora_da_capital.pos.IC_lo,"0,76",0.7585384603860769,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.hora.P95_pearson.fora_da_capital.pos.IC_hi,"1,63",1.6283639837679247,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.hora.P95_pearson.fora_da_capital.pos.freq_pct,"5,6",5.579399141630901,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.hora.P95_pearson.fora_da_capital.pos.freq_controle_pct,"5,0",5.020221557939159,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.hora.P95_pearson.fora_da_capital.pos.p_fisher,"0,588",0.5883579893049554,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.hora.P95_pearson.fora_da_capital.pos.p_BH_6janelas,"0,783",0.783133783246271,sinistros/tabelas/pico_por_janela.csv (BH calculado no 35 sobre as 6 janelas)
+pico_tab.sinistros.hora.P90_cauda_poisson.capital.pre.RR,"1,01",1.01264245014245,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.hora.P90_cauda_poisson.capital.pre.IC_lo,"0,76",0.7584496367072365,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.hora.P90_cauda_poisson.capital.pre.IC_hi,"1,35",1.3520274546935127,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.hora.P90_cauda_poisson.capital.pre.freq_pct,"10,0",9.953703703703704,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.hora.P90_cauda_poisson.capital.pre.freq_controle_pct,"9,8",9.829435554774047,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.hora.P90_cauda_poisson.capital.pre.p_fisher,"0,934",0.9343464366078353,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.hora.P90_cauda_poisson.capital.pre.p_BH_6janelas,"0,934",0.9343464366078353,sinistros/tabelas/pico_por_janela.csv (BH calculado no 35 sobre as 6 janelas)
+pico_tab.sinistros.hora.P90_cauda_poisson.capital.durante.RR,"1,08",1.0832919234082024,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.hora.P90_cauda_poisson.capital.durante.IC_lo,"0,82",0.8197330862522431,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.hora.P90_cauda_poisson.capital.durante.IC_hi,"1,43",1.431589636922785,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.hora.P90_cauda_poisson.capital.durante.freq_pct,"10,6",10.648148148148149,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.hora.P90_cauda_poisson.capital.durante.freq_controle_pct,"9,8",9.829435554774047,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.hora.P90_cauda_poisson.capital.durante.p_fisher,"0,565",0.5648666496730814,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.hora.P90_cauda_poisson.capital.durante.p_BH_6janelas,"0,790",0.7899411338610391,sinistros/tabelas/pico_por_janela.csv (BH calculado no 35 sobre as 6 janelas)
+pico_tab.sinistros.hora.P90_cauda_poisson.capital.pos.RR,"1,25",1.2481406943616247,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.hora.P90_cauda_poisson.capital.pos.IC_lo,"0,96",0.9640744413186405,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.hora.P90_cauda_poisson.capital.pos.IC_hi,"1,62",1.6159075753431626,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.hora.P90_cauda_poisson.capital.pos.freq_pct,"12,3",12.268518518518519,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.hora.P90_cauda_poisson.capital.pos.freq_controle_pct,"9,8",9.829435554774047,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.hora.P90_cauda_poisson.capital.pos.p_fisher,"0,101",0.10072754444401086,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.hora.P90_cauda_poisson.capital.pos.p_BH_6janelas,"0,604",0.6043652666640651,sinistros/tabelas/pico_por_janela.csv (BH calculado no 35 sobre as 6 janelas)
+pico_tab.sinistros.hora.P90_cauda_poisson.fora_da_capital.pre.RR,"1,15",1.1504428639993018,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.hora.P90_cauda_poisson.fora_da_capital.pre.IC_lo,"0,88",0.8831587614166038,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.hora.P90_cauda_poisson.fora_da_capital.pre.IC_hi,"1,50",1.4986193209519503,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.hora.P90_cauda_poisson.fora_da_capital.pre.freq_pct,"11,3",11.30820399113082,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.hora.P90_cauda_poisson.fora_da_capital.pre.freq_controle_pct,"9,8",9.829435554774047,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.hora.P90_cauda_poisson.fora_da_capital.pre.p_fisher,"0,296",0.29581869305548747,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.hora.P90_cauda_poisson.fora_da_capital.pre.p_BH_6janelas,"0,790",0.7899411338610391,sinistros/tabelas/pico_por_janela.csv (BH calculado no 35 sobre as 6 janelas)
+pico_tab.sinistros.hora.P90_cauda_poisson.fora_da_capital.durante.RR,"1,05",1.0530819822828592,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.hora.P90_cauda_poisson.fora_da_capital.durante.IC_lo,"0,82",0.8167361258352045,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.hora.P90_cauda_poisson.fora_da_capital.durante.IC_hi,"1,36",1.357821242784795,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.hora.P90_cauda_poisson.fora_da_capital.durante.freq_pct,"10,4",10.35120147874307,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.hora.P90_cauda_poisson.fora_da_capital.durante.freq_controle_pct,"9,8",9.829435554774047,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.hora.P90_cauda_poisson.fora_da_capital.durante.p_fisher,"0,658",0.6582842782175327,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.hora.P90_cauda_poisson.fora_da_capital.durante.p_BH_6janelas,"0,790",0.7899411338610391,sinistros/tabelas/pico_por_janela.csv (BH calculado no 35 sobre as 6 janelas)
+pico_tab.sinistros.hora.P90_cauda_poisson.fora_da_capital.pos.RR,"1,09",1.0915798444493923,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.hora.P90_cauda_poisson.fora_da_capital.pos.IC_lo,"0,84",0.8351720725666328,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.hora.P90_cauda_poisson.fora_da_capital.pos.IC_hi,"1,43",1.4267078557192703,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.hora.P90_cauda_poisson.fora_da_capital.pos.freq_pct,"10,7",10.72961373390558,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.hora.P90_cauda_poisson.fora_da_capital.pos.freq_controle_pct,"9,8",9.829435554774047,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.hora.P90_cauda_poisson.fora_da_capital.pos.p_fisher,"0,526",0.5257398410070815,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.hora.P90_cauda_poisson.fora_da_capital.pos.p_BH_6janelas,"0,790",0.7899411338610391,sinistros/tabelas/pico_por_janela.csv (BH calculado no 35 sobre as 6 janelas)
+pico_tab.sinistros.2h.P90.prev_media,"13,5",13.465861039910143,sinistros/tabelas/pico_validacao_folds.csv
+pico_tab.sinistros.2h.P90.prev_min,"5,3",5.344585091420535,sinistros/tabelas/pico_validacao_folds.csv
+pico_tab.sinistros.2h.P90.prev_max,"25,6",25.62962962962963,sinistros/tabelas/pico_validacao_folds.csv
+pico_tab.sinistros.2h.P95.prev_media,"7,6",7.638695067551843,sinistros/tabelas/pico_validacao_folds.csv
+pico_tab.sinistros.2h.P95.prev_min,"2,5",2.5316455696202533,sinistros/tabelas/pico_validacao_folds.csv
+pico_tab.sinistros.2h.P95.prev_max,"16,9",16.88888888888889,sinistros/tabelas/pico_validacao_folds.csv
+pico_tab.sinistros.2h.cauda.prev_media,"13,8",13.751802720557068,sinistros/tabelas/pico_validacao_folds.csv
+pico_tab.sinistros.2h.cauda.prev_min,"5,8",5.766526019690577,sinistros/tabelas/pico_validacao_folds.csv
+pico_tab.sinistros.2h.cauda.prev_max,"25,9",25.925925925925924,sinistros/tabelas/pico_validacao_folds.csv
+pico_tab.sinistros.2h.P90.desvio_medio_pp,"4,4",4.449395398971928,sinistros/tabelas/pico_validacao_folds.csv
+pico_tab.sinistros.2h.P90.n_folds_acima_10,10,10.0,sinistros/tabelas/pico_validacao_folds.csv
+pico_tab.sinistros.2h.P90.fold_2023-01,"15,6",15.634218289085547,sinistros/tabelas/pico_validacao_folds.csv
+pico_tab.sinistros.2h.P90.fold_2023-02,"8,8",8.754208754208754,sinistros/tabelas/pico_validacao_folds.csv
+pico_tab.sinistros.2h.P90.fold_2023-03,"5,3",5.344585091420535,sinistros/tabelas/pico_validacao_folds.csv
+pico_tab.sinistros.2h.P90.fold_2023-04,"10,7",10.685805422647528,sinistros/tabelas/pico_validacao_folds.csv
+pico_tab.sinistros.2h.P90.fold_2023-05,"10,2",10.229007633587786,sinistros/tabelas/pico_validacao_folds.csv
+pico_tab.sinistros.2h.P90.fold_2023-06,"15,7",15.698587127158556,sinistros/tabelas/pico_validacao_folds.csv
+pico_tab.sinistros.2h.P90.fold_2023-07,"16,3",16.282642089093702,sinistros/tabelas/pico_validacao_folds.csv
+pico_tab.sinistros.2h.P90.fold_2023-08,"11,1",11.074918566775244,sinistros/tabelas/pico_validacao_folds.csv
+pico_tab.sinistros.2h.P90.fold_2023-09,"13,0",12.968750000000002,sinistros/tabelas/pico_validacao_folds.csv
+pico_tab.sinistros.2h.P90.fold_2023-10,"16,4",16.442451420029897,sinistros/tabelas/pico_validacao_folds.csv
+pico_tab.sinistros.2h.P90.fold_2023-11,"12,8",12.845528455284553,sinistros/tabelas/pico_validacao_folds.csv
+pico_tab.sinistros.2h.P90.fold_2023-12,"25,6",25.62962962962963,sinistros/tabelas/pico_validacao_folds.csv
+pico_tab.sinistros.2h.kappa_P90_P95,"0,64",0.6428522297374758,sinistros/tabelas/pico_concordancia_definicoes.csv
+pico_tab.sinistros.2h.jaccard_P90_P95,"0,50",0.5,sinistros/tabelas/pico_concordancia_definicoes.csv
+pico_tab.sinistros.2h.kappa_P90_cauda,"0,96",0.9586355433085904,sinistros/tabelas/pico_concordancia_definicoes.csv
+pico_tab.sinistros.2h.jaccard_P90_cauda,"0,93",0.9282178217821783,sinistros/tabelas/pico_concordancia_definicoes.csv
+pico_tab.sinistros.2h.P90_pearson.capital.pre.RR,"1,18",1.1786644936143569,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.2h.P90_pearson.capital.pre.IC_lo,"0,80",0.7993766097429718,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.2h.P90_pearson.capital.pre.IC_hi,"1,74",1.7379167360849874,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.2h.P90_pearson.capital.pre.freq_pct,"11,6",11.616161616161616,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.2h.P90_pearson.capital.pre.freq_controle_pct,"9,9",9.855358907555475,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.2h.P90_pearson.capital.pre.p_fisher,"0,400",0.40008005055657464,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.2h.P90_pearson.capital.pre.p_BH_6janelas,"0,800",0.8001601011131493,sinistros/tabelas/pico_por_janela.csv (BH calculado no 35 sobre as 6 janelas)
+pico_tab.sinistros.2h.P90_pearson.capital.durante.RR,"0,96",0.9612723696204961,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.2h.P90_pearson.capital.durante.IC_lo,"0,62",0.6171625592962986,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.2h.P90_pearson.capital.durante.IC_hi,"1,50",1.4972466405762175,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.2h.P90_pearson.capital.durante.freq_pct,"9,5",9.473684210526317,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.2h.P90_pearson.capital.durante.freq_controle_pct,"9,9",9.855358907555475,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.2h.P90_pearson.capital.durante.p_fisher,"1,000",1.0,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.2h.P90_pearson.capital.durante.p_BH_6janelas,"1,000",1.0,sinistros/tabelas/pico_por_janela.csv (BH calculado no 35 sobre as 6 janelas)
+pico_tab.sinistros.2h.P90_pearson.capital.pos.RR,"1,24",1.2424608859040425,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.2h.P90_pearson.capital.pos.IC_lo,"0,85",0.850540835994772,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.2h.P90_pearson.capital.pos.IC_hi,"1,81",1.814973470610583,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.2h.P90_pearson.capital.pos.freq_pct,"12,2",12.244897959183673,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.2h.P90_pearson.capital.pos.freq_controle_pct,"9,9",9.855358907555475,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.2h.P90_pearson.capital.pos.p_fisher,"0,276",0.2761911300859127,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.2h.P90_pearson.capital.pos.p_BH_6janelas,"0,800",0.8001601011131493,sinistros/tabelas/pico_por_janela.csv (BH calculado no 35 sobre as 6 janelas)
+pico_tab.sinistros.2h.P90_pearson.fora_da_capital.pre.RR,"1,06",1.0601096613559369,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.2h.P90_pearson.fora_da_capital.pre.IC_lo,"0,70",0.7045072389135322,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.2h.P90_pearson.fora_da_capital.pre.IC_hi,"1,60",1.5952036147042812,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.2h.P90_pearson.fora_da_capital.pre.freq_pct,"10,4",10.44776119402985,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.2h.P90_pearson.fora_da_capital.pre.freq_controle_pct,"9,9",9.855358907555475,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.2h.P90_pearson.fora_da_capital.pre.p_fisher,"0,721",0.7212799327186972,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.2h.P90_pearson.fora_da_capital.pre.p_BH_6janelas,"1,000",1.0,sinistros/tabelas/pico_por_janela.csv (BH calculado no 35 sobre as 6 janelas)
+pico_tab.sinistros.2h.P90_pearson.fora_da_capital.durante.RR,"0,95",0.9500715263623297,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.2h.P90_pearson.fora_da_capital.durante.IC_lo,"0,65",0.6514069783310255,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.2h.P90_pearson.fora_da_capital.durante.IC_hi,"1,39",1.385671224335203,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.2h.P90_pearson.fora_da_capital.durante.freq_pct,"9,4",9.363295880149813,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.2h.P90_pearson.fora_da_capital.durante.freq_controle_pct,"9,9",9.855358907555475,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.2h.P90_pearson.fora_da_capital.durante.p_fisher,"0,917",0.9170900960411623,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.2h.P90_pearson.fora_da_capital.durante.p_BH_6janelas,"1,000",1.0,sinistros/tabelas/pico_por_janela.csv (BH calculado no 35 sobre as 6 janelas)
+pico_tab.sinistros.2h.P90_pearson.fora_da_capital.pos.RR,"1,34",1.3380348002043536,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.2h.P90_pearson.fora_da_capital.pos.IC_lo,"0,92",0.9177956903481752,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.2h.P90_pearson.fora_da_capital.pos.IC_hi,"1,95",1.9506924529997756,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.2h.P90_pearson.fora_da_capital.pos.freq_pct,"13,2",13.186813186813188,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.2h.P90_pearson.fora_da_capital.pos.freq_controle_pct,"9,9",9.855358907555475,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.2h.P90_pearson.fora_da_capital.pos.p_fisher,"0,134",0.13383813573448491,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.2h.P90_pearson.fora_da_capital.pos.p_BH_6janelas,"0,800",0.8001601011131493,sinistros/tabelas/pico_por_janela.csv (BH calculado no 35 sobre as 6 janelas)
+pico_tab.sinistros.2h.P95_pearson.capital.pre.RR,"1,13",1.1325803825803824,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.2h.P95_pearson.capital.pre.IC_lo,"0,63",0.6340615206197893,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.2h.P95_pearson.capital.pre.IC_hi,"2,02",2.0230502582021703,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.2h.P95_pearson.capital.pre.freq_pct,"5,6",5.555555555555555,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.2h.P95_pearson.capital.pre.freq_controle_pct,"4,9",4.905219656814302,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.2h.P95_pearson.capital.pre.p_fisher,"0,619",0.6186205833752683,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.2h.P95_pearson.capital.pre.p_BH_6janelas,"0,623",0.623404185001319,sinistros/tabelas/pico_por_janela.csv (BH calculado no 35 sobre as 6 janelas)
+pico_tab.sinistros.2h.P95_pearson.capital.durante.RR,"0,64",0.6437825332562175,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.2h.P95_pearson.capital.durante.IC_lo,"0,29",0.29169035698934553,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.2h.P95_pearson.capital.durante.IC_hi,"1,42",1.4208764197883013,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.2h.P95_pearson.capital.durante.freq_pct,"3,2",3.1578947368421053,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.2h.P95_pearson.capital.durante.freq_controle_pct,"4,9",4.905219656814302,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.2h.P95_pearson.capital.durante.p_fisher,"0,392",0.392008482802106,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.2h.P95_pearson.capital.durante.p_BH_6janelas,"0,588",0.588012724203159,sinistros/tabelas/pico_por_janela.csv (BH calculado no 35 sobre as 6 janelas)
+pico_tab.sinistros.2h.P95_pearson.capital.pos.RR,"1,46",1.456174777603349,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.2h.P95_pearson.capital.pos.IC_lo,"0,87",0.8732366341947769,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.2h.P95_pearson.capital.pos.IC_hi,"2,43",2.428259305547176,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.2h.P95_pearson.capital.pos.freq_pct,"7,1",7.142857142857142,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.2h.P95_pearson.capital.pos.freq_controle_pct,"4,9",4.905219656814302,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.2h.P95_pearson.capital.pos.p_fisher,"0,179",0.1794202843594293,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.2h.P95_pearson.capital.pos.p_BH_6janelas,"0,385",0.3854968401873473,sinistros/tabelas/pico_por_janela.csv (BH calculado no 35 sobre as 6 janelas)
+pico_tab.sinistros.2h.P95_pearson.fora_da_capital.pre.RR,"1,12",1.1156761977657499,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.2h.P95_pearson.fora_da_capital.pre.IC_lo,"0,62",0.6244420731715579,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.2h.P95_pearson.fora_da_capital.pre.IC_hi,"1,99",1.9933528372599987,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.2h.P95_pearson.fora_da_capital.pre.freq_pct,"5,5",5.472636815920398,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.2h.P95_pearson.fora_da_capital.pre.freq_controle_pct,"4,9",4.905219656814302,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.2h.P95_pearson.fora_da_capital.pre.p_fisher,"0,623",0.623404185001319,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.2h.P95_pearson.fora_da_capital.pre.p_BH_6janelas,"0,623",0.623404185001319,sinistros/tabelas/pico_por_janela.csv (BH calculado no 35 sobre as 6 janelas)
+pico_tab.sinistros.2h.P95_pearson.fora_da_capital.durante.RR,"0,61",0.6108298692568356,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.2h.P95_pearson.fora_da_capital.durante.IC_lo,"0,31",0.3071788388370298,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.2h.P95_pearson.fora_da_capital.durante.IC_hi,"1,21",1.2146446369447788,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.2h.P95_pearson.fora_da_capital.durante.freq_pct,"3,0",2.9962546816479403,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.2h.P95_pearson.fora_da_capital.durante.freq_controle_pct,"4,9",4.905219656814302,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.2h.P95_pearson.fora_da_capital.durante.p_fisher,"0,193",0.19274842009367366,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.2h.P95_pearson.fora_da_capital.durante.p_BH_6janelas,"0,385",0.3854968401873473,sinistros/tabelas/pico_por_janela.csv (BH calculado no 35 sobre as 6 janelas)
+pico_tab.sinistros.2h.P95_pearson.fora_da_capital.pos.RR,"1,68",1.6802016664654027,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.2h.P95_pearson.fora_da_capital.pos.IC_lo,"1,03",1.0276702147219992,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.2h.P95_pearson.fora_da_capital.pos.IC_hi,"2,75",2.747065741081932,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.2h.P95_pearson.fora_da_capital.pos.freq_pct,"8,2",8.241758241758241,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.2h.P95_pearson.fora_da_capital.pos.freq_controle_pct,"4,9",4.905219656814302,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.2h.P95_pearson.fora_da_capital.pos.p_fisher,"0,055",0.054979739474380826,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.2h.P95_pearson.fora_da_capital.pos.p_BH_6janelas,"0,330",0.32987843684628493,sinistros/tabelas/pico_por_janela.csv (BH calculado no 35 sobre as 6 janelas)
+pico_tab.sinistros.2h.P90_cauda_poisson.capital.pre.RR,"1,23",1.229910775945416,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.2h.P90_cauda_poisson.capital.pre.IC_lo,"0,84",0.8417296990971495,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.2h.P90_cauda_poisson.capital.pre.IC_hi,"1,80",1.7971095927934784,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.2h.P90_cauda_poisson.capital.pre.freq_pct,"12,1",12.121212121212121,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.2h.P90_cauda_poisson.capital.pre.freq_controle_pct,"9,9",9.855358907555475,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.2h.P90_cauda_poisson.capital.pre.p_fisher,"0,280",0.2799561888590884,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.2h.P90_cauda_poisson.capital.pre.p_BH_6janelas,"0,560",0.5599123777181768,sinistros/tabelas/pico_por_janela.csv (BH calculado no 35 sobre as 6 janelas)
+pico_tab.sinistros.2h.P90_cauda_poisson.capital.durante.RR,"0,96",0.9612723696204961,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.2h.P90_cauda_poisson.capital.durante.IC_lo,"0,62",0.6171625592962986,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.2h.P90_cauda_poisson.capital.durante.IC_hi,"1,50",1.4972466405762175,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.2h.P90_cauda_poisson.capital.durante.freq_pct,"9,5",9.473684210526317,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.2h.P90_cauda_poisson.capital.durante.freq_controle_pct,"9,9",9.855358907555475,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.2h.P90_cauda_poisson.capital.durante.p_fisher,"1,000",1.0,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.2h.P90_cauda_poisson.capital.durante.p_BH_6janelas,"1,000",1.0,sinistros/tabelas/pico_por_janela.csv (BH calculado no 35 sobre as 6 janelas)
+pico_tab.sinistros.2h.P90_cauda_poisson.capital.pos.RR,"1,29",1.2942300894833778,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.2h.P90_cauda_poisson.capital.pos.IC_lo,"0,89",0.8935819318729378,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.2h.P90_cauda_poisson.capital.pos.IC_hi,"1,87",1.874513645338939,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.2h.P90_cauda_poisson.capital.pos.freq_pct,"12,8",12.755102040816327,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.2h.P90_cauda_poisson.capital.pos.freq_controle_pct,"9,9",9.855358907555475,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.2h.P90_cauda_poisson.capital.pos.p_fisher,"0,184",0.18364390167373557,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.2h.P90_cauda_poisson.capital.pos.p_BH_6janelas,"0,551",0.5509317050212067,sinistros/tabelas/pico_por_janela.csv (BH calculado no 35 sobre as 6 janelas)
+pico_tab.sinistros.2h.P90_cauda_poisson.fora_da_capital.pre.RR,"1,11",1.1105910738014577,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.2h.P90_cauda_poisson.fora_da_capital.pre.IC_lo,"0,75",0.7456997168578607,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.2h.P90_cauda_poisson.fora_da_capital.pre.IC_hi,"1,65",1.6540337958081563,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.2h.P90_cauda_poisson.fora_da_capital.pre.freq_pct,"10,9",10.945273631840797,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.2h.P90_cauda_poisson.fora_da_capital.pre.freq_controle_pct,"9,9",9.855358907555475,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.2h.P90_cauda_poisson.fora_da_capital.pre.p_fisher,"0,632",0.6323922560809393,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.2h.P90_cauda_poisson.fora_da_capital.pre.p_BH_6janelas,"0,949",0.9485883841214089,sinistros/tabelas/pico_por_janela.csv (BH calculado no 35 sobre as 6 janelas)
+pico_tab.sinistros.2h.P90_cauda_poisson.fora_da_capital.durante.RR,"0,95",0.9500715263623297,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.2h.P90_cauda_poisson.fora_da_capital.durante.IC_lo,"0,65",0.6514069783310255,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.2h.P90_cauda_poisson.fora_da_capital.durante.IC_hi,"1,39",1.385671224335203,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.2h.P90_cauda_poisson.fora_da_capital.durante.freq_pct,"9,4",9.363295880149813,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.2h.P90_cauda_poisson.fora_da_capital.durante.freq_controle_pct,"9,9",9.855358907555475,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.2h.P90_cauda_poisson.fora_da_capital.durante.p_fisher,"0,917",0.9170900960411623,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.2h.P90_cauda_poisson.fora_da_capital.durante.p_BH_6janelas,"1,000",1.0,sinistros/tabelas/pico_por_janela.csv (BH calculado no 35 sobre as 6 janelas)
+pico_tab.sinistros.2h.P90_cauda_poisson.fora_da_capital.pos.RR,"1,39",1.3937862502128684,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.2h.P90_cauda_poisson.fora_da_capital.pos.IC_lo,"0,96",0.9642847744989422,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.2h.P90_cauda_poisson.fora_da_capital.pos.IC_hi,"2,01",2.0145917084420164,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.2h.P90_cauda_poisson.fora_da_capital.pos.freq_pct,"13,7",13.736263736263737,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.2h.P90_cauda_poisson.fora_da_capital.pos.freq_controle_pct,"9,9",9.855358907555475,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.2h.P90_cauda_poisson.fora_da_capital.pos.p_fisher,"0,102",0.10226400469176898,sinistros/tabelas/pico_por_janela.csv
+pico_tab.sinistros.2h.P90_cauda_poisson.fora_da_capital.pos.p_BH_6janelas,"0,551",0.5509317050212067,sinistros/tabelas/pico_por_janela.csv (BH calculado no 35 sobre as 6 janelas)
